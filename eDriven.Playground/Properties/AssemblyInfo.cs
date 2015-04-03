@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("eDriven.Playground")]
-[assembly: AssemblyDescription("Vip Demo 2011")]
+[assembly: AssemblyDescription("eDriven.Playground")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("eDriven.Playground")]
-[assembly: AssemblyCopyright("Copyright © Danko Kozar 2010-2013")]
+[assembly: AssemblyCopyright("Copyright © Danko Kozar 2010-2014")]
 [assembly: AssemblyTrademark("Coded by Danko Kozar")]
 [assembly: AssemblyCulture("")]
 
