@@ -1,0 +1,49 @@
+h1. eDriven.Gui
+
+h1. "Unity3d":http://unity3d.com/ GUI framework.
+
+h2. Author: Danko Kozar
+
+![](https://github.com/dkozar/edrivengui/wallpaper.png)
+
+h2. Concept
+
+ * eDriven.Gui is a powerful GUI framework for Unity3d.
+ * You could use eDriven.Gui to build a wide range of apps, from games to business applications.
+ * Some parts of the framework are ported from Apache Flex.
+
+Features:
+- Built on top of eDriven.Core
+- Retained mode GUI
+- Display list (composite pattern)
+- Component lifecycle
+- Invalidation-validation mechanism
+- Implements OOP concepts
+- Event-driven (DOM Level 3 events)
+- Event bubbling
+- Signals and slots
+- Skinnable
+- Layout engine
+- Plugin architecture
+- Internal tweening engine
+- Dialogs and alerts
+- Firebug-like inspector
+- Cursor management
+- Focus management
+- Tab management
+- Tooltips
+- Components as C# classes
+- DLL component distribution
+
+h2. Resources
+
+* "eDriven.Gui site":http://edrivengui.com/
+* "eDriven Forum":http://forum.edrivengui.com/
+* "eDriven Programming Manual":http://edriven.dankokozar.com/manual/eDriven_Manual_2-0.pdf (note: eDriven.Gui and eDriven.Animation also included)
+* "eDriven API":http://edriven.dankokozar.com/api/2-0/ (note: eDriven.Gui and eDriven.Animation also included)
+* Get the compiled package from "AssetStore":http://u3d.as/content/adjungo/e-driven/308
+* "Videos":http://www.youtube.com/playlist?list=PL7EE340828F962941
+* "Demo site":http://edrivenunity.com/ (requires Unity web player)
+* "Unity Forum Q&A thread":http://forum.unity3d.com/threads/148424-eDriven-Q-amp-A
+* "Author's homepage":http://dankokozar.com
+* "I'm @DankoKozar on Twitter":https://twitter.com/DankoKozar.
