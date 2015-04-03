@@ -10,7 +10,8 @@ h2. Concept
 * You could use eDriven.Gui to build a wide range of apps, from games to business applications.
 * Some parts of the framework are ported from Apache Flex.
 
-Features:
+h2. Features:
+
 * Built on top of eDriven.Core
 * Retained mode GUI
 * Display list (composite pattern)
@@ -33,12 +34,30 @@ Features:
 * Components as C# classes
 * DLL component distribution
 
+h2. Usage
+
+1. Download the repository to your Windows PC
+
+2. Open the solution file in Visual Studio (VS2012 or later)
+
+   * The proper solution file to open is "UnityVS.Unity.sln":https://github.com/dkozar/edriven-gui/blob/master/eDriven.Playground/Unity/UnityVS.Unity.sln
+   * The location of the file is due to UnityVS not being able to work differently at a time
+
+3. Ctrl + Shift + B should build the solution
+   * the build process should copy all the relevant .DLLs into the "Libs":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Libs folder
+
+4. Open any Unity "Demo":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Demo/Gui/Code and run it
+
+h2. Debugging
+
+You could install "Visual Studio Tools for Unity":https://visualstudiogallery.msdn.microsoft.com/7ab11d2a-f413-4ed6-b3de-ff1d05157714 (ex "UnityVS":http://unityvs.com/) for being able to set breakpoints in your code.
+
 h2. Resources
 
 * "eDriven.Gui site":http://edrivengui.com/
 * "eDriven Forum":http://forum.edrivengui.com/
-* "eDriven Programming Manual":http://edriven.dankokozar.com/manual/eDriven_Manual_2-0.pdf (note: eDriven.Gui and eDriven.Animation also included)
-* "eDriven API":http://edriven.dankokozar.com/api/2-0/ (note: eDriven.Gui and eDriven.Animation also included)
+* "eDriven Programming Manual":http://edriven.dankokozar.com/manual/eDriven_Manual_2-0.pdf
+* "eDriven API":http://edriven.dankokozar.com/api/2-0/
 * "Unity AssetStore":https://www.assetstore.unity3d.com/en/#!/content/3796 - Download and install the compiled package 
 * "Videos":http://www.youtube.com/playlist?list=PL7EE340828F962941
 * "Demo site":http://edrivenunity.com/ (requires Unity web player)
