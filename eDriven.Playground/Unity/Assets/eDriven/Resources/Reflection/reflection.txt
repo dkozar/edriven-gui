@@ -1,0 +1,8 @@
+UnityEngine,
+Assembly-CSharp,
+Assembly-UnityScript,
+Assembly-Boo,
+eDriven.Animation,
+eDriven.Gui,
+eDriven.Gui.Designer,
+eDriven.Gui.Editor,

@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD30C434-F7A6-4F23-8C20-CBE56A49EDB6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eDriven.Gui</RootNamespace>
+    <AssemblyName>eDriven.Gui</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\eDriven.Gui.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Asset store|AnyCPU' ">
+    <OutputPath>bin\Asset store\</OutputPath>
+    <DefineConstants>TRACE;PRODUCTION</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Production|AnyCPU' ">
+    <OutputPath>bin\Production\</OutputPath>
+    <DefineConstants>TRACE;PRODUCTION</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alert\AlertSkin.cs" />
+    <Compile Include="Animation\ComboBoxSlideDown.cs" />
+    <Compile Include="Animation\ComboBoxSlideUp.cs" />
+    <Compile Include="Animation\ILoadingMask.cs" />
+    <Compile Include="Animation\DragProxyTween.cs" />
+    <Compile Include="Animation\Proxies\SetActualHeightProxy.cs" />
+    <Compile Include="Animation\Proxies\SetActualWidthProxy.cs" />
+    <Compile Include="Check\Xml\Configuration.cs" />
+    <Compile Include="Check\Xml\ConfigurationProperty.cs" />
+    <Compile Include="Check\Xml\Settings.cs" />
+    <Compile Include="Check\Xml\InfoMessage.cs" />
+    <Compile Include="Check\Xml\MessageMode.cs" />
+    <Compile Include="Check\Xml\LogoInfo.cs" />
+    <Compile Include="Check\Xml\XmlSerializerOnDemand.cs" />
+    <Compile Include="Check\LockAlertAddedAnimation.cs" />
+    <Compile Include="Animation\Plugins\HideOnStartPlugin.cs" />
+    <Compile Include="Animation\Plugins\AutoLayoutPlugin.cs" />
+    <Compile Include="Check\LockAlertRemovedAnimation.cs" />
+    <Compile Include="Components\Image\Anchor.cs" />
+    <Compile Include="Components\ButtonBar\ButtonBar.cs" />
+    <Compile Include="Components\ButtonBar\ButtonBarBase.cs" />
+    <Compile Include="Components\ButtonBar\ButtonBarButton.cs" />
+    <Compile Include="Components\ButtonBar\ButtonBarFirstButtonSkin.cs" />
+    <Compile Include="Components\ButtonBar\ButtonBarSkin.cs" />
+    <Compile Include="Components\ButtonBar\ButtonBarMiddleButtonSkin.cs" />
+    <Compile Include="Components\ButtonBar\ButtonBarLastButtonSkin.cs" />
+    <Compile Include="Components\CheckBox\CheckBoxSkin.cs" />
+    <Compile Include="Components\ComboBox\ComboBox.cs" />
+    <Compile Include="Components\ComboBox\ComboBoxSkin.cs" />
+    <Compile Include="Components\DropDownList\DropDownController.cs" />
+    <Compile Include="Components\DropDownList\DropDownEvent.cs" />
+    <Compile Include="Components\DropDownList\DropDownList.cs" />
+    <Compile Include="Components\DropDownList\DropDownListBase.cs" />
+    <Compile Include="Components\DropDownList\DropDownListButtonSkin.cs" />
+    <Compile Include="Components\DropDownList\DropDownListSkin.cs" />
+    <Compile Include="Components\DropDownList\FocusEvent.cs" />
+    <Compile Include="Components\Core\PopUpAnchor.cs" />
+    <Compile Include="Components\DropDownList\PopupPosition.cs" />
+    <Compile Include="Components\Core\Component_states.cs" />
+    <Compile Include="Components\Core\EffectEvent.cs" />
+    <Compile Include="Components\Core\StateChangeEvent.cs" />
+    <Compile Include="Components\Group\TileGroup.cs" />
+    <Compile Include="Components\List\ListSkin.cs" />
+    <Compile Include="Components\List\DropLocation.cs" />
+    <Compile Include="Components\List\IFocusManagerComponent.cs" />
+    <Compile Include="Components\List\LabelFunction.cs" />
+    <Compile Include="Components\List\LabelUtil.cs" />
+    <Compile Include="Components\List\List.cs" />
+    <Compile Include="Components\List\ListBase.cs" />
+    <Compile Include="Components\List\NavigationUnitUtil.cs" />
+    <Compile Include="Components\LoadingMask\LoadingMaskSkin.cs" />
+    <Compile Include="Components\ModalOverlay\ModalOverlaySkin.cs" />
+    <Compile Include="Components\Skinning\SkinnableComponent_dynamic.cs" />
+    <Compile Include="Components\Skinning\DataGroupProperties.cs" />
+    <Compile Include="Components\Skinning\SkinnableContainerBase.cs" />
+    <Compile Include="Components\Skinning\SkinnableDataContainer.cs" />
+    <Compile Include="Components\Skinning\SkinStatesAttribute.cs" />
+    <Compile Include="Components\Slider\VSliderTrackSkin.cs" />
+    <Compile Include="Components\Slider\VSliderThumbSkin.cs" />
+    <Compile Include="Components\Slider\VSliderSkin.cs" />
+    <Compile Include="Components\Slider\VSlider.cs" />
+    <Compile Include="Components\Slider\HSlider.cs" />
+    <Compile Include="Components\Slider\HSliderThumbSkin.cs" />
+    <Compile Include="Components\Slider\HSliderTrackSkin.cs" />
+    <Compile Include="Components\Slider\HSliderSkin.cs" />
+    <Compile Include="Components\Slider\Rendering\HSliderThumbStyle.cs" />
+    <Compile Include="Components\Slider\Rendering\HSliderTrackStyle.cs" />
+    <Compile Include="Components\Slider\SliderBase.cs" />
+    <Compile Include="Components\TextField\TextFieldBase.cs" />
+    <Compile Include="Containers\Window\Window.cs" />
+    <Compile Include="Containers\Window\WindowSkin.cs" />
+    <Compile Include="Data\ArrayCollection.cs" />
+    <Compile Include="Data\ArrayList.cs" />
+    <Compile Include="Data\CompareFunction.cs" />
+    <Compile Include="Data\FilterFunction.cs" />
+    <Compile Include="Data\ICollectionView.cs" />
+    <Compile Include="Data\SkinnedItemRendererFactory_2.cs" />
+    <Compile Include="Data\SkinnedItemRendererFactory.cs" />
+    <Compile Include="Data\DataGroup.cs" />
+    <Compile Include="Data\DefaultItemRenderer.cs" />
+    <Compile Include="Data\ItemRendererFactory.cs" />
+    <Compile Include="Data\IDataRenderer.cs" />
+    <Compile Include="Data\IItemRenderer.cs" />
+    <Compile Include="Data\IItemRendererOwner.cs" />
+    <Compile Include="Data\IList.cs" />
+    <Compile Include="Data\IPropertyChangeNotifier.cs" />
+    <Compile Include="Data\ItemRendererFunction.cs" />
+    <Compile Include="Data\RendererExistenceEvent.cs" />
+    <Compile Include="Data\Sort.cs" />
+    <Compile Include="Data\SortCompareFunction.cs" />
+    <Compile Include="Data\SortField.cs" />
+    <Compile Include="Events\ChildExistenceChangedEvent.cs" />
+    <Compile Include="Events\CloseEvent.cs" />
+    <Compile Include="Events\CollectionEvent.cs" />
+    <Compile Include="Events\CollectionEventKind.cs" />
+    <Compile Include="Events\EventPriority.cs" />
+    <Compile Include="Events\IndexChangeEvent.cs" />
+    <Compile Include="Events\PropertyChangeEventKind.cs" />
+    <Compile Include="GUIStyles\CheckBoxStyle.cs" />
+    <Compile Include="GUIStyles\ButtonLabelStyle.cs" />
+    <Compile Include="Reflection\GlobalTypeDictionary.cs" />
+    <Compile Include="Reflection\GlobalTypeDictionaryException.cs" />
+    <Compile Include="Reflection\GuiReflector.cs" />
+    <Compile Include="Reflection\PreloaderFeedback.cs" />
+    <Compile Include="Reflection\PropertyComparer.cs" />
+    <Compile Include="Reflection\TypeReflector.cs" />
+    <Compile Include="States\DefaultButtonStateFactory.cs" />
+    <Compile Include="Styles\Attributes\MediaQueryAttribute.cs" />
+    <Compile Include="Styles\StyleClientAdapters\StyleClientAdapterBase.cs" />
+    <Compile Include="Styles\StyleClientAdapters\StyleClientManager.cs" />
+    <Compile Include="Styles\StyleClientAdapters\StyleClientAdapterAttribute.cs" />
+    <Compile Include="Styles\StyleClientAdapters\DefaultUnityStyleClientAdapter.cs" />
+    <Compile Include="Styles\TypeHierarchyHelper.cs" />
+    <Compile Include="Styles\UnityComponentStyleApplier.cs" />
+    <Compile Include="Styles\GuiStageStyleApplier.cs" />
+    <Compile Include="Styles\IStyleApplyer.cs" />
+    <Compile Include="Styles\MediaQueries\MediaQueryBase.cs" />
+    <Compile Include="Styles\MediaQueries\MediaQueryManager.cs" />
+    <Compile Include="Styles\SerializationStuff\MediaQuery.cs" />
+    <Compile Include="Styles\SerializationStuff\NameValueBase.cs" />
+    <Compile Include="Styles\SerializationStuff\DictionaryDelta.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Styles\StyleInitializer2.cs" />
+    <Compile Include="Styles\SerializationStuff\eDrivenStyleSheet.cs" />
+    <Compile Include="Styles\SerializationStuff\StyleDeclarationCache.cs" />
+    <Compile Include="Styles\SerializationStuff\SerializedType.cs" />
+    <Compile Include="Styles\SerializationStuff\StylePropertyCreationException.cs" />
+    <Compile Include="Styles\Traversers\ComponentTraverser.cs" />
+    <Compile Include="Styles\Traversers\GuiComponentTraverser.cs" />
+    <Compile Include="Styles\Traversers\IComponentTraverser.cs" />
+    <Compile Include="Styles\Traversers\UnityComponentTraverser.cs" />
+    <Compile Include="Styles\UnityComponentStylingGizmo.cs" />
+    <Compile Include="Styles\UnityStyleClient.cs" />
+    <Compile Include="Util\DictionaryUtil.cs" />
+    <Compile Include="Util\TextureUtil.cs" />
+    <Compile Include="Util\TransformUtil.cs" />
+    <Compile Include="Form\DropDownListFormAdapter.cs" />
+    <Compile Include="Form\TextAreaFormAdapter.cs" />
+    <Compile Include="Geom\BorderMetrics.cs" />
+    <Compile Include="GUIStyles\RectBorderStyle.cs" />
+    <Compile Include="Reflection\SkinUtil.cs" />
+    <Compile Include="Shapes\RectBorder.cs" />
+    <Compile Include="States\SetStyle.cs" />
+    <Compile Include="States\IOverride.cs" />
+    <Compile Include="States\OverrideBase.cs" />
+    <Compile Include="States\SetProperty.cs" />
+    <Compile Include="States\State.cs" />
+    <Compile Include="States\StyleTable.cs" />
+    <Compile Include="States\Transition.cs" />
+    <Compile Include="Styles\Attributes\StyleableProxyMode.cs" />
+    <Compile Include="Styles\Attributes\StyleProxyReader.cs" />
+    <Compile Include="Styles\ComponentDefaultStylesLoader.cs" />
+    <Compile Include="Styles\Processing\Undefined.cs" />
+    <Compile Include="Styles\StyleInitializer.cs" />
+    <Compile Include="Styles\Factories\StyleTableValuesFactory.cs" />
+    <Compile Include="Styles\GlobalStyle.cs" />
+    <Compile Include="Styles\Factories\DefaultValuesFactory.cs" />
+    <Compile Include="Styles\Factories\IStyleValuesFactory.cs" />
+    <Compile Include="Styles\Processing\CSSCondition.cs" />
+    <Compile Include="Styles\Processing\CSSConditionKind.cs" />
+    <Compile Include="Styles\Processing\CSSMergedStyleDeclaration.cs" />
+    <Compile Include="Styles\Processing\Selector.cs" />
+    <Compile Include="Styles\Processing\OrderedObject.cs" />
+    <Compile Include="Styles\Processing\OrderedObjectRow.cs" />
+    <Compile Include="Styles\Processing\StyleableProxy.cs" />
+    <Compile Include="Styles\Processing\StyleDeclaration.cs" />
+    <Compile Include="Styles\Factories\StyleSheetValuesFactory.cs" />
+    <Compile Include="Styles\Processing\StyleTable.cs" />
+    <Compile Include="Styles\Proxy\IStyleable.cs" />
+    <Compile Include="Styles\Attributes\StyleableAttribute.cs" />
+    <Compile Include="Components\NumericStepper\NumericStepperDecrementButtonSkin.cs" />
+    <Compile Include="Components\NumericStepper\NumericStepperIncrementButtonSkin.cs" />
+    <Compile Include="Components\Core\Component_styles.cs" />
+    <Compile Include="Components\Core\ISimpleStyleClient.cs" />
+    <Compile Include="Components\Core\IStyleClient.cs" />
+    <Compile Include="Components\NumericStepper\NumericStepperSkin.cs" />
+    <Compile Include="Components\Button\ButtonSkin.cs" />
+    <Compile Include="Components\ScrollBar\HScrollBarLeftButtonSkin.cs" />
+    <Compile Include="Components\ScrollBar\HScrollBarRightButtonSkin.cs" />
+    <Compile Include="Components\ScrollBar\HScrollBarThumbSkin.cs" />
+    <Compile Include="Components\ScrollBar\HScrollBarTrackSkin.cs" />
+    <Compile Include="Components\ScrollBar\VScrollBarDownButtonSkin.cs" />
+    <Compile Include="Components\ScrollBar\VScrollBarUpButtonSkin.cs" />
+    <Compile Include="Components\ScrollBar\VScrollBarTrackSkin.cs" />
+    <Compile Include="Components\ScrollBar\VScrollBarThumbSkin.cs" />
+    <Compile Include="Components\NumericStepper\Rendering\NumericStepperIncrementButtonStyle.cs" />
+    <Compile Include="GUIStyles\InspectorOverlay4PxStyle.cs" />
+    <Compile Include="Styles\Processing\StyleReflector.cs" />
+    <Compile Include="Shapes\RectShape.cs" />
+    <Compile Include="Components\Skinning\DoubleGroup.cs" />
+    <Compile Include="Components\Skinning\InteractionMode.cs" />
+    <Compile Include="Components\Skinning\Scroller.cs" />
+    <Compile Include="Components\Skinning\ScrollerLayout.cs" />
+    <Compile Include="Components\Skinning\ScrollerSkin.cs" />
+    <Compile Include="Components\Group\VGroup.cs" />
+    <Compile Include="Components\Group\HGroup.cs" />
+    <Compile Include="Components\Spinner.cs" />
+    <Compile Include="GUIStyles\ButtonSingleStateStyle.cs" />
+    <Compile Include="GUIStyles\InspectorOverlay2PxRectStyle.cs" />
+    <Compile Include="GUIStyles\RectShapeStyle.cs" />
+    <Compile Include="Layout\AbsoluteLayout.cs" />
+    <Compile Include="Components\Skinning\ContentGroupProperties.cs" />
+    <Compile Include="Components\Skinning\SkinnableContainerSkin2.cs" />
+    <Compile Include="Components\Skinning\SkinnableContainer.cs" />
+    <Compile Include="Components\Skinning\SkinPartCache.cs" />
+    <Compile Include="Components\Group\Group.cs" />
+    <Compile Include="Components\Group\GroupBase.cs" />
+    <Compile Include="Components\Skinning\IViewport.cs" />
+    <Compile Include="Layout\ColumnAlign.cs" />
+    <Compile Include="Layout\TileOrientation.cs" />
+    <Compile Include="Layout\RowAlign.cs" />
+    <Compile Include="Layout\HorizontalLayout.cs" />
+    <Compile Include="Layout\HorizontalAlign.cs" />
+    <Compile Include="Layout\LayoutBase.cs" />
+    <Compile Include="Components\Skinning\LayoutProperties.cs" />
+    <Compile Include="Components\Skinning\NavigationUnit.cs" />
+    <Compile Include="Components\Skinning\Skin.cs" />
+    <Compile Include="Containers\Panel\PanelSkin.cs" />
+    <Compile Include="Events\ElementExistenceEvent.cs" />
+    <Compile Include="Events\PropertyChangeEvent.cs" />
+    <Compile Include="Components\Skinning\SkinnableContainerSkin.cs" />
+    <Compile Include="Layout\SizesAndLimit.cs" />
+    <Compile Include="Layout\TileLayout.cs" />
+    <Compile Include="Layout\VerticalLayout.cs" />
+    <Compile Include="Layout\VerticalAlign.cs" />
+    <Compile Include="Styles\Processing\StyleSelector.cs" />
+    <Compile Include="Styles\Proxy\eDrivenGuiComponentReader.cs" />
+    <Compile Include="Styles\Proxy\HierarchyReader.cs" />
+    <Compile Include="Styles\Proxy\IStyleReader.cs" />
+    <Compile Include="Styles\StyleDebugging.cs" />
+    <Compile Include="Styles\StyleSheetProcessor.cs" />
+    <Compile Include="Styles\Serialization\StyleSheet.cs" />
+    <Compile Include="Reflection\SaveableAttribute.cs" />
+    <Compile Include="Reflection\HostComponentAttribute.cs" />
+    <Compile Include="Styles\Serialization\StyleDeclaration.cs" />
+    <Compile Include="Styles\Serialization\StyleProperty.cs" />
+    <Compile Include="Styles\Processing\StyleManager.cs" />
+    <Compile Include="Styles\Processing\StyleProtoChain.cs" />
+    <Compile Include="Components\ScrollBar\VScrollBarSkin.cs" />
+    <Compile Include="Components\ScrollBar\VScrollBar.cs" />
+    <Compile Include="Components\ScrollBar\HScrollBarSkin.cs" />
+    <Compile Include="Components\ScrollBar\HScrollBar.cs" />
+    <Compile Include="Components\Range\Range.cs" />
+    <Compile Include="Components\ScrollBar\ScrollBarBase.cs" />
+    <Compile Include="Components\Range\TrackBase.cs" />
+    <Compile Include="Components\Range\TrackBaseEvent.cs" />
+    <Compile Include="Components\Skinning\IFactory.cs" />
+    <Compile Include="Components\Skinning\SkinnableComponent.cs" />
+    <Compile Include="Components\ISelectableList.cs" />
+    <Compile Include="Components\Skinning\SkinPartEvent.cs" />
+    <Compile Include="Util\PriorityQueue.cs" />
+    <Compile Include="Components\TextField\TextFieldException.cs" />
+    <Compile Include="Components\TextField\TextField.cs" />
+    <Compile Include="Components\Core\SimpleComponent.cs" />
+    <Compile Include="Events\ScrollEvent.cs" />
+    <Compile Include="Components\ScrollBar\ScrollEventDetail.cs" />
+    <Compile Include="Components\Core\InvalidationManagerClientTransform.cs" />
+    <Compile Include="Components\Core\DisplayObjectTransform.cs" />
+    <Compile Include="Components\Core\GuiTransformBase.cs" />
+    <Compile Include="Components\Core\IDataHost.cs" />
+    <Compile Include="Components\LoadingMask\LoadingMask.cs" />
+    <Compile Include="Components\ScrollBar\Direction.cs" />
+    <Compile Include="Containers\Core\DepthUtil.cs" />
+    <Compile Include="Containers\Core\ITrueChildList.cs" />
+    <Compile Include="Components\IProgressIndicator.cs" />
+    <Compile Include="Components\LoadingMask\LoadingMaskBase.cs" />
+    <Compile Include="Components\LoadingMask\LoadingMaskAnimator.cs" />
+    <Compile Include="Animation\GlobalLoadingMask.cs" />
+    <Compile Include="Containers\Core\ChildMover.cs" />
+    <Compile Include="Components\Core\DisplayObjectContainerException.cs" />
+    <Compile Include="Containers\Core\ScrollableContainer.cs" />
+    <Compile Include="Containers\Core\ScrollPolicy.cs" />
+    <Compile Include="Geom\ConstrainMetrics.cs" />
+    <Compile Include="Geom\EdgeMetrics.cs" />
+    <Compile Include="Info.cs" />
+    <Compile Include="Check\Acme.cs" />
+    <Compile Include="Plugins\IPlugin.cs" />
+    <Compile Include="Reflection\SkinPartAttribute.cs" />
+    <Compile Include="Reflection\DefaultEvent.cs" />
+    <Compile Include="Reflection\EventAttribute.cs" />
+    <Compile Include="Styles\Processing\StyleRelation.cs" />
+    <Compile Include="Check\LockButtonStyle.cs" />
+    <Compile Include="GUIStyles\WhiteboxStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\VScrollBarDownButtonStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\VScrollBarUpButtonStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\VScrollBarThumbStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\VScrollBarTrackStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\HScrollBarRightButtonStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\HScrollBarLeftButtonStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\HScrollBarThumbStyle.cs" />
+    <Compile Include="Components\ScrollBar\Rendering\HScrollBarTrackStyle.cs" />
+    <Compile Include="Components\NumericStepper\Rendering\NumericStepperDecrementButtonStyle.cs" />
+    <Compile Include="GUIStyles\NumericStepperTextFieldStyle.cs" />
+    <Compile Include="GUIStyles\TextFieldOverlayStyle.cs" />
+    <Compile Include="GUIStyles\TextAreaStyle.cs" />
+    <Compile Include="GUIStyles\TextAreaScrollableStyle.cs" />
+    <Compile Include="GUIStyles\TextFieldStyle.cs" />
+    <Compile Include="Util\ComponentUtil.cs" />
+    <Compile Include="Util\ArrayUtil.cs" />
+    <Compile Include="Util\ListUtil.cs" />
+    <Compile Include="Util\ValueList.cs" />
+    <Compile Include="Check\GenuineChecker.cs" />
+    <Compile Include="Stages\GlobalLoadingMaskStage.cs" />
+    <Compile Include="Stages\CursorManagerStage.cs" />
+    <Compile Include="Stages\TooltipManagerStage.cs" />
+    <Compile Include="Stages\DragDropStage.cs" />
+    <Compile Include="Stages\PopupManagerStage.cs" />
+    <Compile Include="Stages\InspectorOverlayStage.cs" />
+    <Compile Include="Util\InfoUtil.cs" />
+    <Compile Include="Components\Core\ComponentException.cs" />
+    <Compile Include="Components\Pager.cs" />
+    <Compile Include="Components\LoadingMask\ProgressIndicatorBase.cs" />
+    <Compile Include="Components\TextField\TextBase.cs" />
+    <Compile Include="Containers\Core\IScrollable.cs" />
+    <Compile Include="Cursor\CursorAnimator.cs" />
+    <Compile Include="Events\LoadingEvent.cs" />
+    <Compile Include="Form\Adapters\ButtonFormAdapter.cs" />
+    <Compile Include="Form\Adapters\CheckBoxFormAdapter.cs" />
+    <Compile Include="Form\Adapters\NumericStepperAdapter.cs" />
+    <Compile Include="Form\Adapters\SliderAdapter.cs" />
+    <Compile Include="Form\Adapters\LabelFormAdapter.cs" />
+    <Compile Include="Form\Adapters\FormAdapterBase.cs" />
+    <Compile Include="Form\Adapters\ComboBoxFormAdapter.cs" />
+    <Compile Include="Form\IFormAdapter.cs" />
+    <Compile Include="Form\Adapters\TextFieldFormAdapter.cs" />
+    <Compile Include="Form\Adapters\ListFormAdapter.cs" />
+    <Compile Include="Managers\DeferManager.cs" />
+    <Compile Include="Plugins\LoadingMaskPlugin.cs" />
+    <Compile Include="Plugins\ChangeCursorOnMouseOver.cs" />
+    <Compile Include="Plugins\ITabManagerClient.cs" />
+    <Compile Include="Alert\AlertButtonDescriptor.cs" />
+    <Compile Include="Alert\AlertButtonFlag.cs" />
+    <Compile Include="Alert\AlertOption.cs" />
+    <Compile Include="Alert\AlertOptionType.cs" />
+    <Compile Include="Plugins\TabManager.cs" />
+    <Compile Include="Components\Spacer\Spacer.cs" />
+    <Compile Include="Components\Core\IFocusManagerClient.cs" />
+    <Compile Include="Components\Image\Image.cs" />
+    <Compile Include="Containers\Core\IControlList.cs" />
+    <Compile Include="Containers\Panel\Panel.cs" />
+    <Compile Include="Cursor\CursorManager.cs" />
+    <Compile Include="Containers\Dialog.cs" />
+    <Compile Include="Graphics\Base\DrawBase.cs" />
+    <Compile Include="Graphics\Base\IDraw.cs" />
+    <Compile Include="Layout\Flex.cs" />
+    <Compile Include="Layout\FlexChildInfo.cs" />
+    <Compile Include="Layout\LayoutUtil.cs" />
+    <Compile Include="Managers\Invalidators\EventInvalidator.cs" />
+    <Compile Include="Managers\Invalidators\DisplayListInvalidator.cs" />
+    <Compile Include="Managers\Invalidators\InvalidationHelper.cs" />
+    <Compile Include="Managers\Invalidators\SizeInvalidator.cs" />
+    <Compile Include="Managers\Invalidators\TransformInvalidator.cs" />
+    <Compile Include="Managers\Invalidators\StyleInvalidator.cs" />
+    <Compile Include="Managers\Invalidators\IInvalidator.cs" />
+    <Compile Include="Managers\Invalidators\PropertyInvalidator.cs" />
+    <Compile Include="Managers\Invalidators\InvalidatorBase.cs" />
+    <Compile Include="Managers\KeyEventDispatcher.cs" />
+    <Compile Include="Managers\FocusManagerException.cs" />
+    <Compile Include="Styles\SerializationStuff\SkinStyleReference.cs" />
+    <Compile Include="Mappers\FontMapper.cs" />
+    <Compile Include="GuiInspector.cs" />
+    <Compile Include="Components\InspectorOverlay.cs" />
+    <Compile Include="Graphics\Triangle.cs" />
+    <Compile Include="Plugins\DialogCloseOnEsc.cs" />
+    <Compile Include="Plugins\Resizable.cs" />
+    <Compile Include="Plugins\Draggable.cs" />
+    <Compile Include="Styles\Attributes\StyleAttribute.cs" />
+    <Compile Include="Reflection\GuiReflectorInternal.cs" />
+    <Compile Include="GUIStyles\BoxComponentStyle.cs" />
+    <Compile Include="GUIStyles\ButtonBarButtonStyle.cs" />
+    <Compile Include="GUIStyles\AlertLabelStyle.cs" />
+    <Compile Include="GUIStyles\ButtonStyle.cs" />
+    <Compile Include="GUIStyles\ComboBoxOverlayStyle.cs" />
+    <Compile Include="GUIStyles\PagerButtonStyle.cs" />
+    <Compile Include="GUIStyles\ListCaretStyle.cs" />
+    <Compile Include="GUIStyles\ControlGroupBackgroundStyle.cs" />
+    <Compile Include="GUIStyles\ModalOverlayStyle.cs" />
+    <Compile Include="GUIStyles\LoadingMaskBoxStyle.cs" />
+    <Compile Include="GUIStyles\LoadingMaskLabelStyle.cs" />
+    <Compile Include="GUIStyles\LoadingMaskBackgroundStyle.cs" />
+    <Compile Include="GUIStyles\DraggableAreaStyle.cs" />
+    <Compile Include="GUIStyles\ResizableBorderStyle.cs" />
+    <Compile Include="GUIStyles\ListOverlayStyle.cs" />
+    <Compile Include="GUIStyles\Helper\ScrollbarHelper.cs" />
+    <Compile Include="GUIStyles\VerticalSliderThumbStyle.cs" />
+    <Compile Include="GUIStyles\VSliderStyle.cs" />
+    <Compile Include="GUIStyles\Helper\SliderHelper.cs" />
+    <Compile Include="GUIStyles\TooltipStyle.cs" />
+    <Compile Include="GUIStyles\GreyContainerBackground.cs" />
+    <Compile Include="GUIStyles\ListItemStyle.cs" />
+    <Compile Include="GUIStyles\DisabledOverlayStyle.cs" />
+    <Compile Include="GUIStyles\FocusIndicatorStyle.cs" />
+    <Compile Include="GUIStyles\InspectorOverlayLabelStyle.cs" />
+    <Compile Include="GUIStyles\SpectrumStyle.cs" />
+    <Compile Include="GUIStyles\PopupButtonTextFieldStyle.cs" />
+    <Compile Include="GUIStyles\ArrowButtonStyle.cs" />
+    <Compile Include="GUIStyles\PopupButtonStyle.cs" />
+    <Compile Include="Components\Core\IProgramaticStyleClient.cs" />
+    <Compile Include="Components\Core\DisplayObjectContainer.cs" />
+    <Compile Include="Components\Core\FrameworkEvent.cs" />
+    <Compile Include="Components\Core\IProgramaticStyle.cs" />
+    <Compile Include="Components\Core\IVisualElement.cs" />
+    <Compile Include="Components\Core\INestLevel.cs" />
+    <Compile Include="Components\Core\ProgramaticStyle.cs" />
+    <Compile Include="Events\MoveEvent.cs" />
+    <Compile Include="Graphics\Base\BoundsUtil.cs" />
+    <Compile Include="Graphics\Noise.cs" />
+    <Compile Include="Graphics\Fractal.cs" />
+    <Compile Include="Graphics\GraphicGroup.cs" />
+    <Compile Include="Graphics\Rect.cs" />
+    <Compile Include="Graphics\Ellipse.cs" />
+    <Compile Include="Graphics\Base\Fill.cs" />
+    <Compile Include="Graphics\Base\GraphicOption.cs" />
+    <Compile Include="Graphics\Base\GraphicOptionType.cs" />
+    <Compile Include="Graphics\Base\GraphicsBase.cs" />
+    <Compile Include="Graphics\Base\IFill.cs" />
+    <Compile Include="Graphics\Base\IGraphicsConstrainClient.cs" />
+    <Compile Include="Graphics\Base\IStroke.cs" />
+    <Compile Include="Graphics\Base\ITextureDrawable.cs" />
+    <Compile Include="Graphics\Base\Stroke.cs" />
+    <Compile Include="Managers\PopupDescriptor.cs" />
+    <Compile Include="Managers\PopupOption.cs" />
+    <Compile Include="Managers\InvalidationManager.cs" />
+    <Compile Include="Events\GuiEvent.cs" />
+    <Compile Include="Events\MouseEventHelper.cs" />
+    <Compile Include="Form\FormHelper.cs" />
+    <Compile Include="Form\Item\FormGroupHeading.cs" />
+    <Compile Include="Components\ChatTextField.cs" />
+    <Compile Include="Components\IProgressBar.cs" />
+    <Compile Include="Components\LoadingMask\Progress.cs" />
+    <Compile Include="Components\LoadingMask\ProgressBarBase.cs" />
+    <Compile Include="Components\StringEvent.cs" />
+    <Compile Include="Util\IResourceLoaderProxy.cs" />
+    <Compile Include="StageManager.cs" />
+    <Compile Include="Gui.cs" />
+    <Compile Include="Graphics\Spectrum.cs" />
+    <Compile Include="Components\Button\Button.cs" />
+    <Compile Include="Components\CheckBox\CheckBox.cs" />
+    <Compile Include="Components\Label\Label.cs" />
+    <Compile Include="Components\NumericStepper\NumericStepper.cs" />
+    <Compile Include="Components\TextField\TextArea.cs" />
+    <Compile Include="Components\Core\DisplayListMember.cs" />
+    <Compile Include="Components\Core\DisplayObject.cs" />
+    <Compile Include="Components\Core\EdgeMetrics.cs" />
+    <Compile Include="Components\Core\IConstraintClient.cs" />
+    <Compile Include="Components\Core\IDrawable.cs" />
+    <Compile Include="Components\Core\IFocusComponent.cs" />
+    <Compile Include="Components\Core\IGlobalLocal.cs" />
+    <Compile Include="Components\Core\IInvalidating.cs" />
+    <Compile Include="Components\Core\ILayoutElement.cs" />
+    <Compile Include="Components\Core\InteractiveComponent.cs" />
+    <Compile Include="Components\Core\IPadding.cs" />
+    <Compile Include="Components\Core\IPercentage.cs" />
+    <Compile Include="Components\Core\ISkinnable.cs" />
+    <Compile Include="Components\Core\IInvalidationManagerClient.cs" />
+    <Compile Include="Components\Core\InvalidationManagerClient.cs" />
+    <Compile Include="Components\Core\Component.cs" />
+    <Compile Include="Containers\Core\IChildList.cs" />
+    <Compile Include="Containers\Core\IChildManager.cs" />
+    <Compile Include="Containers\Core\IFocusContainer.cs" />
+    <Compile Include="Containers\Core\IGlobalContent.cs" />
+    <Compile Include="Containers\Core\ILabel.cs" />
+    <Compile Include="Containers\Core\ILayout.cs" />
+    <Compile Include="Containers\Core\ILocalContent.cs" />
+    <Compile Include="Containers\Stage.cs" />
+    <Compile Include="Containers\ViewStack.cs" />
+    <Compile Include="Cursor\CursorType.cs" />
+    <Compile Include="Cursor\CursorImage.cs" />
+    <Compile Include="Alert\Alert.cs" />
+    <Compile Include="Alert\AlertInstance.cs" />
+    <Compile Include="Components\ModalOverlay\ModalOverlay.cs" />
+    <Compile Include="DragDrop\DragOverlay.cs" />
+    <Compile Include="DragDrop\DragProxy.cs" />
+    <Compile Include="DragDrop\DragEvent.cs" />
+    <Compile Include="DragDrop\DragDropManager.cs" />
+    <Compile Include="DragDrop\DragSource.cs" />
+    <Compile Include="Events\ButtonEvent.cs" />
+    <Compile Include="Events\DataRendererEvent.cs" />
+    <Compile Include="Events\TextFieldEvent.cs" />
+    <Compile Include="Form\Form.cs" />
+    <Compile Include="Form\Item\FormButtonItem.cs" />
+    <Compile Include="Form\Item\FormCheckBoxItem.cs" />
+    <Compile Include="Form\Item\FormComboBoxItem.cs" />
+    <Compile Include="Form\Item\FormHeading.cs" />
+    <Compile Include="Form\Item\FormItem.cs" />
+    <Compile Include="Form\Item\FormLabelItem.cs" />
+    <Compile Include="Form\Item\FormRadioItem.cs" />
+    <Compile Include="Form\Item\FormTextFieldItem.cs" />
+    <Compile Include="Layout\LayoutDescriptor.cs" />
+    <Compile Include="Managers\MouseEventDispatcher.cs" />
+    <Compile Include="Managers\ComponentManager.cs" />
+    <Compile Include="Managers\DragManager.cs" />
+    <Compile Include="Managers\FocusManager.cs" />
+    <Compile Include="Managers\PopupManager.cs" />
+    <Compile Include="Managers\TooltipManager.cs" />
+    <Compile Include="GUIStyles\GroupBackgroundStyle.cs" />
+    <Compile Include="GUIStyles\ContainerOverlayStyle.cs" />
+    <Compile Include="GUIStyles\PanelBackgroundStyle.cs" />
+    <Compile Include="GUIStyles\OnePxBorderStyle.cs" />
+    <Compile Include="GUIStyles\PanelHeaderLabelStyle.cs" />
+    <Compile Include="GUIStyles\PanelHeaderBackgroundStyle.cs" />
+    <Compile Include="GUIStyles\WarningStyle.cs" />
+    <Compile Include="GUIStyles\FormHeadingStyle.cs" />
+    <Compile Include="GUIStyles\FormItemLabelStyle.cs" />
+    <Compile Include="GUIStyles\ImageStyle.cs" />
+    <Compile Include="GUIStyles\LabelStyle.cs" />
+    <Compile Include="GUIStyles\TabButtonStyle.cs" />
+    <Compile Include="Tooltip\TooltipFadeOut.cs" />
+    <Compile Include="Tooltip\TooltipFadeIn.cs" />
+    <Compile Include="Tooltip\TooltipInstance.cs" />
+    <Compile Include="Util\TextFieldFocusHelper.cs" />
+    <Compile Include="Util\GUIStyleMeasureUtil.cs" />
+    <Compile Include="Util\NamingUtil.cs" />
+    <Compile Include="Util\AsyncRequestHandler.cs" />
+    <Compile Include="Managers\CoordinateProcessor.cs" />
+    <Compile Include="Util\CollectionUtil.cs" />
+    <Compile Include="Util\GuiEventProcessor.cs" />
+    <Compile Include="Util\EventUtil.cs" />
+    <Compile Include="Util\Logger.cs" />
+    <Compile Include="Util\ColorMixer.cs" />
+    <Compile Include="Util\SelectionModel.cs" />
+    <Compile Include="Util\ViewUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eDriven.Animation\eDriven.Animation.csproj">
+      <Project>{8AC27378-7B1D-420B-AC44-AF217C6E23CC}</Project>
+      <Name>eDriven.Animation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven.Core\eDriven.Core.csproj">
+      <Project>{F4447751-B5FB-43CE-88F5-9BDF05B87F1E}</Project>
+      <Name>eDriven.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy $(TargetPath) $(SolutionDir)\Assets\eDriven\Libs\ /Y
+Copy $(TargetDir)$(TargetName).pdb $(SolutionDir)\Assets\eDriven\Libs\ /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,8 @@
+<Configuration>
+  <NamespaceFolders>
+    <SkipFolder>F4447751-B5FB-43CE-88F5-9BDF05B87F1E/d:Data/d:Collections/d:Filtering</SkipFolder>
+    <SkipFolder>F4447751-B5FB-43CE-88F5-9BDF05B87F1E/d:Data/d:Collections/d:Sorting</SkipFolder>
+    <SkipFolder>F4447751-B5FB-43CE-88F5-9BDF05B87F1E/d:Events/d:EventDispatcher</SkipFolder>
+    <SkipFolder>F4447751-B5FB-43CE-88F5-9BDF05B87F1E/d:Util/d:Timer</SkipFolder>
+  </NamespaceFolders>
+</Configuration>

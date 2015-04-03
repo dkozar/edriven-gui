@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://edriven.dankokozar.com/"
+	Path="Cursors/blueglass-vista/" >
+	<Animations>
+		<Animation Id="pointer" OffsetX="-1" OffsetY="-1">
+			<Frames>
+				<Frame Path="BlueglassArrow-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="wait" Path="BlueglassBusy/" FramePrefix="BlueglassBusy-" FrameSuffix="-32x32x32" FrameDuration="0.112" OffsetX="-15" OffsetY="-15">
+			<Frames>
+				<Frame Path="F1" Duration="0.167" />
+				<Frame Path="F2" Duration="0.167" />
+				<Frame Path="F3" Duration="0.167" />
+				<Frame Path="F4" Duration="0.167" />
+				<Frame Path="F5" Duration="0.167" />
+				<Frame Path="F6" Duration="0.167" />
+				<Frame Path="F7" Duration="0.167" />
+				<Frame Path="F8" Duration="0.167" />
+				<Frame Path="F9" Duration="0.5" />
+				<Frame Path="F10" Duration="0.083" />
+				<Frame Path="F11" Duration="0.083" />
+				<Frame Path="F12" Duration="0.083" />
+				<Frame Path="F13" Duration="0.083" />
+				<Frame Path="F14" Duration="0.083" />
+			</Frames>
+		</Animation>
+		<Animation Id="crosshair" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueGlassPrecision-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="move" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeAll-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="e-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeWE-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="n-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeNS-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="s-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeNS-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="w-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeWE-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="nw-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeNWSE-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="sw-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeNESW-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="se-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeNWSE-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="ne-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassSizeNESW-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="progress" Path="BlueglassWorking/" FramePrefix="BlueglassWorking-" FrameSuffix="-32x32x32" OffsetX="-2" OffsetY="-2">
+			<Frames>
+				<Frame Path="F1" Duration="0.25" />
+				<Frame Path="F2" Duration="0.25" />
+				<Frame Path="F3" Duration="0.25" />
+				<Frame Path="F4" Duration="0.25" />
+				<Frame Path="F5" Duration="0.5" />
+				<Frame Path="F6" Duration="0.083" />
+				<Frame Path="F7" Duration="0.083" />
+				<Frame Path="F8" Duration="0.083" />
+				<Frame Path="F9" Duration="0.083" />
+				<Frame Path="F10" Duration="0.083" />
+			</Frames>
+		</Animation>
+		<Animation Id="text" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="BlueglassTextSelect-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="help" Path="BlueglassHelp/" FramePrefix="BlueglassHelp-" FrameSuffix="-32x32x32" FOffsetX="-2" OffsetY="-2">
+			<Frames>
+				<Frame Path="F1" Duration="0.2" />
+				<Frame Path="F2" Duration="0.2" />
+				<Frame Path="F3" Duration="0.2" />
+				<Frame Path="F4" Duration="0.2" />
+				<Frame Path="F5" Duration="0.2" />
+				<Frame Path="F6" Duration="0.2" />
+				<Frame Path="F7" Duration="0.2" />
+				<Frame Path="F8" Duration="0.2" />
+				<Frame Path="F9" Duration="0.2" />
+				<Frame Path="F10" Duration="0.2" />
+			</Frames>
+		</Animation>
+
+		<Animation Id="dd-accept" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-accept" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-reject" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-reject" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-copy" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-copy" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-move" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-move" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-link" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-link" />
+			</Frames>
+		</Animation>
+	</Animations>
+</AnimationPackage>

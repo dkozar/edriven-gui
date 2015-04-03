@@ -1,0 +1,6 @@
+<Configuration>
+  <NamespaceFolders>
+    <SkipFolder>4B77BB15-C683-4EC2-B62F-49D36AD2604A/d:Events</SkipFolder>
+    <SkipFolder>4B77BB15-C683-4EC2-B62F-49D36AD2604A/d:Reflection</SkipFolder>
+  </NamespaceFolders>
+</Configuration>

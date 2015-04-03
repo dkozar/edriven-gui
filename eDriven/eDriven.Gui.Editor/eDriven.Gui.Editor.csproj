@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eDriven.Gui.Editor</RootNamespace>
+    <AssemblyName>eDriven.Gui.Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Production|AnyCPU' ">
+    <OutputPath>bin\Production\</OutputPath>
+    <DefineConstants>TRACE;PRODUCTION</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Building\AdditionProcessor.cs" />
+    <Compile Include="Building\EditModeMovesProcessor.cs" />
+    <Compile Include="Building\EditModeRemovalProcessor.cs" />
+    <Compile Include="Building\EditModeAdditionsProcessor.cs" />
+    <Compile Include="Building\RemovalProcessor.cs" />
+    <Compile Include="Building\MovesProcessor.cs" />
+    <Compile Include="ListEditor.cs" />
+    <Compile Include="Commands\CreateAudioMapperCommand.cs" />
+    <Compile Include="Commands\CreateFontMapperCommand.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Wizard\StyleDeclarationDialogStep3.cs" />
+    <Compile Include="IO\CreateTypeListExec.cs" />
+    <Compile Include="Persistence\ComponentMonitor.cs" />
+    <Compile Include="Persistence\HierarchyMonitor.cs" />
+    <Compile Include="Rendering\PropertyDrawers\EnumHelper.cs" />
+    <Compile Include="Rendering\PropertyDrawers\MediaQueryPropertyDrawer.cs" />
+    <Compile Include="Styles\Modules\MediaQueryDescriptor.cs" />
+    <Compile Include="Styles\Modules\StyleModuleBase.cs" />
+    <Compile Include="Styles\Modules\MemberDescriptor.cs" />
+    <Compile Include="Styles\Modules\StyleModuleAttribute.cs" />
+    <Compile Include="Styles\Modules\UnityComponentStyleModule.cs" />
+    <Compile Include="Styles\Modules\IStyleModule.cs" />
+    <Compile Include="Styles\Modules\GuiComponentStyleModule.cs" />
+    <Compile Include="Styles\Modules\TypeDescriptor.cs" />
+    <Compile Include="Styles\Modules\StyleModuleManager.cs" />
+    <Compile Include="Dialogs\PanelContentWrapper.cs" />
+    <Compile Include="Editors\Styles\eDrivenStyleSheetEditor.cs" />
+    <Compile Include="EDrivenDialogBase.cs" />
+    <Compile Include="PersistenceWindow.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Commands\AddStyleDeclarationCommand.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Commands\EditStyleDeclarationCommand.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Commands\SerializedPropertyHelper.cs" />
+    <Compile Include="Dialogs\InspectorContentWrapper.cs" />
+    <Compile Include="Editors\Base\AudioPlayerEditor.cs" />
+    <Compile Include="Editors\Base\AudioPlayerMapperEditor.cs" />
+    <Compile Include="Editors\Base\GuiInspectorEditor.cs" />
+    <Compile Include="Editors\Base\FontMapperEditor.cs" />
+    <Compile Include="Editors\WindowEditor.cs" />
+    <Compile Include="Editors\DropDownListEditor.cs" />
+    <Compile Include="Editors\VSliderEditor.cs" />
+    <Compile Include="Editors\HSliderEditor.cs" />
+    <Compile Include="Editors\TextAreaEditor.cs" />
+    <Compile Include="EDrivenEditorWindowBase.cs" />
+    <Compile Include="Processing\DesignerEventProcessor.cs" />
+    <Compile Include="Processing\PlayModeChangeProcessorHandlingKeys.cs" />
+    <Compile Include="Processing\PlayModeChangeProcessorHandlingPersistence.cs" />
+    <Compile Include="Processing\HierarchyChangeProcessor.cs" />
+    <Compile Include="Processing\PlayModeChangeProcessorHandlingDesignerOverlay.cs" />
+    <Compile Include="Processing\SelectionChangeProcessor.cs" />
+    <Compile Include="Processing\Bootstrap.cs" />
+    <Compile Include="Reflection\StylesheetsReflector.cs" />
+    <Compile Include="Util\UnityComponentEvaluator.cs" />
+    <Compile Include="Util\GuiComponentEvaluator.cs" />
+    <Compile Include="_junkyard\Slider\SliderEditor.cs" />
+    <Compile Include="ReferenceWindow_description.cs" />
+    <Compile Include="ReferenceWindow_search.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Wizard\EventHandlerCreationSettingsStep.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\StyleDeclarationDialog.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Data\AddStyleDeclarationPersistedData.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Data\StyleDeclarationDataObject.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Wizard\StyleDeclarationDialogStep2.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Wizard\StyleDeclarationDialogStep1.cs" />
+    <Compile Include="Dialogs\StyleDeclaration\Wizard\StyleDeclarationCreationStep.cs" />
+    <Compile Include="Dialogs\UpdateCheckDialog.cs" />
+    <Compile Include="Dialogs\UpdateCheck\UpdateCheckStep.cs" />
+    <Compile Include="Display\Layout\VerticalLayoutDisplay.cs" />
+    <Compile Include="Editors\ScrollerEditor.cs" />
+    <Compile Include="Editors\Base\eDrivenEditorBase.cs" />
+    <Compile Include="Editors\HScrollBarEditor.cs" />
+    <Compile Include="Editors\Base\ISkinnableComponentFactory.cs" />
+    <Compile Include="_junkyard\Slider\SliderAdapter.cs" />
+    <Compile Include="_junkyard\___SkinStyleMapperEditor.cs" />
+    <Compile Include="Rendering\PropertyDrawers\StylePropertyPropertyDrawer.cs" />
+    <Compile Include="Editors\VScrollBarEditor.cs" />
+    <Compile Include="HierarchyWindow.cs" />
+    <Compile Include="Dialogs\OptionsDialog.cs" />
+    <Compile Include="Dialogs\EditorWindowContentWrapper.cs" />
+    <Compile Include="Dialogs\DialogContentWrapper.cs" />
+    <Compile Include="Display\Order\GroupManager.cs" />
+    <Compile Include="Display\Order\OrderDisplayBuilder.cs" />
+    <Compile Include="GameViewMouseClickProcessor.cs" />
+    <Compile Include="ComponentReference.cs" />
+    <Compile Include="HierarchyState.cs" />
+    <Compile Include="Hierarchy\ChildGroup.cs" />
+    <Compile Include="Hierarchy\ChildGroupPack.cs" />
+    <Compile Include="Hierarchy\ChildGroupPackWriter.cs" />
+    <Compile Include="Hierarchy\SaveablePack.cs" />
+    <Compile Include="Hierarchy\HierarchyDescriber.cs" />
+    <Compile Include="Hierarchy\HierarchyRepairer.cs" />
+    <Compile Include="Hierarchy\ParentChildLinker.cs" />
+    <Compile Include="List\ChildGroup.cs" />
+    <Compile Include="List\ChildGroupRenderingList.cs" />
+    <Compile Include="List\GroupRow.cs" />
+    <Compile Include="Persistence\ComponentRegistry.cs" />
+    <Compile Include="Persistence\TransformRegistry.cs" />
+    <Compile Include="_junkyard\_____PersistedReorder.cs" />
+    <Compile Include="Reflection\ScriptWithEventHandlers.cs" />
+    <Compile Include="Reflection\SkinReflectedData.cs" />
+    <Compile Include="Rendering\LayoutTabBar.cs" />
+    <Compile Include="Rendering\PropertyDrawers\EdgeMetricsPropertyDrawer.cs" />
+    <Compile Include="Rendering\PropertyDrawers\StyleReferencePropertyDrawer.cs" />
+    <Compile Include="Rendering\PropertyDrawers\StyleDeclarationInsetRenderer.cs" />
+    <Compile Include="Rendering\PropertyDrawers\StyleSheetPropertyDrawer.cs" />
+    <Compile Include="Rendering\PropertyDrawers\StyleDeclarationPropertyDrawer.cs" />
+    <Compile Include="Rendering\EditorResourceLoader.cs" />
+    <Compile Include="Rendering\TabBarRenderer.cs" />
+    <Compile Include="Rendering\OptionsBox.cs" />
+    <Compile Include="GUIStyles\StylingOverlay4PxRectStyle.cs" />
+    <Compile Include="GUIStyles\StylingOverlayRectShape.cs" />
+    <Compile Include="Styles\StylingOverlayStage.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="StylingOverlayConnector.cs" />
+    <Compile Include="Update\CheckForUpdatePeriodTranslation.cs" />
+    <Compile Include="Update\Configuration.cs" />
+    <Compile Include="Update\InfoMessage.cs" />
+    <Compile Include="Update\IUpdate.cs" />
+    <Compile Include="Update\UpdateCheck.cs" />
+    <Compile Include="Update\UpdateCheckInfo.cs" />
+    <Compile Include="Update\Update_1_12.cs" />
+    <Compile Include="Dialogs\AboutDialog.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Data\AddHandlerAction.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Data\PersistedDataProcessingLogic.cs" />
+    <Compile Include="Dialogs\AddEventHandler\PostPlayModeStoppScriptProcessor.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Data\AddEventHandlerPersistedData.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Data\PersistedDataProcessor.cs" />
+    <Compile Include="Dialogs\AddEventHandler\EventDescriptions.cs" />
+    <Compile Include="Dialogs\AddEventHandler\EventHandlerScriptRetriever.cs" />
+    <Compile Include="Dialogs\AddEventHandler\GameObjectEventHandlerScriptListBuilder.cs" />
+    <Compile Include="Dialogs\AddEventHandler\EventHandlerRetriever.cs" />
+    <Compile Include="Dialogs\AddEventHandler\GameObjectEventHandlerMethodListBuilder.cs" />
+    <Compile Include="Dialogs\AddEventHandler\ScriptGenerators\AutogeneratedHeader.cs" />
+    <Compile Include="Dialogs\AddEventHandler\ScriptGenerators\BooSnippetGenerator.cs" />
+    <Compile Include="Dialogs\AddEventHandler\ScriptGenerators\CSharpSnippetGenerator.cs" />
+    <Compile Include="Dialogs\AddEventHandler\ScriptGenerators\ISnippetGenerator.cs" />
+    <Compile Include="Dialogs\AddEventHandler\ScriptGenerators\SnippetCreator.cs" />
+    <Compile Include="Dialogs\AddEventHandler\ScriptGenerators\JavascriptSnippetGenerator.cs" />
+    <Compile Include="Dialogs\PurchaseDialog.cs" />
+    <Compile Include="Util\StringUtil.cs" />
+    <Compile Include="Dialogs\ToolboxDialog.cs" />
+    <Compile Include="Dialogs\AddEventHandler\AddEventHandlerDialog.cs" />
+    <Compile Include="RenderingDebugWindow.cs" />
+    <Compile Include="Data\BindableStringDataProviderEditor.cs" />
+    <Compile Include="Delta.cs" />
+    <Compile Include="DipSwitches.cs" />
+    <Compile Include="AdapterAnalysis.cs" />
+    <Compile Include="eDrivenLinks.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Help.cs" />
+    <Compile Include="HierarchyComparer.cs" />
+    <Compile Include="Hierarchy\HierarchyBuilder.cs" />
+    <Compile Include="Hierarchy\Node.cs" />
+    <Compile Include="Info.cs" />
+    <Compile Include="IO\AttachExistingScriptFileScan.cs" />
+    <Compile Include="IO\CreateNewHandlerScriptFileScan.cs" />
+    <Compile Include="IO\CreateNewHandlerScriptFileExec.cs" />
+    <Compile Include="IO\ScriptExtensions.cs" />
+    <Compile Include="IO\Util.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Data\AddHandlerDataObject.cs" />
+    <Compile Include="Persistence\AudioMapperAdditionProcessor.cs" />
+    <Compile Include="Dialogs\AddEventHandler\PostCompileScriptProcessor.cs" />
+    <Compile Include="Persistence\FontMapperAdditionProcessor.cs" />
+    <Compile Include="Persistence\HierarchyViewDecorator.cs" />
+    <Compile Include="Prerequisites\OverlayPrerequisitesChecker.cs" />
+    <Compile Include="Reflection\EditorReflector.cs" />
+    <Compile Include="Rendering\AboutBox.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Wizard\EventHandlerListStep.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Wizard\ScriptActionsStep.cs" />
+    <Compile Include="Rendering\BreadcrumbsMain.cs" />
+    <Compile Include="Rendering\PurchaseBox.cs" />
+    <Compile Include="Rendering\IWizardStep.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Dto\ScriptDesc.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Dto\EventDesc.cs" />
+    <Compile Include="Dialogs\AddEventHandler\Wizard\EventListStep.cs" />
+    <Compile Include="Rendering\SpecialGrupRenderer.cs" />
+    <Compile Include="Rendering\InsetRenderer.cs" />
+    <Compile Include="Rendering\MainTabBar.cs" />
+    <Compile Include="Rendering\Toolbar.cs" />
+    <Compile Include="SceneInitializer.cs" />
+    <Compile Include="Processing\EditorState.cs" />
+    <Compile Include="Util\IconSetter.cs" />
+    <Compile Include="Util\PrefabUtil.cs" />
+    <Compile Include="_junkyard\____DataSourceSingleton.cs" />
+    <Compile Include="Data\ListItemDataProviderEditor.cs" />
+    <Compile Include="Data\StringDataProviderEditor.cs" />
+    <Compile Include="Display\DisplayBase.cs" />
+    <Compile Include="Display\EventDisplay.cs" />
+    <Compile Include="Display\LayoutDisplay.cs" />
+    <Compile Include="Display\Layout\AbsoluteLayoutDisplay.cs" />
+    <Compile Include="Display\Layout\HorizontalLayoutDisplay.cs" />
+    <Compile Include="Display\Layout\LayoutDisplayBase.cs" />
+    <Compile Include="Display\Layout\TileLayoutDisplay.cs" />
+    <Compile Include="Display\OrderDisplay.cs" />
+    <Compile Include="EditorSettings.cs" />
+    <Compile Include="Editors\ButtonEditor.cs" />
+    <Compile Include="Editors\CheckBoxEditor.cs" />
+    <Compile Include="Editors\ComboBoxEditor.cs" />
+    <Compile Include="Editors\Base\ComponentEditor.cs" />
+    <Compile Include="Editors\Base\ComponentEditorBase.cs" />
+    <Compile Include="Editors\GroupEditor.cs" />
+    <Compile Include="Editors\DialogEditor.cs" />
+    <Compile Include="_junkyard\eDrivenEditorWindowBase.cs" />
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="Editors\Base\GuiEditor.cs" />
+    <Compile Include="Editors\ImageEditor.cs" />
+    <Compile Include="Editors\LabelEditor.cs" />
+    <Compile Include="Editors\ListEditor.cs" />
+    <Compile Include="Editors\NumericStepperEditor.cs" />
+    <Compile Include="Editors\PanelEditor.cs" />
+    <Compile Include="Editors\SpacerEditor.cs" />
+    <Compile Include="Editors\StageEditor.cs" />
+    <Compile Include="Editors\TabNavigatorEditor.cs" />
+    <Compile Include="Editors\TextFieldEditor.cs" />
+    <Compile Include="List\DraggableItem.cs" />
+    <Compile Include="List\DraggableList.cs" />
+    <Compile Include="List\EventDisplayRow.cs" />
+    <Compile Include="List\ItemAction.cs" />
+    <Compile Include="List\OrderDisplayRow.cs" />
+    <Compile Include="_junkyard\___EditorDllTest.cs" />
+    <Compile Include="Processing\PlayModeStateChangeEmitter.cs" />
+    <Compile Include="Persistence\PersistanceManager.cs" />
+    <Compile Include="Persistence\PersistedAction.cs" />
+    <Compile Include="Persistence\PersistedComponent.cs" />
+    <Compile Include="Persistence\PersistedState.cs" />
+    <Compile Include="Persistence\PersistedNameChange.cs" />
+    <Compile Include="DesignModeStrategy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rendering\Breadcrumbs.cs" />
+    <Compile Include="Rendering\SynchronizedBlock.cs" />
+    <Compile Include="Rendering\GuiContentCache.cs" />
+    <Compile Include="Rendering\PanelRenderer.cs" />
+    <Compile Include="Rendering\ComponentTypeDesc.cs" />
+    <Compile Include="Rendering\GroupDesc.cs" />
+    <Compile Include="Rendering\Toolbox.cs" />
+    <Compile Include="Rendering\ToolboxInitializer.cs" />
+    <Compile Include="Rendering\StyleCache.cs" />
+    <Compile Include="Rendering\TextureCache.cs" />
+    <Compile Include="_junkyard\___HighlightComponentsInChildren.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eDriven.Audio\eDriven.Audio.csproj">
+      <Project>{17E1EE8E-D5BB-4816-8548-ABB5B78A5EAF}</Project>
+      <Name>eDriven.Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven.Core\eDriven.Core.csproj">
+      <Project>{F4447751-B5FB-43CE-88F5-9BDF05B87F1E}</Project>
+      <Name>eDriven.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven.Gui.Designer\eDriven.Gui.Designer.csproj">
+      <Project>{4B77BB15-C683-4EC2-B62F-49D36AD2604A}</Project>
+      <Name>eDriven.Gui.Designer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven.Gui\eDriven.Gui.csproj">
+      <Project>{FD30C434-F7A6-4F23-8C20-CBE56A49EDB6}</Project>
+      <Name>eDriven.Gui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy $(TargetPath) $(SolutionDir)\Assets\eDriven\Libs\Editor\ /Y
+Copy $(TargetDir)$(TargetName).pdb $(SolutionDir)\Assets\eDriven\Libs\Editor\ /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

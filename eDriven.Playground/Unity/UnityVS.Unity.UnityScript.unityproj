@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB926BD7-2AA1-F047-0DC6-25F657179D21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{84365F2C-1DDE-431A-8C14-179ADC971E4D};{1FAC5C55-277D-4884-94A4-83DBDAF57E56}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_64;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_64;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriven.Animation">
+      <HintPath>Assets\eDriven\Libs\eDriven.Animation.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriven.Audio">
+      <HintPath>Assets\eDriven\Libs\eDriven.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriven.Core">
+      <HintPath>Assets\eDriven\Libs\eDriven.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriven.Drupal7">
+      <HintPath>Assets\eDriven\Libs\eDriven.Drupal7.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriven.Gui.Designer">
+      <HintPath>Assets\eDriven\Libs\eDriven.Gui.Designer.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriven.Gui">
+      <HintPath>Assets\eDriven\Libs\eDriven.Gui.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriven.Networking">
+      <HintPath>Assets\eDriven\Libs\eDriven.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>Assets\eDriven\Libs\JsonFx.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\eDriven\Demo\_shared\Code\RotationScript.js" />
+    <Compile Include="Assets\eDriven\Demo\_shared\Scripts\FPSWalker.js" />
+    <Compile Include="Assets\eDriven\Demo\_shared\Scripts\MouseOrbit.js" />
+    <None Include="Assets\eDriven\_README.txt" />
+    <None Include="Assets\eDriven\Attribution\3rdParty\adrianTNT\readme.txt" />
+    <None Include="Assets\eDriven\Attribution\3rdParty\icons\wheelwork.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\Apache Flex\LICENSE.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\Apache Flex\NOTICE.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\famfamfam_silk_icons_v013.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\Fugue Icons.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\hydroxygen_iconset.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\JsonFX.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\olney.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\sans_nouveaux.txt" />
+    <None Include="Assets\eDriven\Attribution\Attribution\silkcompanion.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\attribution.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\olney.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\sans_nouveaux.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\wheelwork.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\3rdParty\Icons\wheelwork.txt" />
+    <None Include="Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
+    <None Include="Assets\eDriven\Demo\_shared\Prefabs\Earth\Planet.shader" />
+    <None Include="Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+    <None Include="Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
+    <None Include="Assets\eDriven\Resources\Cursors\default\package.xml" />
+    <None Include="Assets\eDriven\Resources\Progress\default\package.xml" />
+    <None Include="Assets\eDriven\Resources\Progress\purple\package.xml" />
+    <None Include="Assets\eDriven\Resources\Progress\wheelwork\package.xml" />
+    <None Include="Assets\eDriven\Resources\Reflection\reflection.txt" />
+    <None Include="Assets\eDriven\Util\WebPlayer\readme.txt" />
+    <None Include="Assets\eDriven\Libs\eDriven.Animation.dll" />
+    <None Include="Assets\eDriven\Libs\eDriven.Audio.dll" />
+    <None Include="Assets\eDriven\Libs\eDriven.Core.dll" />
+    <None Include="Assets\eDriven\Libs\eDriven.Drupal7.dll" />
+    <None Include="Assets\eDriven\Libs\eDriven.Gui.Designer.dll" />
+    <None Include="Assets\eDriven\Libs\eDriven.Gui.dll" />
+    <None Include="Assets\eDriven\Libs\eDriven.Networking.dll" />
+    <None Include="Assets\eDriven\Libs\JsonFx.Json.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets" />
+    <Folder Include="Assets\eDriven" />
+    <Folder Include="Assets\eDriven\Attribution" />
+    <Folder Include="Assets\eDriven\Attribution\3rdParty" />
+    <Folder Include="Assets\eDriven\Attribution\3rdParty\adrianTNT" />
+    <Folder Include="Assets\eDriven\Attribution\3rdParty\icons" />
+    <Folder Include="Assets\eDriven\Attribution\Attribution" />
+    <Folder Include="Assets\eDriven\Attribution\Attribution\Apache Flex" />
+    <Folder Include="Assets\eDriven\Demo" />
+    <Folder Include="Assets\eDriven\Demo\_shared" />
+    <Folder Include="Assets\eDriven\Demo\_shared\3rdParty" />
+    <Folder Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution" />
+    <Folder Include="Assets\eDriven\Demo\_shared\3rdParty\Icons" />
+    <Folder Include="Assets\eDriven\Demo\_shared\Code" />
+    <Folder Include="Assets\eDriven\Demo\_shared\Materials" />
+    <Folder Include="Assets\eDriven\Demo\_shared\Materials\Diamond" />
+    <Folder Include="Assets\eDriven\Demo\_shared\Prefabs" />
+    <Folder Include="Assets\eDriven\Demo\_shared\Prefabs\Earth" />
+    <Folder Include="Assets\eDriven\Demo\_shared\Scripts" />
+    <Folder Include="Assets\eDriven\Libs" />
+    <Folder Include="Assets\eDriven\Resources" />
+    <Folder Include="Assets\eDriven\Resources\Cursors" />
+    <Folder Include="Assets\eDriven\Resources\Cursors\antialiased-classic" />
+    <Folder Include="Assets\eDriven\Resources\Cursors\blueglass-vista" />
+    <Folder Include="Assets\eDriven\Resources\Cursors\default" />
+    <Folder Include="Assets\eDriven\Resources\Progress" />
+    <Folder Include="Assets\eDriven\Resources\Progress\default" />
+    <Folder Include="Assets\eDriven\Resources\Progress\purple" />
+    <Folder Include="Assets\eDriven\Resources\Progress\wheelwork" />
+    <Folder Include="Assets\eDriven\Resources\Reflection" />
+    <Folder Include="Assets\eDriven\Util" />
+    <Folder Include="Assets\eDriven\Util\WebPlayer" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.UnityScript.targets" />
+</Project>

@@ -1,0 +1,27 @@
+<Configuration>
+  <NamespaceFolders>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Animation/d:Plugins</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Check/d:Xml</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:Button</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:Core</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:Group</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:List</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:NumericStepper/d:Rendering</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:NumericStepper</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:Range</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:ScrollBar</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:ScrollControl</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:Skinning</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Components/d:Slider</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Containers/d:Core</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Containers/d:Panel</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Containers/d:Window</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Form/d:Adapters</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Form/d:Item</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Styles/d:Attributes</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Styles/d:Factories</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Styles/d:Processing</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Styles/d:Proxy</SkipFolder>
+    <SkipFolder>FD30C434-F7A6-4F23-8C20-CBE56A49EDB6/d:Styles/d:Serialization</SkipFolder>
+  </NamespaceFolders>
+</Configuration>

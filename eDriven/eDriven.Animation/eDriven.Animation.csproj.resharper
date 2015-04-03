@@ -1,0 +1,6 @@
+<Configuration>
+  <NamespaceFolders>
+    <SkipFolder>8AC27378-7B1D-420B-AC44-AF217C6E23CC/d:Animation</SkipFolder>
+    <SkipFolder>8AC27378-7B1D-420B-AC44-AF217C6E23CC/d:Tween</SkipFolder>
+  </NamespaceFolders>
+</Configuration>

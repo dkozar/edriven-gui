@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6311E6C6-0A20-383B-320B-694068DE37A5}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_64;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\_shared\Editor\AnimatedLabelEditor.cs" />
+     <Compile Include="Assets\eDriven\Demo\_Development\3D\Editor\CreatePlane.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl\Editor\ExampleEditor.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl2\Editor\ExampleEditor2.cs" />
+     <Compile Include="Assets\eDriven\Extensions\Login\Editor\LoginEditor.cs" />
+     <Compile Include="Assets\eDriven\Libs\Editor\AssetPostprocessors\PngFilePostprocessor.cs" />
+     <Compile Include="Assets\eDriven\Libs\Editor\Audio\AudioPlayerEditor.cs" />
+     <Compile Include="Assets\eDriven\Libs\Editor\Audio\AudioPlayerMapperEditor.cs" />
+     <Compile Include="Assets\eDriven\Libs\Editor\Audio\AudioTokenEditor.cs" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\wheelwork.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution\Apache Flex\LICENSE.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\default\package.xml" />
+     <None Include="Assets\eDriven\Attribution\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution\hydroxygen_iconset.txt" />
+     <None Include="Assets\eDriven\_README.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\attribution.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
+     <None Include="Assets\eDriven\Attribution\Attribution\sans_nouveaux.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution\olney.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution\JsonFX.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\purple\package.xml" />
+     <None Include="Assets\eDriven\Resources\Reflection\reflection.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\sans_nouveaux.txt" />
+     <None Include="Assets\eDriven\Util\WebPlayer\readme.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Prefabs\Earth\Planet.shader" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\olney.txt" />
+     <None Include="Assets\eDriven\Attribution\3rdParty\icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\default\package.xml" />
+     <None Include="Assets\eDriven\Attribution\3rdParty\adrianTNT\readme.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Attribution\Attribution\Apache Flex\NOTICE.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\wheelwork\package.xml" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Animation">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Animation.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Audio">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Audio.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Core">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Drupal7">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Drupal7.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui.Designer">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Gui.Designer.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Gui.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Networking">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui.Editor">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/Editor/eDriven.Gui.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

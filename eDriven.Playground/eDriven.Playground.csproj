@@ -1,0 +1,1032 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{056870C5-C41D-435C-A57D-D74FD13179A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eDriven.Playground</RootNamespace>
+    <AssemblyName>eDriven.Playground</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Asset store|AnyCPU' ">
+    <OutputPath>bin\Asset store\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Production|AnyCPU' ">
+    <OutputPath>bin\Production\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JsonFx.Json, Version=1.4.1003.3007, Culture=neutral, PublicKeyToken=315052dd637f8a52, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\eDriven\_SolutionItems\libs\JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Console\InputEvent.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Console\ConsoleDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Console\ConsoleWindow.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Console\ConsoleField.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Console\ShowEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\DragDrop2\DragDropDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\FloatingLogo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\MenuEventHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ChildrenTest\ChildrenTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ChildrenTest\MyWindow.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ChildrenTest\MyPanel3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ChildrenTest\MyPanel2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ChildrenTest\MyPanel.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\DataGroupDemo\DataGroupDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\DataGroupDemo\DataGroupDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ImageTest\ImageTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\NavigatorDemo\NavigatorDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Sliders\Sliders2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Stuff\ButtonHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Stuff\EasingTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Stuff\EventHandlers2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Stuff\EventHandlers5.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Stuff\TestEventHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\StyleProcessing\OnLevelWasLoadedTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Libs\Editor\AssetPostprocessors\PngFilePostprocessor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\ButtonBar\ButtonBarSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Button\MyButtonSkin4.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Button\MyButtonSkin3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Button\MyButtonSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\List\BigItemRenderer.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\List\ListSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VSlider\VSliderButtonSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VSlider\VSliderSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VSlider\VSliderSkin3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VSlider\VSliderTrackSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HSlider\HSliderButtonSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HSlider\HSliderSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HSlider\HSliderSkin3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HSlider\HSliderTrackSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HScrollBar\HScrollBarButtonSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HScrollBar\HScrollBarSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HScrollBar\HScrollBarSkin3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\HScrollBar\HScrollBarTrackSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\NumericStepper\NumericStepperSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\NumericStepper\NumericStepperButtonSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Panel\MyPanelSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Connectors\ContentLoader.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Connectors\DrupalConnector.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Connectors\FacebookConnector.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Connectors\LinkData.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Dialogs\CommentsDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Dialogs\DemoDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Dialogs\LoginDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Dialogs\NewsDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Dialogs\PostCommentDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Dialogs\VideoDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Dialogs\VideoPlayerDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Loaders\TextureLoader.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Main.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\ParamCallback.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Portlets\CommentPortlet.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Portlets\CommentPortlet2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Portlets\DemoPortlet.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Portlets\GraphicsUtil.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Portlets\IPortlet.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Portlets\NewsPortlet.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Portlets\VideoPortlet.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\Drupal7\CommentInfo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\Drupal7\Demo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\Drupal7\EDrivenConnectResponse.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\Drupal7\IImage.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\Drupal7\News.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\Drupal7\NodeInfo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\Drupal7\Video.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Serialization\JsonFxWrapper.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Tabs.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Util\DemoLoader.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Util\LinkOpener.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Util\LinkUtil.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\_junkyard\AudioPlayerMapper2_____.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\_junkyard\ISlot.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\_junkyard\IStrictSignal.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\_junkyard\PowerMapperT_____.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\_junkyard\StrictSignal.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\LayoutTest\LayoutTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ScrollableContainer\ScrollableContainerDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ScrollBarTest\ScrollBarTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Simple.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\CustomControlsDemo\CustomControlsDemoHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\DataControls\ListFiller.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\3D\Editor\CreatePlane.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\3D\LockScale.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\ChatDemo\ChatDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\DataList\DataListDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\DragDrop3\DragDropDemo3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\GamingWayScript\GamingWayDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\GamingWayScript\GamingWayScript.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\GamingWayScript\WatchTargetScript.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\SimpleSkinMeasurementTest\SimpleSkinMeasurementTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\StyleProcessing\StyleProcessing.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Test0\Test2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Test0\Test3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Test3\ExampleEventHandlerScript.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Test3\Test3EventHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Test\TestHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Timer\TimerTest2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\_other\Countdown.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\_other\EditorScriptWWWExample.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\_other\GuiMenu.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\_other\HealthGui.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\_other\SerializationExample.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\_other\TouchTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Effects\CollapseEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Effects\ButtonRolloverEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Effects\ButtonRolloutEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Effects\ExpandEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Effects\DialogSlideUpEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Effects\JumpyEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Effects\FallDownToCenterEffect.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Scripts\OptionsToolbarStage.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\CollapseAlphaLeftTop.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\ButtonRollover.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\ButtonRollout.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Scripts\SpaceCamera.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\PortletBackgroundStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\PurpleButtonStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\GreenButtonStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\TabSelectedButtonStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\TabButtonStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\ImageStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\PortletOverlayStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Styles\PortletHeaderStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo1\CustomEvent.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo1\EventDispatcherDemo1.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo1\EventDispatcherScript.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo1\EventListenerScript.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo2\EventDispatcherDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo2\EventDispatcherScript2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo2\EventListenerScript2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\Timer\Demo1\TimerDemo1.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\Timer\Demo2\Randomizer.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Core\Timer\Demo2\TimerDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\AbsoluteLayout2\AbsoluteLayoutDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\AbsoluteLayout2\Stuff.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\AbsoluteLayout\AbsoluteLayoutDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\AddChild\AddChildDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\AddChild\AddChildDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Animation\AnimationDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Animation\ThePanel.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\AutoLayout\AutoLayoutDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\ChildControls\ChildControlsDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\ChildControls\ListRow.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Cursors\CursorDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\DragDrop\DragDropDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\DragDrop\GreenLabelStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\DragDrop\YellowLabelStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Dummy\DummyDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\EventBubbling\EventBubblingDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Form2\FormDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Form\FormDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\HelloWorld\HelloWorld.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\Flickr\PhotosSearch.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\LoadImages.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\OptionsPopup.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\Styles\OptionsPopupBackgroundStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\Styles\SearchContainerBackgroundStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\Styles\SearchLabelStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\Thumbnail.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadingMask\LoadingMaskDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadLevel\LoadLevelDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Resizable\ResizableDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\SlidersComposite\RgbSliders.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\SlidersComposite\SlidersComposite.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Code\Sliders\Sliders.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\ButtonDemo\ButtonDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\DataControls\DataControlsDemoHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\DialogDemoHandlers.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Adapters\AnimatedLabelAdapter.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Animations\Animations.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Editor\AnimatedLabelEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\3D\ThreeD.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Tween2\FlyingBeeInterpolator3D.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Tween2\TweenDemo2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_Development\Tween\TweenDemo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Components\HesitantButton.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Components\HesitantLabel.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Components\Options.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Components\PanelSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Components\TextRotator.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Dialogs\ResolutionDialog.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Helpers\EasingHelper.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Helpers\QualityHelper.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Helpers\ResolutionHelper.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Helpers\TileHelper.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Models\OptionsModel.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Scripts\EDrivenLogo.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Scripts\OptionsToolbar.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Styles\BlueLabelStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Styles\ButtonsStyle2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Styles\EDrivenButtonStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Styles\HesitantLabelStyle.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\BounceDown.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\_____CollapseUpLeftAlpha.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\CommentFadeIn.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\DataListChildAdd.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\DialogFadeOut.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\DialogFallDown.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\DialogResizeUp.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\DialogSlideDown.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\DialogSlideUp.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\ExpandRightDownAlpha.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeIn.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeIn2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeInLeft.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeInLeft2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeInLeftBounce.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUp.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUp2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUp3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUpLeft.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FadeOut.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FallDownToCenter.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\FlyToLeft.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\Interpolators\FlyingBeeInterpolator.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\Jumpy.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\ZeroFadeIn.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Code\Tweens\ZeroFadeOut.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Earth\Planet.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Scripts\iTween.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Scripts\MouseLook.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Scripts\MouseLook2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Scripts\MouseOrbitCs.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Scripts\ReflectionTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\Scripts\TestClass.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\_bugs\ClippedTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\_bugs\GuiEventProcessingOrderBug.cs" />
+    <Compile Include="Unity\Assets\eDriven\Demo\_shared\_bugs\ScrollViewTest.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Chat.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____Chat.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatControllerEvent.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatDescriptor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatManager.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\ChatMessageDto.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatToolbar.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatToolbarButton.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\ChatView.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatWindow.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatWindowCreationPolicy.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatWindowManager.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____ChatWindowManagerException.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Code\_____IChatDescriptorCollectionView.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\ChatViewAdapter.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Chat\Editor\ChatViewEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\ExampleControl2\ExampleEvent.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Login\Editor\LoginEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Login\LoginEvent.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Login\LoginAdapter.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Login\Login.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\ExampleControl2\Editor\ExampleEditor2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\ExampleControl2\ExampleAdapter2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\ExampleControl2\ExampleControl2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\ExampleControl\Editor\ExampleEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\ExampleControl\ExampleAdapter.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\ExampleControl\ExampleControl.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Slider\Editor\SliderEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Extensions\Slider\SliderAdapter.cs" />
+    <Compile Include="Unity\Assets\eDriven\Libs\Editor\Audio\AudioPlayerEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Libs\Editor\Audio\AudioPlayerMapperEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Libs\Editor\Audio\AudioTokenEditor.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Button\MyButtonSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Panel\MyPanelSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Panel\PanelSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Scroller\ScrollerSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VScrollBar\VScrollBarTrackSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VScrollBar\VScrollBarSkin3.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VScrollBar\VScrollBarButtonSkin.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\VScrollBar\VScrollBarSkin2.cs" />
+    <Compile Include="Unity\Assets\eDriven\Skins\Window\WindowSkin2.cs" />
+    <Compile Include="Unity\Assets\TestKeys.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MIT-LICENSE.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\Icons\exit.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\Icons\hi_scores.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\Icons\main_menu.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\Icons\options.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\Icons\play.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\Images\preloader.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\_junkyard\gui.xml" />
+    <Content Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\_junkyard\_junkyard.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_Development\Stuff\EventHandlers1.js" />
+    <Content Include="Unity\Assets\eDriven\Demo\_Development\Stuff\EventHandlers4.js" />
+    <Content Include="Unity\Assets\eDriven\Demo\_Development\Stuff\RotationScript.js" />
+    <Content Include="Unity\Assets\eDriven\Demo\_Development\_other\_junkyard.txt" />
+    <Content Include="Unity\Assets\eDriven\_README_FREE_VERSION.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Attribution\attribution.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Attribution\olney.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Attribution\sans_nouveaux.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Attribution\wheelwork.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Icons\wheelwork.txt" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Hit_01_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Hit_02_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Hit_03_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Hit_04_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Melody_01_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Melody_02_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Modern_08_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Modern_09_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Modern_13_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Modern_15_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Audio\Indigo\Modern_20_16bit.wav" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Gizmos\gizmo_dispatcher.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Gizmos\gizmo_listener.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Gizmos\gizmo_structure_generator.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Brick\ConcreteBrick_0.bmp" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Brick\ConcreteBrick_0b.tga" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Logo\Logo.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Logo\Logo_.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox\Images\Bluesky Back.jpg" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox\Images\Bluesky Down.jpg" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox\Images\Bluesky Front.jpg" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox\Images\Bluesky Left.jpg" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox\Images\Bluesky Right.jpg" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox\Images\Bluesky Up.jpg" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Scripts\FPSWalker.js" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Scripts\MouseOrbit.js" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\box.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\button active.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\button hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\button on hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\button on.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\button.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\horizontal scrollbar thumb.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\horizontal scrollbar.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\horizontalslider.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\slider thumb active.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\slider thumb.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\slidert humb hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\textfield hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\textfield on.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\textfield.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\toggle active.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\toggle hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\toggle on active.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\toggle on hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\toggle on.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\toggle.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\vertical scrollbar thumb.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\vertical scrollbar.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\verticalslider.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\window on.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\window.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\button.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\button_active.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\button_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\checkbox.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\checkbox_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\checkbox_selected.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\checkbox_selected_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_button.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_button_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_item.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_item_active.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_item_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_list_overlay.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_popup.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_popup_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_scrollbar_thumb.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_scrollbar_thumb_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\combo_scrollbar_track.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\handle_east.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\handle_east_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\handle_south.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\handle_south_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\list_background.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\list_overlay.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\panel_background.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\panel_header.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\rounded_button.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\rounded_button_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven2\Graphics\inspector_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven2\Graphics\inspector_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven2\Graphics\inspector_selected.png" />
+    <Content Include="Unity\Assets\eDriven\Gizmos\gizmo_dispatcher.png" />
+    <Content Include="Unity\Assets\eDriven\Gizmos\gizmo_listener.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\dd-accept.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\dd-copy.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\dd-link.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\dd-move.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\dd-reject.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\LargeLightbulb-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F11-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F12-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\PendulumArrow\PendulumArrow-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\pointer.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\Precision-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothAlternateSelect-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothArrow-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothBlackRedNo\SmoothBlackRedNo-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothDiagonal1-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothDiagonal2-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHand-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHandwriting-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHorizontalSize-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F11-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothHourglass\SmoothHourglass-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothMove-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothNo-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothQuestion-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothVerticalSize-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\SmoothWorking\SmoothWorking-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\antialiased-classic\TextSelect-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassAlternateSelect-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassArrow-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassBook\BlueGlassBook-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F11-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F12-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F13-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F14-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassBusy\BlueglassBusy-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassHelp\BlueglassHelp-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassLink-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassPencil-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassPrecision-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassSizeAll-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassSizeNESW-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassSizeNS-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassSizeNWSE-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassSizeWE-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassTextSelect-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueGlassUnavailable-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\BlueglassWorking\BlueglassWorking-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\dd-accept.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\dd-copy.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\dd-link.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\dd-move.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\dd-reject.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\dd-accept.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\dd-copy.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\dd-link.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\dd-move.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\dd-reject.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\LargeLightbulb-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\package.xml" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F11-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F12-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\PendulumArrow\PendulumArrow-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\pointer.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\Precision-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothAlternateSelect-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothArrow-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothBlackRedNo\SmoothBlackRedNo-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothDiagonal1-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothDiagonal2-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHand-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHandwriting-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHorizontalSize-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F10-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F11-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothHourglass\SmoothHourglass-F9-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothMove-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothNo-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothQuestion-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothVerticalSize-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F2-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F3-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F4-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F5-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F6-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F7-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\SmoothWorking\SmoothWorking-F8-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Cursors\default\TextSelect-F1-32x32x32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\edriven.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\button.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\checkbox.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\combobox.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\container.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\dialog.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\image.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\label.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\list.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\numericstepper.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\panel.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\spacer.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\stage.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\tabnavigator.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Controls\textfield.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\about_panel_content.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\about_panel_content2.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\accept.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\add.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\arrow_refresh.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_first_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_first_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_first_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_first_on_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_on_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_green_on_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_green_on_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_green_on_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_group.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_on_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_on_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_on_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\cancel.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\category-item-select.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\constrains.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\control_button_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\control_button_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\control_button_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\control_pause.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\control_play.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\data_provider.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\delete.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\disk.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\disk_multiple.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\drag_handle.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\events.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\events_deselected.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_flow.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_flow_disabled.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_flow_multiple.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_flow_multiple_disabled.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phases.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phases_on.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phase_bubbling.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phase_bubbling_on.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phase_capture.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phase_capture_on.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phase_target.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phase_target_on.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\exclamation.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\factory.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\factory_disabled.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\fieldset.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\information.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\layout.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\layout_descriptor.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\layout_deselected.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\layout_full.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\lightning_add.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\lightning_delete.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\list.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\list_row.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\magnifier.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\move_down_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\move_down_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\move_up_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\move_up_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\node-magnifier.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\options.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\order.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\order_deselected.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\padding.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\page_white_csharp.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\page_white_edit.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\panel_chrome.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\panel_chrome_old.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\panel_content.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\properties.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\question.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\save.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\scrolling.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\shape_move_forwards.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\shape_square_select.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\sizing.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\table_delete.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_background.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_button_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_button_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_button_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_button_on_active.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_button_on_hover.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_button_on_normal.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\toolbar.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tools.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Logo\logo.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Logo\logo2.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Logo\logo_.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Logo\logo_small.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\accept.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\application.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\application_double.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\application_go.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\arrow_down.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\arrow_refresh.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\arrow_up.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\balloon_32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\cancel.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\clock_32.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\close_16.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\cog.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\color_swatch.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\comment.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\comments.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\comment_add.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\comment_edit.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\compress.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\control_pause_blue.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\control_play_blue.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\control_stop_blue.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\document-smiley-sad.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\drive_disk.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\error.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\facebook.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\font_go.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\house_link.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\information.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\key.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\key_go.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\key_start.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\key_stop.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\link_go.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\lock.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\lock_break.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\lock_open.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\magnifier.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\maximize.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\monitor.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\newspaper.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\page_copy.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\page_white_copy.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\page_white_magnify.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\page_white_put.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\page_white_text.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\restore.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\shape_move_forwards.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\shape_move_front.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\shape_square_add.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\star.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\tab-comment.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\tab-monitor.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\tab-star.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\tab-television.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\television.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Icons\television_out.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Images\danko.jpg" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\default\F1.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\default\F2.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\default\F3.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\default\F4.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\default\F5.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\default\package.xml" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\purple\F1.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\purple\F2.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\purple\F3.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\purple\F4.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\purple\F5.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\purple\package.xml" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\wheelwork\F1.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\wheelwork\F2.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\wheelwork\F3.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\wheelwork\F4.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\wheelwork\F5.png" />
+    <Content Include="Unity\Assets\eDriven\Resources\Progress\wheelwork\package.xml" />
+    <Content Include="Unity\Assets\eDriven\_README.txt" />
+    <Content Include="Unity\eDriven.Playground.csproj" />
+    <Content Include="Unity\eDriven.Playground.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo1\EventDispatcherDemo1.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo2\EventDispatcherDemo2.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Core\EventDispatcher\Demo3.zip" />
+    <None Include="Unity\Assets\eDriven\Demo\Core\Timer\Demo1\TimerDemo1.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Core\Timer\Demo2\TimerDemo2.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\AbsoluteLayout2\AbsoluteLayout2.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\AbsoluteLayout\AbsoluteLayout.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\AddChild\AddChildDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Animation\AnimationDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\AutoLayout\AutoLayoutDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\ChildControls\ChildControlsDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Console\Console.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Cursors\Cursors.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\DragDrop\DragDrop.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Dummy\Dummy.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\EventBubbling\EventBubblingDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Form2\FormDemo2.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Form\FormDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\HelloWorld\HelloWorld.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadImages\LoadImages.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadingMask\LoadingMask.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\LoadLevel\LoadLevel.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Resizable\Resizable.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\SlidersComposite\SlidersComposite.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Code\Sliders\Sliders.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\ButtonDemo\ButtonDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\CustomControlsDemo\CustomControlsDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DataControls\DataControls.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\Components\Dialog.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\Components\HBox with data controls.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\Components\HBox.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\Components\List.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\Components\LoginDialog.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\Components\Panel.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\Components\Vertical.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\DialogDemo\DialogDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\MenuDemo\MenuDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Components\Dialog.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Components\HBox with data controls.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Components\HBox.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Components\List.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Components\LoginDialog.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Components\Panel.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\Gui\Designer\_shared\Components\Vertical.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\3D\3D.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\ChatDemo\ChatDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\DataList\DataList.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\DragDrop3\DragDrop3.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\eDrivenSite.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\GamingWayScript\GamingWayDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\NavigatorDemo\NavigatorDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\ScrollableContainer\ScrollableContainerDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\ScrollBarTest\ScrollBarTest.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\ComboBox.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\Container 1.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\Container.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\EventHandlers.boo" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\EventHandlers3.boo" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\HBox.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\Panel.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\Test.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Stuff\VBox.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Test0\Test.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Test2\Test2.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Test3\Test3.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Test\Test.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Timer\TimerTest.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Tween2\TweenDemo2.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\Tween\TweenDemo.unity" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\_other\Button with event handlers.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_Development\_other\TestAnim.anim" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Fonts\olney_light.zip" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Fonts\px_sans_nouveaux.zip" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Icons\antialiased-classic.zip" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Icons\blueglass-vista.zip" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Icons\Icon and cursor licensing.mht" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\3rdParty\Icons\wheelwork.ani" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Fonts\olney_light.otf" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Fonts\px_sans_nouveaux.ttf" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Brick\brick.mat" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Diamond\diamond.mat" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Diamond\light reflection cubemap.cubemap" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Diamond\refractions.cubemap" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Grass\Cliff %28Layered Rock%29.psd" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Grass\GoodDirt.psd" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Grass\Grass %28Hill%29.psd" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Grass\Grass&amp;Rock.psd" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Logo\Logo.mat" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox.rar" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Materials\Skybox\Blue sky.mat" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Physic Materials\Bouncy.physicmaterial" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Physic Materials\Ice.physicmaterial" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Physic Materials\Metal.physicmaterial" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Physic Materials\Rubber.physicmaterial" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Physic Materials\Wood.physicmaterial" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Audio.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Audio2.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Connection.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Cube.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Cube2.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Earth\Earth.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\eDrivenLogo.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Fonts.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\GuiInspector.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Mappers.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Necromancer.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Playground %28eDriven%29.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Playground %28Space%29.prefab" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Prefabs\Shaders\Resources\Planet.shader" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Skin.guiskin" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Skins\Builtin skin\Sources\source Photoshop file.psd" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\eDriven1.guiskin" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven1\Graphics\circle.psd" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven2\eDriven2.guiskin" />
+    <None Include="Unity\Assets\eDriven\Demo\_shared\Skins\eDriven2\Graphics\inspector.zip" />
+    <None Include="Unity\Assets\eDriven\Resources\Cursors\default\Drag&amp;DropOperations.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\breadcrumb_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_green_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\button_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\control_button_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_flow_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\event_phases_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Icons\tab_button_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\eDriven\Editor\Logo\logo_small_psd.psd" />
+    <None Include="Unity\Assets\eDriven\Resources\Icons\tabs1.zip" />
+    <None Include="Unity\Assets\eDriven\Resources\Progress\purple\F1.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eDriven\eDriven.Animation\eDriven.Animation.csproj">
+      <Project>{8AC27378-7B1D-420B-AC44-AF217C6E23CC}</Project>
+      <Name>eDriven.Animation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Audio\eDriven.Audio.csproj">
+      <Project>{17E1EE8E-D5BB-4816-8548-ABB5B78A5EAF}</Project>
+      <Name>eDriven.Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Core\eDriven.Core.csproj">
+      <Project>{F4447751-B5FB-43CE-88F5-9BDF05B87F1E}</Project>
+      <Name>eDriven.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Drupal7\eDriven.Drupal7.csproj">
+      <Project>{C7B0C53E-3807-4443-A0EF-7603493C2B8C}</Project>
+      <Name>eDriven.Drupal7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Gui.DataControls\eDriven.Gui.DataControls.csproj">
+      <Project>{FC54B9B4-14D4-4FD9-80C0-054249479C63}</Project>
+      <Name>eDriven.Gui.DataControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Gui.Data\eDriven.Gui.Data.csproj">
+      <Project>{669B8E97-9ED1-4B09-A27F-DD07FF0E2CE2}</Project>
+      <Name>eDriven.Gui.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Gui.Designer\eDriven.Gui.Designer.csproj">
+      <Project>{4B77BB15-C683-4EC2-B62F-49D36AD2604A}</Project>
+      <Name>eDriven.Gui.Designer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Gui.Editor\eDriven.Gui.Editor.csproj">
+      <Project>{A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB}</Project>
+      <Name>eDriven.Gui.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Gui\eDriven.Gui.csproj">
+      <Project>{FD30C434-F7A6-4F23-8C20-CBE56A49EDB6}</Project>
+      <Name>eDriven.Gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven\eDriven.Networking\eDriven.Networking.csproj">
+      <Project>{7D407BA0-36E8-4B16-B69F-4AE63FAD1A8B}</Project>
+      <Name>eDriven.Networking</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Libs\" />
+    <Folder Include="Unity\Assets\eDriven\Demo\_Development\eDrivenUnity\3rdParty\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

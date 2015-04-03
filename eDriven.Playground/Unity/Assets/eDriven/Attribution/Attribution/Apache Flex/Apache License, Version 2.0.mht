@@ -1,0 +1,3583 @@
+From: <Saved by UnMHT Ver.6.3.3>
+Subject: Apache License, Version 2.0
+Date: Sun, 18 Aug 2013 18:48:43 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_Part_2E46544_B0160A0.1376844523121";
+	type="text/html"
+
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/licenses/LICENSE-2.0.html
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang=3D"en"><head><meta http-equiv=3D"Content-Type" content=3D"text/h=
+tml; charset=3DUTF-8"><link rel=3D"shortcut icon" href=3D"data:image/png;ba=
+se64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB7UlEQVQ4jZXTz0vTARzG8S=
+9u3+/WXJ2C6LCCJOpSUJeIDiUEXqJfZBCURBmt/FGHaSbFmmTbsg4jpkag0qJgW1iGOIuyYsgiq=
+YiWy+nWNuecuTKRuc25d9dObnv+gBcPfD6PMPa5k4lvLUyNO1lKzCEUm9CXNty2o3waPIa//Aoz=
+PXZSv2cLh/7OjRIYOolbe4ibqy/xUmkmuFPLtLWH9EKBjeYDXiLlNQwqdJyQXcAi7+RVqZHY5io=
+SbndhyB/nOzwbmzErnrNXvMFhqZ1huZHptaeYNFnJLqbzQ9/vu+jVWHgju81xycJ+qY4XCivR0m=
+rC+xpJhkIrI7lcjniLlVF1PTaxm3OSk+1iJV2KDnwl9cSqqpn3e1dGlrNLxNofE1Kf5bXciE56w=
+hb5QUwqO2PiZaZ2n2ZhNg8iCILwq9fF+Loz9Mvucl7RR5l4BIP6PR/EW0S1DWQzi/mRmO4eAXkt=
+3eJDDqjeslWqoXHNKD81JhIDT/MDy+kMsYpmRkqu0aQcZpfyGRUqM19lV5mpNBR23uRElIjmIkM=
+yI7WrRiiTmmjd0IG7a4BwPF4g8iNCcH0DNvkD6vZ8ZNO2Hdyx9+ELhQt/+aRvEr/BRdujfq63mn=
+A4HMUPL5lK4Q2GyGQy6PX64oH/4/F4EARB+AdoHDO6s2BWZwAAAABJRU5ErkJggg=3D=3D" typ=
+e=3D"image/png">
+    <title>Apache License, Version 2.0</title>
+
+   =20
+    <meta content=3D"http://www.apache.org/images/asf_logo.gif" property=3D=
+"og:image">
+
+    <link href=3D"/css/style.css" media=3D"screen" type=3D"text/css" rel=3D=
+"stylesheet">
+    <link href=3D"/css/code.css" media=3D"screen" type=3D"text/css" rel=3D"=
+stylesheet">
+
+    <script src=3D"/js/jquery.js" type=3D"text/javascript"></script>
+    <script src=3D"/js/apache_boot.js" type=3D"text/javascript"></script>
+
+   =20
+
+   =20
+    <!-- Licensed to the Apache Software Foundation (ASF) under one or more=
+ contributor license agreements.  See the NOTICE file distributed with this=
+ work for additional information regarding copyright ownership.  The ASF li=
+censes this file to you under the Apache License, Version 2.0 (the &quot;Li=
+cense&quot;); you may not use this file except in compliance with the Licen=
+se.  You may obtain a copy of the License at . http://www.apache.org/licens=
+es/LICENSE-2.0 . Unless required by applicable law or agreed to in writing,=
+ software distributed under the License is distributed on an &quot;AS IS&qu=
+ot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or=
+ implied.  See the License for the specific language governing permissions=
+ and limitations under the License. -->
+  <base href=3D"http://www.apache.org/licenses/"></head>
+
+  <body>
+    <div class=3D"container_16" id=3D"page">
+      <div class=3D"grid_8" id=3D"header">
+        <img alt=3D"The Apache Software Foundation" src=3D"/images/feather-=
+small.gif">
+        <h1>The Apache Software Foundation</h1>
+        <h2>Apache License, Version 2.0</h2>
+      </div>
+      <div class=3D"grid_8" id=3D"nav">
+        <ul>
+          <!-- <li><a href=3D"/" title=3D"Welcome!">Home</a></li> -->
+          <li><a title=3D"The Foundation" href=3D"/foundation/">Foundation<=
+/a></li>
+          <li><a title=3D"The Projects" href=3D"http://projects.apache.org"=
+>Projects</a></li>
+          <li><a title=3D"The People" href=3D"http://people.apache.org">Peo=
+ple</a></li>
+          <li><a title=3D"Get Involved" href=3D"/foundation/getinvolved.htm=
+l">Get Involved</a></li>
+          <li><a title=3D"Download" href=3D"/dyn/closer.cgi">Download</a></=
+li>
+          <li><a title=3D"Support Apache" href=3D"/foundation/sponsorship.h=
+tml">Support Apache</a></li>
+        </ul>
+        <p><a href=3D"/">Home</a>&#xa0;=C2=BB&#xa0;<a href=3D"/licenses/">L=
+icenses</a></p>
+        <form method=3D"get" action=3D"http://www.google.com/search" id=3D"=
+search" name=3D"search">
+          <input type=3D"hidden" name=3D"sitesearch" value=3D"apache.org">
+          <input type=3D"text" id=3D"query" name=3D"q" value=3D"">
+          <input type=3D"submit" id=3D"submit" value=3D"Search">
+        </form>
+      </div>
+      <div class=3D"clear"></div>
+      <div class=3D"grid_16" id=3D"content"><div class=3D"section-content">=
+<p>Apache License<br><br>Version 2.0, January 2004<br><br>
+<a href=3D"http://www.apache.org/licenses/">http://www.apache.org/licenses/=
+</a> </p>
+<p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
+<p><strong><a name=3D"definitions">1. Definitions</a></strong>.</p>
+<p>&quot;License&quot; shall mean the terms and conditions for use, reprodu=
+ction, and
+distribution as defined by Sections 1 through 9 of this document.</p>
+<p>&quot;Licensor&quot; shall mean the copyright owner or entity authorized=
+ by the
+copyright owner that is granting the License.</p>
+<p>&quot;Legal Entity&quot; shall mean the union of the acting entity and=
+ all other
+entities that control, are controlled by, or are under common control with
+that entity. For the purposes of this definition, &quot;control&quot; means=
+ (i) the
+power, direct or indirect, to cause the direction or management of such
+entity, whether by contract or otherwise, or (ii) ownership of fifty
+percent (50%) or more of the outstanding shares, or (iii) beneficial
+ownership of such entity.</p>
+<p>&quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal=
+ Entity exercising
+permissions granted by this License.</p>
+<p>&quot;Source&quot; form shall mean the preferred form for making modific=
+ations,
+including but not limited to software source code, documentation source,
+and configuration files.</p>
+<p>&quot;Object&quot; form shall mean any form resulting from mechanical tr=
+ansformation
+or translation of a Source form, including but not limited to compiled
+object code, generated documentation, and conversions to other media types.=
+</p>
+<p>&quot;Work&quot; shall mean the work of authorship, whether in Source or=
+ Object form,
+made available under the License, as indicated by a copyright notice that
+is included in or attached to the work (an example is provided in the
+Appendix below).</p>
+<p>&quot;Derivative Works&quot; shall mean any work, whether in Source or=
+ Object form,
+that is based on (or derived from) the Work and for which the editorial
+revisions, annotations, elaborations, or other modifications represent, as
+a whole, an original work of authorship. For the purposes of this License,
+Derivative Works shall not include works that remain separable from, or
+merely link (or bind by name) to the interfaces of, the Work and Derivative
+Works thereof.</p>
+<p>&quot;Contribution&quot; shall mean any work of authorship, including th=
+e original
+version of the Work and any modifications or additions to that Work or
+Derivative Works thereof, that is intentionally submitted to Licensor for
+inclusion in the Work by the copyright owner or by an individual or Legal
+Entity authorized to submit on behalf of the copyright owner. For the
+purposes of this definition, &quot;submitted&quot; means any form of electr=
+onic,
+verbal, or written communication sent to the Licensor or its
+representatives, including but not limited to communication on electronic
+mailing lists, source code control systems, and issue tracking systems that
+are managed by, or on behalf of, the Licensor for the purpose of discussing
+and improving the Work, but excluding communication that is conspicuously
+marked or otherwise designated in writing by the copyright owner as &quot;N=
+ot a
+Contribution.&quot;</p>
+<p>&quot;Contributor&quot; shall mean Licensor and any individual or Legal=
+ Entity on
+behalf of whom a Contribution has been received by Licensor and
+subsequently incorporated within the Work.</p>
+<p><strong><a name=3D"copyright">2. Grant of Copyright License</a></strong>=
+. Subject to the
+terms and conditions of this License, each Contributor hereby grants to You
+a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+copyright license to reproduce, prepare Derivative Works of, publicly
+display, publicly perform, sublicense, and distribute the Work and such
+Derivative Works in Source or Object form.</p>
+<p><strong><a name=3D"patent">3. Grant of Patent License</a></strong>. Subj=
+ect to the terms
+and conditions of this License, each Contributor hereby grants to You a
+perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+(except as stated in this section) patent license to make, have made, use,
+offer to sell, sell, import, and otherwise transfer the Work, where such
+license applies only to those patent claims licensable by such Contributor
+that are necessarily infringed by their Contribution(s) alone or by
+combination of their Contribution(s) with the Work to which such
+Contribution(s) was submitted. If You institute patent litigation against
+any entity (including a cross-claim or counterclaim in a lawsuit) alleging
+that the Work or a Contribution incorporated within the Work constitutes
+direct or contributory patent infringement, then any patent licenses
+granted to You under this License for that Work shall terminate as of the
+date such litigation is filed.</p>
+<p><strong><a name=3D"redistribution">4. Redistribution</a></strong>. You=
+ may reproduce and
+distribute copies of the Work or Derivative Works thereof in any medium,
+with or without modifications, and in Source or Object form, provided that
+You meet the following conditions:</p>
+<ol style=3D"list-style: lower-latin;">
+<li>You must give any other recipients of the Work or Derivative Works a
+copy of this License; and</li>
+
+<li>You must cause any modified files to carry prominent notices stating
+that You changed the files; and</li>
+
+<li>You must retain, in the Source form of any Derivative Works that You
+distribute, all copyright, patent, trademark, and attribution notices from
+the Source form of the Work, excluding those notices that do not pertain to
+any part of the Derivative Works; and</li>
+
+<li>If the Work includes a &quot;NOTICE&quot; text file as part of its dist=
+ribution,
+then any Derivative Works that You distribute must include a readable copy
+of the attribution notices contained within such NOTICE file, excluding
+those notices that do not pertain to any part of the Derivative Works, in
+at least one of the following places: within a NOTICE text file distributed
+as part of the Derivative Works; within the Source form or documentation,
+if provided along with the Derivative Works; or, within a display generated
+by the Derivative Works, if and wherever such third-party notices normally
+appear. The contents of the NOTICE file are for informational purposes only
+and do not modify the License. You may add Your own attribution notices
+within Derivative Works that You distribute, alongside or as an addendum to
+the NOTICE text from the Work, provided that such additional attribution
+notices cannot be construed as modifying the License.
+<br>
+<br>
+You may add Your own copyright statement to Your modifications and may
+provide additional or different license terms and conditions for use,
+reproduction, or distribution of Your modifications, or for any such
+Derivative Works as a whole, provided Your use, reproduction, and
+distribution of the Work otherwise complies with the conditions stated in
+this License.
+</li>
+
+</ol>
+
+<p><strong><a name=3D"contributions">5. Submission of Contributions</a></st=
+rong>. Unless You
+explicitly state otherwise, any Contribution intentionally submitted for
+inclusion in the Work by You to the Licensor shall be under the terms and
+conditions of this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify the
+terms of any separate license agreement you may have executed with Licensor
+regarding such Contributions.</p>
+<p><strong><a name=3D"trademarks">6. Trademarks</a></strong>. This License=
+ does not grant
+permission to use the trade names, trademarks, service marks, or product
+names of the Licensor, except as required for reasonable and customary use
+in describing the origin of the Work and reproducing the content of the
+NOTICE file.</p>
+<p><strong><a name=3D"no-warranty">7. Disclaimer of Warranty</a></strong>.=
+ Unless required by
+applicable law or agreed to in writing, Licensor provides the Work (and
+each Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,=
+ WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including,
+without limitation, any warranties or conditions of TITLE,
+NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You
+are solely responsible for determining the appropriateness of using or
+redistributing the Work and assume any risks associated with Your exercise
+of permissions under this License.</p>
+<p><strong><a name=3D"no-liability">8. Limitation of Liability</a></strong>=
+. In no event and
+under no legal theory, whether in tort (including negligence), contract, or
+otherwise, unless required by applicable law (such as deliberate and
+grossly negligent acts) or agreed to in writing, shall any Contributor be
+liable to You for damages, including any direct, indirect, special,
+incidental, or consequential damages of any character arising as a result
+of this License or out of the use or inability to use the Work (including
+but not limited to damages for loss of goodwill, work stoppage, computer
+failure or malfunction, or any and all other commercial damages or losses),
+even if such Contributor has been advised of the possibility of such
+damages.</p>
+<p><strong><a name=3D"additional">9. Accepting Warranty or Additional Liabi=
+lity</a></strong>.
+While redistributing the Work or Derivative Works thereof, You may choose
+to offer, and charge a fee for, acceptance of support, warranty, indemnity,
+or other liability obligations and/or rights consistent with this License.
+However, in accepting such obligations, You may act only on Your own behalf
+and on Your sole responsibility, not on behalf of any other Contributor,
+and only if You agree to indemnify, defend, and hold each Contributor
+harmless for any liability incurred by, or claims asserted against, such
+Contributor by reason of your accepting any such warranty or additional
+liability.</p>
+<p>END OF TERMS AND CONDITIONS</p>
+<h1 id=3D"apply">APPENDIX: How to apply the Apache License to your work</h1>
+<p>To apply the Apache License to your work, attach the following boilerpla=
+te
+notice, with the fields enclosed by brackets &quot;[]&quot; replaced with=
+ your own
+identifying information. (Don&#x27;t include the brackets!) The text should=
+ be
+enclosed in the appropriate comment syntax for the file format. We also
+recommend that a file or class name and description of purpose be included
+on the same &quot;printed page&quot; as the copyright notice for easier
+identification within third-party archives.</p>
+<div class=3D"codehilite"><pre>   <span class=3D"p">:::</span><span class=
+=3D"n">text</span>
+   <span class=3D"n">Copyright</span> <span class=3D"p">[</span><span class=
+=3D"n">yyyy</span><span class=3D"p">]</span> <span class=3D"p">[</span><spa=
+n class=3D"n">name</span> <span class=3D"n">of</span> <span class=3D"n">cop=
+yright</span> <span class=3D"n">owner</span><span class=3D"p">]</span>
+
+   <span class=3D"n">Licensed</span> <span class=3D"n">under</span> <span=
+ class=3D"n">the</span> <span class=3D"n">Apache</span> <span class=3D"n">L=
+icense</span><span class=3D"p">,</span> <span class=3D"n">Version</span> 2<=
+span class=3D"p">.</span>0 <span class=3D"p">(</span><span class=3D"n">the<=
+/span> &quot;<span class=3D"n">License</span>&quot;<span class=3D"p">);</sp=
+an>
+   <span class=3D"n">you</span> <span class=3D"n">may</span> <span class=3D=
+"n">not</span> <span class=3D"n">use</span> <span class=3D"n">this</span>=
+ <span class=3D"n">file</span> <span class=3D"n">except</span> <span class=
+=3D"n">in</span> <span class=3D"n">compliance</span> <span class=3D"n">with=
+</span> <span class=3D"n">the</span> <span class=3D"n">License</span><span=
+ class=3D"p">.</span>
+   <span class=3D"n">You</span> <span class=3D"n">may</span> <span class=3D=
+"n">obtain</span> <span class=3D"n">a</span> <span class=3D"n">copy</span>=
+ <span class=3D"n">of</span> <span class=3D"n">the</span> <span class=3D"n"=
+>License</span> <span class=3D"n">at</span>
+
+       <span class=3D"n">http</span><span class=3D"p">:</span><span class=
+=3D"o">//</span><span class=3D"n">www</span><span class=3D"p">.</span><span=
+ class=3D"n">apache</span><span class=3D"p">.</span><span class=3D"n">org</=
+span><span class=3D"o">/</span><span class=3D"n">licenses</span><span class=
+=3D"o">/</span><span class=3D"n">LICENSE</span><span class=3D"o">-</span>2<=
+span class=3D"p">.</span>0
+
+   <span class=3D"n">Unless</span> <span class=3D"n">required</span> <span=
+ class=3D"n">by</span> <span class=3D"n">applicable</span> <span class=3D"n=
+">law</span> <span class=3D"n">or</span> <span class=3D"n">agreed</span> <s=
+pan class=3D"n">to</span> <span class=3D"n">in</span> <span class=3D"n">wri=
+ting</span><span class=3D"p">,</span> <span class=3D"n">software</span>
+   <span class=3D"n">distributed</span> <span class=3D"n">under</span> <spa=
+n class=3D"n">the</span> <span class=3D"n">License</span> <span class=3D"n"=
+>is</span> <span class=3D"n">distributed</span> <span class=3D"n">on</span>=
+ <span class=3D"n">an</span> &quot;<span class=3D"n">AS</span> <span class=
+=3D"n">IS</span>&quot; <span class=3D"n">BASIS</span><span class=3D"p">,</s=
+pan>
+   <span class=3D"n">WITHOUT</span> <span class=3D"n">WARRANTIES</span> <sp=
+an class=3D"n">OR</span> <span class=3D"n">CONDITIONS</span> <span class=3D=
+"n">OF</span> <span class=3D"n">ANY</span> <span class=3D"n">KIND</span><sp=
+an class=3D"p">,</span> <span class=3D"n">either</span> <span class=3D"n">e=
+xpress</span> <span class=3D"n">or</span> <span class=3D"n">implied</span><=
+span class=3D"p">.</span>
+   <span class=3D"n">See</span> <span class=3D"n">the</span> <span class=3D=
+"n">License</span> <span class=3D"k">for</span> <span class=3D"n">the</span=
+> <span class=3D"n">specific</span> <span class=3D"n">language</span> <span=
+ class=3D"n">governing</span> <span class=3D"n">permissions</span> <span cl=
+ass=3D"n">and</span>
+   <span class=3D"n">limitations</span> <span class=3D"n">under</span> <spa=
+n class=3D"n">the</span> <span class=3D"n">License</span><span class=3D"p">=
+.</span>
+</pre></div></div></div>
+      <div class=3D"clear"></div>
+    </div>
+    <div class=3D"container_16" id=3D"footer">
+      <div class=3D"links grid_16">
+      <div class=3D"grid_3">
+        <h4>Projects</h4>
+        <ul>
+<li><a title=3D"Apache Web Server (httpd)" href=3D"http://httpd.apache.org/=
+">HTTP Server</a></li>
+<li><a title=3D"Atom Publishing Protocol Implementation" href=3D"http://abd=
+era.apache.org/">Abdera</a></li>
+<li><a title=3D"Sorted, distributed key/value store" href=3D"http://accumul=
+o.apache.org/">Accumulo</a></li>
+<li><a title=3D"Centralized life cycle management and deployment of OSGi ba=
+sed and related modular software artifacts for distribution." href=3D"http:=
+//ace.apache.org/">ACE</a></li>
+<li><a title=3D"Distributed Messaging System" href=3D"http://activemq.apach=
+e.org/">ActiveMQ</a></li>
+<li><a title=3D"Workflow and Computational Job Management Middleware" href=
+=3D"http://airavata.apache.org/">Airavata</a></li>
+<li><a title=3D"Java-based build tool" href=3D"http://ant.apache.org/">Ant<=
+/a></li>
+<li><a title=3D"Anything to Triples" href=3D"http://any23.apache.org/">Any2=
+3</a></li>
+<li><a title=3D"Apache Portable Runtime libraries" href=3D"http://apr.apach=
+e.org/">APR</a></li>
+<li><a title=3D"Build Artifact Repository Manager" href=3D"http://archiva.a=
+pache.org/">Archiva</a></li>
+<li><a title=3D"Enterprise OSGi application programming model" href=3D"http=
+://aries.apache.org/">Aries</a></li>
+<li><a title=3D"A Serialization System" href=3D"http://avro.apache.org/">Av=
+ro</a></li>
+<li><a title=3D"Java SOAP Engine" href=3D"http://axis.apache.org/">Axis</a>=
+</li>
+<li><a title=3D"Apache Hadoop ecosystem integration and distribution projec=
+t" href=3D"http://bigtop.apache.org/">Bigtop</a></li>
+<li><a title=3D"Issue tracking, wiki and repository browser" href=3D"http:/=
+/bloodhound.apache.org/">Bloodhound</a></li>
+<li><a title=3D"Simple and intuitive build system for Java applications" hr=
+ef=3D"http://buildr.apache.org/">Buildr</a></li>
+<li><a title=3D"Apache BVal: JSR-303 Bean Validation Implementation and Ext=
+ensions" href=3D"http://bval.apache.org/">BVal</a></li>
+<li><a title=3D"Spring based Integration Framework which implements the Ent=
+erprise Integration Patterns" href=3D"http://camel.apache.org/">Camel</a></=
+li>
+<li><a title=3D"Highly scalable second-generation distributed database" hre=
+f=3D"http://cassandra.apache.org/">Cassandra</a></li>
+<li><a title=3D"User-friendly Java ORM with Tools" href=3D"http://cayenne.a=
+pache.org/">Cayenne</a></li>
+<li><a title=3D"CMIS (Content Managment Interoperability Services) Clients=
+ and Servers" href=3D"http://chemistry.apache.org/">Chemistry</a></li>
+<li><a title=3D"Semantically linked data for OSGi" href=3D"http://clerezza.=
+apache.org/">Clerezza</a></li>
+<li><a title=3D"User-friendly page and component oriented web framework" hr=
+ef=3D"http://click.apache.org/">Click</a></li>
+<li><a title=3D"Infrastructure as a Service solution" href=3D"http://clouds=
+tack.apache.org/">CloudStack</a></li>
+<li><a title=3D"Web development framework: separation of concerns, componen=
+t-based" href=3D"http://cocoon.apache.org/">Cocoon</a></li>
+<li><a title=3D"Reusable Java components" href=3D"http://commons.apache.org=
+/">Commons</a></li>
+<li><a title=3D"Continuous Integration and Build Server" href=3D"http://con=
+tinuum.apache.org/">Continuum</a></li>
+<li><a title=3D"Platform for building native mobile applications using HTML=
+, CSS and JavaScript" href=3D"http://cordova.apache.org/">Cordova</a></li>
+<li><a title=3D"RESTful document database" href=3D"http://couchdb.apache.or=
+g/">CouchDB</a></li>
+<li><a title=3D"Comprehension and auditing of software distributions" href=
+=3D"http://creadur.apache.org/">Creadur</a></li>
+<li><a title=3D"Simple and Efficient MapReduce Pipelines" href=3D"http://cr=
+unch.apache.org/">Crunch</a></li>
+<li><a title=3D"Natural language processing (NLP) tool for information extr=
+action from electronic medical record clinical free-text" href=3D"http://ct=
+akes.apache.org/">cTAKES</a></li>
+<li><a title=3D"Service Framework" href=3D"http://cxf.apache.org/">CXF</a><=
+/li>
+<li><a title=3D"Database access" href=3D"http://db.apache.org/">DB</a></li>
+<li><a title=3D"RESTful cloud management interface" href=3D"http://deltaclo=
+ud.apache.org/">Deltacloud</a></li>
+<li><a title=3D"Apache Directory Server" href=3D"http://directory.apache.or=
+g/">Directory</a></li>
+<li><a title=3D"Relational Data Persistence" href=3D"http://empire-db.apach=
+e.org/">Empire-db</a></li>
+<li><a title=3D"Enterprise Social Messaging Environment" href=3D"http://esm=
+e.apache.org/">ESME</a></li>
+<li><a title=3D"Cross-platform, language- and transport-independent RPC-lik=
+e messaging framework" href=3D"http://etch.apache.org/">Etch</a></li>
+<li><a title=3D"OSGi Framework and components." href=3D"http://felix.apache=
+.org/">Felix</a></li>
+<li><a title=3D"Application framework for expressive web applications that=
+ deploy to all major browsers, desktops and devices." href=3D"http://flex.a=
+pache.org/">Flex</a></li>
+<li><a title=3D"A reliable service for efficiently collecting, aggregating,=
+ and moving large amounts of log data" href=3D"http://flume.apache.org/">Fl=
+ume</a></li>
+<li><a title=3D"Aggregated multi-channel documentation, separation of conce=
+rns" href=3D"http://forrest.apache.org/">Forrest</a></li>
+<li><a title=3D"Java2, Enterprise Edition (J2EE) container" href=3D"http://=
+geronimo.apache.org/">Geronimo</a></li>
+<li><a title=3D"Iterative graph processing system built for high scalabilit=
+y" href=3D"http://giraph.apache.org/">Giraph</a></li>
+<li><a title=3D"ORM framework for column stores such as Apache HBase and Ap=
+ache Cassandra with a specific focus on Hadoop" href=3D"http://gora.apache.=
+org/">Gora</a></li>
+<li><a title=3D"Continuous integration of open source projects" href=3D"htt=
+p://gump.apache.org/">Gump</a></li>
+<li><a title=3D"Distributed computing platform" href=3D"http://hadoop.apach=
+e.org/">Hadoop</a></li>
+<li><a title=3D"a Bulk Synchronous Parallel computing framework on top of=
+ Hadoop" href=3D"http://hama.apache.org/">Hama</a></li>
+<li><a title=3D"Hadoop Database" href=3D"http://hbase.apache.org/">HBase</a=
+></li>
+<li><a title=3D"Data warehouse infrastructure using the Hadoop Database" hr=
+ef=3D"http://hive.apache.org/">Hive</a></li>
+<li><a title=3D"Java toolset of low level HTTP components" href=3D"http://h=
+c.apache.org/">HttpComponents</a></li>
+<li><a title=3D"Framework for rapidly developing domain-driven apps in Java=
+" href=3D"http://isis.apache.org/">Isis</a></li>
+<li><a title=3D"Content Repository for Java" href=3D"http://jackrabbit.apac=
+he.org/">Jackrabbit</a></li>
+<li><a title=3D"Java Apache Mail Enterprise Server" href=3D"http://james.ap=
+ache.org/">James</a></li>
+<li><a title=3D"Java framework for building Semantic Web applications" href=
+=3D"http://jena.apache.org/">Jena</a></li>
+<li><a title=3D"Java performance and functional testing" href=3D"http://jme=
+ter.apache.org/">JMeter</a></li>
+<li><a title=3D"Java implementation of the Universal Description, Discovery=
+, and Integration specification" href=3D"http://juddi.apache.org/">jUDDI</a=
+></li>
+<li><a title=3D"Distributed publish-subscribe messaging system" href=3D"htt=
+p://kafka.apache.org/">Kafka</a></li>
+<li><a title=3D"Server-side OSGi distribution" href=3D"http://karaf.apache.=
+org/">Karaf</a></li>
+<li><a title=3D"Content Management System" href=3D"http://lenya.apache.org/=
+">Lenya</a></li>
+<li><a title=3D"Unified interface to the cloud" href=3D"http://libcloud.apa=
+che.org/">Libcloud</a></li>
+<li><a title=3D"Cross-language logging services" href=3D"http://logging.apa=
+che.org/">Logging</a></li>
+<li><a title=3D"Search engine library" href=3D"http://lucene.apache.org/">L=
+ucene</a></li>
+<li><a title=3D"Search engine library for dynamic languages" href=3D"http:/=
+/lucy.apache.org/">Lucy</a></li>
+<li><a title=3D"Scalable machine learning library" href=3D"http://mahout.ap=
+ache.org/">Mahout</a></li>
+<li><a title=3D"Framework for connecting source content repositories to tar=
+get repositories or indexes." href=3D"http://manifoldcf.apache.org/">Manifo=
+ldCF</a></li>
+<li><a title=3D"Java project management and comprehension tools" href=3D"ht=
+tp://maven.apache.org/">Maven</a></li>
+<li><a title=3D"Multipurpose Infrastructure for Network Application" href=
+=3D"http://mina.apache.org/">MINA</a></li>
+<li><a title=3D"Java library that helps developers unit test Apache Hadoop=
+ map reduce jobs" href=3D"http://mrunit.apache.org/">MRUnit</a></li>
+<li><a title=3D"JavaServer(tm) Faces implementation and components" href=3D=
+"http://myfaces.apache.org/">MyFaces</a></li>
+<li><a title=3D"Open Source Web Search Software" href=3D"http://nutch.apach=
+e.org/">Nutch</a></li>
+<li><a title=3D"Orchestration Director Engine: Business Process Management=
+ (BPM), Process Orchestration and Workflow through service composition." hr=
+ef=3D"http://ode.apache.org/">ODE</a></li>
+<li><a title=3D"Open for Business: enterprise automation software" href=3D"=
+http://ofbiz.apache.org/">OFBiz</a></li>
+<li><a title=3D"OAuth protocol implementation in Java" href=3D"http://oltu.=
+apache.org/">Oltu</a></li>
+<li><a title=3D"Development and maintenance of a set of Google Guice extens=
+ions" href=3D"http://onami.apache.org/">Onami</a></li>
+<li><a title=3D"Object Oriented Data Technology (middleware metadata)" href=
+=3D"http://oodt.apache.org/">OODT</a></li>
+<li><a title=3D"A workflow scheduler system to manage Apache Hadoop jobs."=
+ href=3D"http://oozie.apache.org/">Oozie</a></li>
+<li><a title=3D"OpenJPA: Object Relational Mapping for Java" href=3D"http:/=
+/openjpa.apache.org/">OpenJPA</a></li>
+<li><a title=3D"OpenMeetings: Web-Conferencing and real-time collaboration"=
+ href=3D"http://openmeetings.apache.org/">OpenMeetings</a></li>
+<li><a title=3D"Machine learning based toolkit for the processing of natura=
+l language text" href=3D"http://opennlp.apache.org/">OpenNLP</a></li>
+<li><a title=3D"An open-source, office-document productivity suite" href=3D=
+"http://openoffice.apache.org/">OpenOffice</a></li>
+<li><a title=3D"OpenWebBeans: JSR-299 Context and Dependency Injection for=
+ Java EE Platform Implementation" href=3D"http://openwebbeans.apache.org/">=
+OpenWebBeans</a></li>
+<li><a title=3D"Java library for working with PDF documents" href=3D"http:/=
+/pdfbox.apache.org/">PDFBox</a></li>
+<li><a title=3D"Dynamic websites using Perl" href=3D"http://perl.apache.org=
+/">Perl</a></li>
+<li><a title=3D"Platform for analyzing large data sets" href=3D"http://pig.=
+apache.org/">Pig</a></li>
+<li><a title=3D"Rich Internet applications in Java" href=3D"http://pivot.ap=
+ache.org/">Pivot</a></li>
+<li><a title=3D"Java API for OLE 2 Compound and OOXML Documents" href=3D"ht=
+tp://poi.apache.org/">POI</a></li>
+<li><a title=3D"Portal technology" href=3D"http://portals.apache.org/">Port=
+als</a></li>
+<li><a title=3D"Multiple language implementation of the latest Advanced Mes=
+sage Queuing Protocol (AMQP)" href=3D"http://qpid.apache.org/">Qpid</a></li>
+<li><a title=3D"Web and social mashup engine" href=3D"http://rave.apache.or=
+g/">Rave</a></li>
+<li><a title=3D"Jini service oriented architecture" href=3D"http://river.ap=
+ache.org/">River</a></li>
+<li><a title=3D"Java blog server" href=3D"http://roller.apache.org/">Roller=
+</a></li>
+<li><a title=3D"XML Security in Java and C++" href=3D"http://santuario.apac=
+he.org/">Santuario</a></li>
+<li><a title=3D"Enterprise Service Bus" href=3D"http://servicemix.apache.or=
+g/">ServiceMix</a></li>
+<li><a title=3D"Opensocial Reference Implementation" href=3D"http://shindig=
+.apache.org/">Shindig</a></li>
+<li><a title=3D"Powerful and easy-to-use application security framework" hr=
+ef=3D"http://shiro.apache.org/">Shiro</a></li>
+<li><a title=3D"Spatial Information System" href=3D"http://sis.apache.org/"=
+>SIS</a></li>
+<li><a title=3D"Web Framework for JCR Content Repositories" href=3D"http://=
+sling.apache.org/">Sling</a></li>
+<li><a title=3D"Mail filter to identify spam" href=3D"http://spamassassin.a=
+pache.org/">SpamAssassin</a></li>
+<li><a title=3D"Bulk Data Transfer for Hadoop and Structured Datastores" hr=
+ef=3D"http://sqoop.apache.org/">Sqoop</a></li>
+<li><a title=3D"Reusable components for semantic content management" href=
+=3D"http://stanbol.apache.org/">Stanbol</a></li>
+<li><a title=3D"Apache C++ Standard Library" href=3D"http://stdcxx.apache.o=
+rg/">STDCXX</a></li>
+<li><a title=3D"Model 2 framework for building Java web applications" href=
+=3D"http://struts.apache.org/">Struts</a></li>
+<li><a title=3D"Version Control" href=3D"http://subversion.apache.org/">Sub=
+version</a></li>
+<li><a title=3D"Enterprise Service Bus and Mediation Framework" href=3D"htt=
+p://synapse.apache.org/">Synapse</a></li>
+<li><a title=3D"Managing digital identities in enterprise environments" hre=
+f=3D"http://syncope.apache.org/">Syncope</a></li>
+<li><a title=3D"Component-based Java Web Application Framework" href=3D"htt=
+p://tapestry.apache.org/">Tapestry</a></li>
+<li><a title=3D"Dynamic websites using TCL" href=3D"http://tcl.apache.org/"=
+>Tcl</a></li>
+<li><a title=3D"Framework for scalable cross-language services development"=
+ href=3D"http://thrift.apache.org/">Thrift</a></li>
+<li><a title=3D"Content Analysis and Detection Toolkit" href=3D"http://tika=
+.apache.org">Tika</a></li>
+<li><a title=3D"A templating framework for web application user interfaces"=
+ href=3D"http://tiles.apache.org/">Tiles</a></li>
+<li><a title=3D"A Java Servlet and JSP Container" href=3D"http://tomcat.apa=
+che.org/">Tomcat</a></li>
+<li><a title=3D"Java EE Web Profile built on Tomcat" href=3D"http://tomee.a=
+pache.org/">TomEE</a></li>
+<li><a title=3D"A fast, scalable and extensible HTTP/1.1 compliant caching=
+ proxy server" href=3D"http://trafficserver.apache.org/">Traffic Server</a>=
+</li>
+<li><a title=3D"A Java Servlet Web Application Framework and associated com=
+ponent library" href=3D"http://turbine.apache.org/">Turbine</a></li>
+<li><a title=3D"An SCA based Service Composition Framework" href=3D"http://=
+tuscany.apache.org/">Tuscany</a></li>
+<li><a title=3D"Framework and annotators for unstructured information analy=
+sis" href=3D"http://uima.apache.org/">UIMA</a></li>
+<li><a title=3D"Virtual Computing Lab" href=3D"http://vcl.apache.org/">VCL<=
+/a></li>
+<li><a title=3D"A Java Templating Engine" href=3D"http://velocity.apache.or=
+g/">Velocity</a></li>
+<li><a href=3D"http://ws.apache.org/">Web Services</a></li>
+<li><a title=3D"Libraries for running Cloud Services" href=3D"http://whirr.=
+apache.org/">Whirr</a></li>
+<li><a title=3D"Component-based Java Web Application Framework." href=3D"ht=
+tp://wicket.apache.org/">Wicket</a></li>
+<li><a title=3D"RESTful Web services Framework" href=3D"http://wink.apache.=
+org/">Wink</a></li>
+<li><a title=3D"Widgets for Applications" href=3D"http://wookie.apache.org/=
+">Wookie</a></li>
+<li><a title=3D"XSLT processors in Java and C++" href=3D"http://xalan.apach=
+e.org/">Xalan</a></li>
+<li><a title=3D"XML parsers in Java, C++ and Perl" href=3D"http://xerces.ap=
+ache.org/">Xerces</a></li>
+<li><a title=3D"XML-Java binding tool" href=3D"http://xmlbeans.apache.org/"=
+>XMLBeans</a></li>
+<li><a title=3D"Conversion from XML to graphical output" href=3D"http://xml=
+graphics.apache.org/">XML Graphics</a></li>
+<li><a title=3D"Centralized service for maintaining configuration informati=
+on" href=3D"http://zookeeper.apache.org/">ZooKeeper</a></li>
+</ul>
+      </div>
+      <div class=3D"grid_3">
+        <h4>Foundation</h4>
+        <ul>
+          <li><a href=3D"/foundation/faq.html">FAQ</a></li>=20
+          <li><a title=3D"Overview of the Apache Licenese" href=3D"/license=
+s/">Licenses</a></li>=20
+          <li><a title=3D"Apache marks policies and listing" href=3D"/found=
+ation/marks/">Trademarks</a></li> =20
+          <li><a title=3D"Official news feed of Foundation announcements"=
+ href=3D"/foundation/news.html">News</a></li>=20
+          <li><a title=3D"Press, Media, and Analyst contact" href=3D"/press=
+/">Press Inquiries</a></li>=20
+          <li><a title=3D"Formal corporate records and board meeting minute=
+s" href=3D"/foundation/records/">Public Records</a></li>=20
+          <li><a title=3D"Mailing lists and Apache" href=3D"/foundation/mai=
+linglists.html">Mailing Lists</a></li>=20
+          <li><a title=3D"Sponsor the Foundation" href=3D"/foundation/spons=
+orship.html">Sponsorship</a></li>=20
+          <li><a title=3D"Donate to the Foundation" href=3D"/foundation/con=
+tributing.html">Donations</a></li>=20
+          <li><a title=3D"Buy Apache branded merchandise" href=3D"/foundati=
+on/buy_stuff.html">Buy Stuff</a></li>=20
+          <li><a title=3D"Thank you to our Sponsors" href=3D"/foundation/th=
+anks.html">Thanks</a></li>=20
+          <li><a title=3D"Contact Us" href=3D"/foundation/contact.html">Con=
+tact</a></li>=20
+        </ul>
+      </div>
+      <div class=3D"grid_3 suffix_1">
+        <h4>Foundation Projects</h4>
+        <ul>
+          <li><a title=3D"Inactive projects repository" href=3D"http://atti=
+c.apache.org/">Attic</a></li>=20
+          <li><a title=3D"Meetings of developers and users" href=3D"/founda=
+tion/conferences.html">Conferences</a></li>=20
+          <li><a title=3D"Helping newcomers to the ASF" href=3D"http://comm=
+unity.apache.org/">Community Development</a></li>=20
+          <li><a title=3D"Shepherd for new projects" href=3D"http://incubat=
+or.apache.org/">Incubator</a></li>=20
+          <li><a title=3D"ASF Infrastructure: Operations and howto document=
+s for PMCs and contributors" href=3D"/dev/">Infrastructure</a></li>=20
+          <li><a title=3D"The Innovation Laboratories of the Apache Softwar=
+e Foundation" href=3D"http://labs.apache.org/">Labs</a></li>=20
+          <li><a title=3D"Legal Affairs" href=3D"/legal/">Legal Affairs</a>=
+</li>=20
+          <li><a title=3D"Public Relations" href=3D"/press/">Public Relatio=
+ns</a></li>=20
+          <li><a title=3D"Security" href=3D"/security/">Security</a></li>=20
+          <li><a title=3D"Travel Assistance" href=3D"/travel/">Travel Assis=
+tance</a></li>=20
+        </ul>
+      </div>
+     =20
+      <div class=3D"grid_3">
+        <h4>Community</h4>
+        <ul>
+          <li><a title=3D"Apache committer homepages" href=3D"http://people=
+.apache.org/">People</a></li>=20
+          <li><a title=3D"In memoriam of past committers" href=3D"/memorial=
+s/">Memorials</a></li>=20
+          <li><a title=3D"Apache Podcasts" href=3D"http://feathercast.org/"=
+>Feathercast</a></li>=20
+          <li><a title=3D"Apache Project Blogs" href=3D"http://blogs.apache=
+.org/">Project Blogs</a></li>=20
+          <li><a title=3D"Apache Committers&#x27; Blogs" href=3D"http://pla=
+net.apache.org/committers/">PlanetApache</a></li>=20
+        </ul>
+      </div>
+      <div class=3D"grid_3">
+        <h4>How It Works</h4>
+        <ul>
+          <li><a href=3D"/foundation/how-it-works.html">Introduction</a></l=
+i>=20
+          <li><a href=3D"/foundation/how-it-works.html#meritocracy">Meritoc=
+racy</a></li>=20
+          <li><a href=3D"/foundation/how-it-works.html#structure">Structure=
+</a></li>=20
+          <li><a href=3D"/foundation/how-it-works.html#roles">Roles</a></li=
+>=20
+          <li><a href=3D"/foundation/how-it-works.html#management">Collabor=
+ation</a></li>=20
+          <li><a href=3D"/foundation/how-it-works.html#incubator">Incubator=
+</a></li>=20
+          <li><a href=3D"/foundation/how-it-works.html#other">Other entitie=
+s</a></li>=20
+          <li><a href=3D"/foundation/glossary.html">Glossary</a></li>=20
+          <li><a href=3D"/foundation/voting.html">Voting</a></li>=20
+        </ul>
+      </div>
+    </div>
+    <div class=3D"clear"></div>
+   =20
+    </div>
+    <div class=3D"container_16" id=3D"copyright">
+      <p>Copyright =C2=A9 2012 The Apache Software Foundation, Licensed und=
+er the <a href=3D"http://www.apache.org/licenses/LICENSE-2.0">Apache Licens=
+e, Version 2.0</a>.<br>Apache and the Apache feather logo are trademarks of=
+ The Apache Software Foundation.</p>
+    </div>
+ =20
+
+</body></html>
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/css/style.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+@import url('reset.css');
+@import url('text.css');
+@import url('960.css');
+@import url('grid.css');
+@import url('layout.css');
+
+a { color: #3E4F90;}
+a:hover { text-decoration:underline;}
+body {background: #ddd; min-width: 1063px;}
+
+.container_16 {background: #fff; border-bottom: 2px solid #bbb; border-top:=
+ 1px solid #ccc;}
+#header h1 {margin-bottom: 30px; margin-top: 25px; margin-left: 0px; font-s=
+ize: 18px;}
+#header h2 {margin-top: 20px; font-weight: normal; font-style: italic; font=
+-size: 18px; margin-left: 10px;}
+#header img { float: left; margin: 5px 20px 10px 5px;}
+#nav ul { float: right; margin-top: 3px;}
+#nav ul li {display:inline; float:left; margin: 5px 0px;}
+#nav ul li a {padding: 10px; background: #303284; color: #fff;}
+#nav ul li a:hover {background: #3E4F90 url(../images/overlay.png) repeat-y=
+; text-decoration:none;}
+#nav p { float: left; width: 100%; margin-left; 100px; }
+#intro, #featured_intro { margin-top: 40px;}
+#intro div { padding-bottom: 20px; padding-right: 10px; }
+#intro h3 {font-weight: bold; font-size: 20px;}
+#intro h3 span {display:block; font-weight: normal; font-size: 15px;}
+#featured_intro div { font-size: 20px;}
+#content, #news, #footer {margin-top: 10px;}
+.section-content {font-size: 15px;}
+#featured_intro, #news {padding-bottom: 20px;}
+#featured_intro h4 { font-weight: bold; font-size: 25px; }
+#featured_intro h4 span { font-weight: normal; display:block; font-size: 20=
+px;}
+#featured_projs ul li { display:inline; float:left; display:none; padding:=
+ 0px 40px; list-style:none;}
+#featured_projs ul li p.description { font-size: 14px;}
+#featured_projs ul li p { margin-bottom: 5px;}
+#featured_switcher { background: #303284; border-bottom: 3px solid #303284;=
+ margin-bottom: -2px; margin-left: 0px; margin-right: 0px; width: 100%; tex=
+t-align:center;}
+#featured_switcher ul { margin-left: 10px; margin-top: 3px;}
+#featured_switcher ul li {display:inline; float:left; font-size: 12px; marg=
+in: 5px 1px; color: #fff; font-weight:bold;}
+#featured_switcher ul li a {padding: 10px; color: #fff;}
+#featured_switcher #label {margin-right: 5px;}
+#featured_switcher ul li a:hover {background: #3E4F90 url(../images/overlay=
+.png) repeat-y; color: #fff; text-decoration: none;}
+#featured_switcher ul li .active, #nav ul li .active {background: #3E4F90=
+ url(../images/overlay.png) repeat-y;}
+#news, #footer {padding-top: 40px;}
+#news #news_feed {padding-left: 10px;}
+#news_feed {background: url('../images/shadown.png') no-repeat right top;=
+ overflow: hidden; }
+#news { padding-bottom: 30px;}
+#news .section-content {margin-bottom: 20px;}
+#news .section-content p {font-size: 13px;}
+#news .section-content pre {font-size: 13px;}
+#news .section-content img {float:right; padding: 0px 5px;}
+#news .section-content table { font-size: 13px; border: 0px;}
+#news .section-content table tbody td, tbody th { border-top:0px solid #bbb=
+; border-bottom:1px solid #bbb; background: #fff; padding: 10px 0px;}
+#latest_activity, #project_menu{ padding: 0px 20px;}
+#latest_activity .section-content {font-size: 15px; overflow: hidden;}
+#footer .links { padding: 10px;}
+#footer ul li { font-size: 14px;}
+#footer ul li#more {list-style:none;}
+#copyright {background: transparent; margin-top: 20px; font-size: 15px;}
+#copyright { border-bottom: 0px; border-top: 0px;}
+#impact { padding-bottom: 20px;}
+#impact h4 { margin-bottom: 15px;}
+#impact div {padding-right: 30px;}
+#impact hr { width: 90%; float:left; margin-right: 10%;}
+#page { border-top: 0px;}
+.bug { background: transparent url('../images/bug.jpg') no-repeat left; pad=
+ding-left: 20px;}
+.svn { background: transparent url('../images/svn.jpg') no-repeat left; pad=
+ding-left: 20px;}
+#search {float:right;}
+#search input[type=3Dtext] { font-size: 13px; width: 300px; color: #aaa;}
+#project_menu ul li { font-size: 14px;}
+
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/css/code.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+.codehilite .hll { background-color: #ffffcc }
+.codehilite  { background: #f0f0f0; }
+.codehilite .c { color: #60a0b0; font-style: italic } /* Comment */
+.codehilite .err { border: 1px solid #FF0000 } /* Error */
+.codehilite .k { color: #007020; font-weight: bold } /* Keyword */
+.codehilite .o { color: #666666 } /* Operator */
+.codehilite .cm { color: #60a0b0; font-style: italic } /* Comment.Multiline=
+ */
+.codehilite .cp { color: #007020 } /* Comment.Preproc */
+.codehilite .c1 { color: #60a0b0; font-style: italic } /* Comment.Single */
+.codehilite .cs { color: #60a0b0; background-color: #fff0f0 } /* Comment.Sp=
+ecial */
+.codehilite .gd { color: #A00000 } /* Generic.Deleted */
+.codehilite .ge { font-style: italic } /* Generic.Emph */
+.codehilite .gr { color: #FF0000 } /* Generic.Error */
+.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.codehilite .gi { color: #00A000 } /* Generic.Inserted */
+.codehilite .go { color: #808080 } /* Generic.Output */
+.codehilite .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
+.codehilite .gs { font-weight: bold } /* Generic.Strong */
+.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading=
+ */
+.codehilite .gt { color: #0040D0 } /* Generic.Traceback */
+.codehilite .kc { color: #007020; font-weight: bold } /* Keyword.Constant */
+.codehilite .kd { color: #007020; font-weight: bold } /* Keyword.Declaratio=
+n */
+.codehilite .kn { color: #007020; font-weight: bold } /* Keyword.Namespace=
+ */
+.codehilite .kp { color: #007020 } /* Keyword.Pseudo */
+.codehilite .kr { color: #007020; font-weight: bold } /* Keyword.Reserved */
+.codehilite .kt { color: #902000 } /* Keyword.Type */
+.codehilite .m { color: #40a070 } /* Literal.Number */
+.codehilite .s { color: #4070a0 } /* Literal.String */
+.codehilite .na { color: #4070a0 } /* Name.Attribute */
+.codehilite .nb { color: #007020 } /* Name.Builtin */
+.codehilite .nc { color: #0e84b5; font-weight: bold } /* Name.Class */
+.codehilite .no { color: #60add5 } /* Name.Constant */
+.codehilite .nd { color: #555555; font-weight: bold } /* Name.Decorator */
+.codehilite .ni { color: #d55537; font-weight: bold } /* Name.Entity */
+.codehilite .ne { color: #007020 } /* Name.Exception */
+.codehilite .nf { color: #06287e } /* Name.Function */
+.codehilite .nl { color: #002070; font-weight: bold } /* Name.Label */
+.codehilite .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
+.codehilite .nt { color: #062873; font-weight: bold } /* Name.Tag */
+.codehilite .nv { color: #bb60d5 } /* Name.Variable */
+.codehilite .ow { color: #007020; font-weight: bold } /* Operator.Word */
+.codehilite .w { color: #bbbbbb } /* Text.Whitespace */
+.codehilite .mf { color: #40a070 } /* Literal.Number.Float */
+.codehilite .mh { color: #40a070 } /* Literal.Number.Hex */
+.codehilite .mi { color: #40a070 } /* Literal.Number.Integer */
+.codehilite .mo { color: #40a070 } /* Literal.Number.Oct */
+.codehilite .sb { color: #4070a0 } /* Literal.String.Backtick */
+.codehilite .sc { color: #4070a0 } /* Literal.String.Char */
+.codehilite .sd { color: #4070a0; font-style: italic } /* Literal.String.Do=
+c */
+.codehilite .s2 { color: #4070a0 } /* Literal.String.Double */
+.codehilite .se { color: #4070a0; font-weight: bold } /* Literal.String.Esc=
+ape */
+.codehilite .sh { color: #4070a0 } /* Literal.String.Heredoc */
+.codehilite .si { color: #70a0d0; font-style: italic } /* Literal.String.In=
+terpol */
+.codehilite .sx { color: #c65d09 } /* Literal.String.Other */
+.codehilite .sr { color: #235388 } /* Literal.String.Regex */
+.codehilite .s1 { color: #4070a0 } /* Literal.String.Single */
+.codehilite .ss { color: #517918 } /* Literal.String.Symbol */
+.codehilite .bp { color: #007020 } /* Name.Builtin.Pseudo */
+.codehilite .vc { color: #bb60d5 } /* Name.Variable.Class */
+.codehilite .vg { color: #bb60d5 } /* Name.Variable.Global */
+.codehilite .vi { color: #bb60d5 } /* Name.Variable.Instance */
+.codehilite .il { color: #40a070 } /* Literal.Number.Integer.Long */
+
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/js/jquery.js
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/javascript
+
+/*
+ * jQuery 1.2.6 - New Wave Javascript
+ *
+ * Copyright (c) 2008 John Resig (jquery.com)
+ * Dual licensed under the MIT (MIT-LICENSE.txt)
+ * and GPL (GPL-LICENSE.txt) licenses.
+ *
+ * $Date: 2008-11-28 18:23:57 -0600 (Fri, 28 Nov 2008) $
+ * $Rev: 721596 $
+ */
+(function(){var _jQuery=3Dwindow.jQuery,_$=3Dwindow.$;var jQuery=3Dwindow.j=
+Query=3Dwindow.$=3Dfunction(selector,context){return new jQuery.fn.init(sel=
+ector,context);};var quickExpr=3D/^[^<]*(<(.|\s)+>)[^>]*$|^#(\w+)$/,isSimpl=
+e=3D/^.[^:#\[\.]*$/,undefined;jQuery.fn=3DjQuery.prototype=3D{init:function=
+(selector,context){selector=3Dselector||document;if(selector.nodeType){this=
+[0]=3Dselector;this.length=3D1;return this;}if(typeof selector=3D=3D"string=
+"){var match=3DquickExpr.exec(selector);if(match&&(match[1]||!context)){if(=
+match[1])selector=3DjQuery.clean([match[1]],context);else{var elem=3Ddocume=
+nt.getElementById(match[3]);if(elem){if(elem.id!=3Dmatch[3])return jQuery()=
+.find(selector);return jQuery(elem);}selector=3D[];}}else
+return jQuery(context).find(selector);}else if(jQuery.isFunction(selector))=
+return jQuery(document)[jQuery.fn.ready?"ready":"load"](selector);return th=
+is.setArray(jQuery.makeArray(selector));},jquery:"1.2.6",size:function(){re=
+turn this.length;},length:0,get:function(num){return num=3D=3Dundefined?jQu=
+ery.makeArray(this):this[num];},pushStack:function(elems){var ret=3DjQuery(=
+elems);ret.prevObject=3Dthis;return ret;},setArray:function(elems){this.len=
+gth=3D0;Array.prototype.push.apply(this,elems);return this;},each:function(=
+callback,args){return jQuery.each(this,callback,args);},index:function(elem=
+){var ret=3D-1;return jQuery.inArray(elem&&elem.jquery?elem[0]:elem,this);}=
+,attr:function(name,value,type){var options=3Dname;if(name.constructor=3D=
+=3DString)if(value=3D=3D=3Dundefined)return this[0]&&jQuery[type||"attr"](t=
+his[0],name);else{options=3D{};options[name]=3Dvalue;}return this.each(func=
+tion(i){for(name in options)jQuery.attr(type?this.style:this,name,jQuery.pr=
+op(this,options[name],type,i,name));});},css:function(key,value){if((key=3D=
+=3D'width'||key=3D=3D'height')&&parseFloat(value)<0)value=3Dundefined;retur=
+n this.attr(key,value,"curCSS");},text:function(text){if(typeof text!=3D"ob=
+ject"&&text!=3Dnull)return this.empty().append((this[0]&&this[0].ownerDocum=
+ent||document).createTextNode(text));var ret=3D"";jQuery.each(text||this,fu=
+nction(){jQuery.each(this.childNodes,function(){if(this.nodeType!=3D8)ret+=
+=3Dthis.nodeType!=3D1?this.nodeValue:jQuery.fn.text([this]);});});return re=
+t;},wrapAll:function(html){if(this[0])jQuery(html,this[0].ownerDocument).cl=
+one().insertBefore(this[0]).map(function(){var elem=3Dthis;while(elem.first=
+Child)elem=3Delem.firstChild;return elem;}).append(this);return this;},wrap=
+Inner:function(html){return this.each(function(){jQuery(this).contents().wr=
+apAll(html);});},wrap:function(html){return this.each(function(){jQuery(thi=
+s).wrapAll(html);});},append:function(){return this.domManip(arguments,true=
+,false,function(elem){if(this.nodeType=3D=3D1)this.appendChild(elem);});},p=
+repend:function(){return this.domManip(arguments,true,true,function(elem){i=
+f(this.nodeType=3D=3D1)this.insertBefore(elem,this.firstChild);});},before:=
+function(){return this.domManip(arguments,false,false,function(elem){this.p=
+arentNode.insertBefore(elem,this);});},after:function(){return this.domMani=
+p(arguments,false,true,function(elem){this.parentNode.insertBefore(elem,thi=
+s.nextSibling);});},end:function(){return this.prevObject||jQuery([]);},fin=
+d:function(selector){var elems=3DjQuery.map(this,function(elem){return jQue=
+ry.find(selector,elem);});return this.pushStack(/[^+>] [^+>]/.test(selector=
+)||selector.indexOf("..")>-1?jQuery.unique(elems):elems);},clone:function(e=
+vents){var ret=3Dthis.map(function(){if(jQuery.browser.msie&&!jQuery.isXMLD=
+oc(this)){var clone=3Dthis.cloneNode(true),container=3Ddocument.createEleme=
+nt("div");container.appendChild(clone);return jQuery.clean([container.inner=
+HTML])[0];}else
+return this.cloneNode(true);});var clone=3Dret.find("*").andSelf().each(fun=
+ction(){if(this[expando]!=3Dundefined)this[expando]=3Dnull;});if(events=3D=
+=3D=3Dtrue)this.find("*").andSelf().each(function(i){if(this.nodeType=3D=3D=
+3)return;var events=3DjQuery.data(this,"events");for(var type in events)for=
+(var handler in events[type])jQuery.event.add(clone[i],type,events[type][ha=
+ndler],events[type][handler].data);});return ret;},filter:function(selector=
+){return this.pushStack(jQuery.isFunction(selector)&&jQuery.grep(this,funct=
+ion(elem,i){return selector.call(elem,i);})||jQuery.multiFilter(selector,th=
+is));},not:function(selector){if(selector.constructor=3D=3DString)if(isSimp=
+le.test(selector))return this.pushStack(jQuery.multiFilter(selector,this,tr=
+ue));else
+selector=3DjQuery.multiFilter(selector,this);var isArrayLike=3Dselector.len=
+gth&&selector[selector.length-1]!=3D=3Dundefined&&!selector.nodeType;return=
+ this.filter(function(){return isArrayLike?jQuery.inArray(this,selector)<0:=
+this!=3Dselector;});},add:function(selector){return this.pushStack(jQuery.u=
+nique(jQuery.merge(this.get(),typeof selector=3D=3D'string'?jQuery(selector=
+):jQuery.makeArray(selector))));},is:function(selector){return!!selector&&j=
+Query.multiFilter(selector,this).length>0;},hasClass:function(selector){ret=
+urn this.is("."+selector);},val:function(value){if(value=3D=3Dundefined){if=
+(this.length){var elem=3Dthis[0];if(jQuery.nodeName(elem,"select")){var ind=
+ex=3Delem.selectedIndex,values=3D[],options=3Delem.options,one=3Delem.type=
+=3D=3D"select-one";if(index<0)return null;for(var i=3Done?index:0,max=3Done=
+?index+1:options.length;i<max;i++){var option=3Doptions[i];if(option.select=
+ed){value=3DjQuery.browser.msie&&!option.attributes.value.specified?option.=
+text:option.value;if(one)return value;values.push(value);}}return values;}e=
+lse
+return(this[0].value||"").replace(/\r/g,"");}return undefined;}if(value.con=
+structor=3D=3DNumber)value+=3D'';return this.each(function(){if(this.nodeTy=
+pe!=3D1)return;if(value.constructor=3D=3DArray&&/radio|checkbox/.test(this.=
+type))this.checked=3D(jQuery.inArray(this.value,value)>=3D0||jQuery.inArray=
+(this.name,value)>=3D0);else if(jQuery.nodeName(this,"select")){var values=
+=3DjQuery.makeArray(value);jQuery("option",this).each(function(){this.selec=
+ted=3D(jQuery.inArray(this.value,values)>=3D0||jQuery.inArray(this.text,val=
+ues)>=3D0);});if(!values.length)this.selectedIndex=3D-1;}else
+this.value=3Dvalue;});},html:function(value){return value=3D=3Dundefined?(t=
+his[0]?this[0].innerHTML:null):this.empty().append(value);},replaceWith:fun=
+ction(value){return this.after(value).remove();},eq:function(i){return this=
+.slice(i,i+1);},slice:function(){return this.pushStack(Array.prototype.slic=
+e.apply(this,arguments));},map:function(callback){return this.pushStack(jQu=
+ery.map(this,function(elem,i){return callback.call(elem,i,elem);}));},andSe=
+lf:function(){return this.add(this.prevObject);},data:function(key,value){v=
+ar parts=3Dkey.split(".");parts[1]=3Dparts[1]?"."+parts[1]:"";if(value=3D=
+=3D=3Dundefined){var data=3Dthis.triggerHandler("getData"+parts[1]+"!",[par=
+ts[0]]);if(data=3D=3D=3Dundefined&&this.length)data=3DjQuery.data(this[0],k=
+ey);return data=3D=3D=3Dundefined&&parts[1]?this.data(parts[0]):data;}else
+return this.trigger("setData"+parts[1]+"!",[parts[0],value]).each(function(=
+){jQuery.data(this,key,value);});},removeData:function(key){return this.eac=
+h(function(){jQuery.removeData(this,key);});},domManip:function(args,table,=
+reverse,callback){var clone=3Dthis.length>1,elems;return this.each(function=
+(){if(!elems){elems=3DjQuery.clean(args,this.ownerDocument);if(reverse)elem=
+s.reverse();}var obj=3Dthis;if(table&&jQuery.nodeName(this,"table")&&jQuery=
+.nodeName(elems[0],"tr"))obj=3Dthis.getElementsByTagName("tbody")[0]||this.=
+appendChild(this.ownerDocument.createElement("tbody"));var scripts=3DjQuery=
+([]);jQuery.each(elems,function(){var elem=3Dclone?jQuery(this).clone(true)=
+[0]:this;if(jQuery.nodeName(elem,"script"))scripts=3Dscripts.add(elem);else=
+{if(elem.nodeType=3D=3D1)scripts=3Dscripts.add(jQuery("script",elem).remove=
+());callback.call(obj,elem);}});scripts.each(evalScript);});}};jQuery.fn.in=
+it.prototype=3DjQuery.fn;function evalScript(i,elem){if(elem.src)jQuery.aja=
+x({url:elem.src,async:false,dataType:"script"});else
+jQuery.globalEval(elem.text||elem.textContent||elem.innerHTML||"");if(elem.=
+parentNode)elem.parentNode.removeChild(elem);}function now(){return+new Dat=
+e;}jQuery.extend=3DjQuery.fn.extend=3Dfunction(){var target=3Darguments[0]|=
+|{},i=3D1,length=3Darguments.length,deep=3Dfalse,options;if(target.construc=
+tor=3D=3DBoolean){deep=3Dtarget;target=3Darguments[1]||{};i=3D2;}if(typeof=
+ target!=3D"object"&&typeof target!=3D"function")target=3D{};if(length=3D=
+=3Di){target=3Dthis;--i;}for(;i<length;i++)if((options=3Darguments[i])!=3Dn=
+ull)for(var name in options){var src=3Dtarget[name],copy=3Doptions[name];if=
+(target=3D=3D=3Dcopy)continue;if(deep&&copy&&typeof copy=3D=3D"object"&&!co=
+py.nodeType)target[name]=3DjQuery.extend(deep,src||(copy.length!=3Dnull?[]:=
+{}),copy);else if(copy!=3D=3Dundefined)target[name]=3Dcopy;}return target;}=
+;var expando=3D"jQuery"+now(),uuid=3D0,windowData=3D{},exclude=3D/z-?index|=
+font-?weight|opacity|zoom|line-?height/i,defaultView=3Ddocument.defaultView=
+||{};jQuery.extend({noConflict:function(deep){window.$=3D_$;if(deep)window.=
+jQuery=3D_jQuery;return jQuery;},isFunction:function(fn){return!!fn&&typeof=
+ fn!=3D"string"&&!fn.nodeName&&fn.constructor!=3DArray&&/^[\s[]?function/.t=
+est(fn+"");},isXMLDoc:function(elem){return elem.documentElement&&!elem.bod=
+y||elem.tagName&&elem.ownerDocument&&!elem.ownerDocument.body;},globalEval:=
+function(data){data=3DjQuery.trim(data);if(data){var head=3Ddocument.getEle=
+mentsByTagName("head")[0]||document.documentElement,script=3Ddocument.creat=
+eElement("script");script.type=3D"text/javascript";if(jQuery.browser.msie)s=
+cript.text=3Ddata;else
+script.appendChild(document.createTextNode(data));head.insertBefore(script,=
+head.firstChild);head.removeChild(script);}},nodeName:function(elem,name){r=
+eturn elem.nodeName&&elem.nodeName.toUpperCase()=3D=3Dname.toUpperCase();},=
+cache:{},data:function(elem,name,data){elem=3Delem=3D=3Dwindow?windowData:e=
+lem;var id=3Delem[expando];if(!id)id=3Delem[expando]=3D++uuid;if(name&&!jQu=
+ery.cache[id])jQuery.cache[id]=3D{};if(data!=3D=3Dundefined)jQuery.cache[id=
+][name]=3Ddata;return name?jQuery.cache[id][name]:id;},removeData:function(=
+elem,name){elem=3Delem=3D=3Dwindow?windowData:elem;var id=3Delem[expando];i=
+f(name){if(jQuery.cache[id]){delete jQuery.cache[id][name];name=3D"";for(na=
+me in jQuery.cache[id])break;if(!name)jQuery.removeData(elem);}}else{try{de=
+lete elem[expando];}catch(e){if(elem.removeAttribute)elem.removeAttribute(e=
+xpando);}delete jQuery.cache[id];}},each:function(object,callback,args){var=
+ name,i=3D0,length=3Dobject.length;if(args){if(length=3D=3Dundefined){for(n=
+ame in object)if(callback.apply(object[name],args)=3D=3D=3Dfalse)break;}else
+for(;i<length;)if(callback.apply(object[i++],args)=3D=3D=3Dfalse)break;}els=
+e{if(length=3D=3Dundefined){for(name in object)if(callback.call(object[name=
+],name,object[name])=3D=3D=3Dfalse)break;}else
+for(var value=3Dobject[0];i<length&&callback.call(value,i,value)!=3D=3Dfals=
+e;value=3Dobject[++i]){}}return object;},prop:function(elem,value,type,i,na=
+me){if(jQuery.isFunction(value))value=3Dvalue.call(elem,i);return value&&va=
+lue.constructor=3D=3DNumber&&type=3D=3D"curCSS"&&!exclude.test(name)?value+=
+"px":value;},className:{add:function(elem,classNames){jQuery.each((classNam=
+es||"").split(/\s+/),function(i,className){if(elem.nodeType=3D=3D1&&!jQuery=
+.className.has(elem.className,className))elem.className+=3D(elem.className?=
+" ":"")+className;});},remove:function(elem,classNames){if(elem.nodeType=3D=
+=3D1)elem.className=3DclassNames!=3Dundefined?jQuery.grep(elem.className.sp=
+lit(/\s+/),function(className){return!jQuery.className.has(classNames,class=
+Name);}).join(" "):"";},has:function(elem,className){return jQuery.inArray(=
+className,(elem.className||elem).toString().split(/\s+/))>-1;}},swap:functi=
+on(elem,options,callback){var old=3D{};for(var name in options){old[name]=
+=3Delem.style[name];elem.style[name]=3Doptions[name];}callback.call(elem);f=
+or(var name in options)elem.style[name]=3Dold[name];},css:function(elem,nam=
+e,force){if(name=3D=3D"width"||name=3D=3D"height"){var val,props=3D{positio=
+n:"absolute",visibility:"hidden",display:"block"},which=3Dname=3D=3D"width"=
+?["Left","Right"]:["Top","Bottom"];function getWH(){val=3Dname=3D=3D"width"=
+?elem.offsetWidth:elem.offsetHeight;var padding=3D0,border=3D0;jQuery.each(=
+which,function(){padding+=3DparseFloat(jQuery.curCSS(elem,"padding"+this,tr=
+ue))||0;border+=3DparseFloat(jQuery.curCSS(elem,"border"+this+"Width",true)=
+)||0;});val-=3DMath.round(padding+border);}if(jQuery(elem).is(":visible"))g=
+etWH();else
+jQuery.swap(elem,props,getWH);return Math.max(0,val);}return jQuery.curCSS(=
+elem,name,force);},curCSS:function(elem,name,force){var ret,style=3Delem.st=
+yle;function color(elem){if(!jQuery.browser.safari)return false;var ret=3Dd=
+efaultView.getComputedStyle(elem,null);return!ret||ret.getPropertyValue("co=
+lor")=3D=3D"";}if(name=3D=3D"opacity"&&jQuery.browser.msie){ret=3DjQuery.at=
+tr(style,"opacity");return ret=3D=3D""?"1":ret;}if(jQuery.browser.opera&&na=
+me=3D=3D"display"){var save=3Dstyle.outline;style.outline=3D"0 solid black"=
+;style.outline=3Dsave;}if(name.match(/float/i))name=3DstyleFloat;if(!force&=
+&style&&style[name])ret=3Dstyle[name];else if(defaultView.getComputedStyle)=
+{if(name.match(/float/i))name=3D"float";name=3Dname.replace(/([A-Z])/g,"-$1=
+").toLowerCase();var computedStyle=3DdefaultView.getComputedStyle(elem,null=
+);if(computedStyle&&!color(elem))ret=3DcomputedStyle.getPropertyValue(name)=
+;else{var swap=3D[],stack=3D[],a=3Delem,i=3D0;for(;a&&color(a);a=3Da.parent=
+Node)stack.unshift(a);for(;i<stack.length;i++)if(color(stack[i])){swap[i]=
+=3Dstack[i].style.display;stack[i].style.display=3D"block";}ret=3Dname=3D=
+=3D"display"&&swap[stack.length-1]!=3Dnull?"none":(computedStyle&&computedS=
+tyle.getPropertyValue(name))||"";for(i=3D0;i<swap.length;i++)if(swap[i]!=3D=
+null)stack[i].style.display=3Dswap[i];}if(name=3D=3D"opacity"&&ret=3D=3D"")=
+ret=3D"1";}else if(elem.currentStyle){var camelCase=3Dname.replace(/\-(\w)/=
+g,function(all,letter){return letter.toUpperCase();});ret=3Delem.currentSty=
+le[name]||elem.currentStyle[camelCase];if(!/^\d+(px)?$/i.test(ret)&&/^\d/.t=
+est(ret)){var left=3Dstyle.left,rsLeft=3Delem.runtimeStyle.left;elem.runtim=
+eStyle.left=3Delem.currentStyle.left;style.left=3Dret||0;ret=3Dstyle.pixelL=
+eft+"px";style.left=3Dleft;elem.runtimeStyle.left=3DrsLeft;}}return ret;},c=
+lean:function(elems,context){var ret=3D[];context=3Dcontext||document;if(ty=
+peof context.createElement=3D=3D'undefined')context=3Dcontext.ownerDocument=
+||context[0]&&context[0].ownerDocument||document;jQuery.each(elems,function=
+(i,elem){if(!elem)return;if(elem.constructor=3D=3DNumber)elem+=3D'';if(type=
+of elem=3D=3D"string"){elem=3Delem.replace(/(<(\w+)[^>]*?)\/>/g,function(al=
+l,front,tag){return tag.match(/^(abbr|br|col|img|input|link|meta|param|hr|a=
+rea|embed)$/i)?all:front+"></"+tag+">";});var tags=3DjQuery.trim(elem).toLo=
+werCase(),div=3Dcontext.createElement("div");var wrap=3D!tags.indexOf("<opt=
+")&&[1,"<select multiple=3D'multiple'>","</select>"]||!tags.indexOf("<leg")=
+&&[1,"<fieldset>","</fieldset>"]||tags.match(/^<(thead|tbody|tfoot|colg|cap=
+)/)&&[1,"<table>","</table>"]||!tags.indexOf("<tr")&&[2,"<table><tbody>","<=
+/tbody></table>"]||(!tags.indexOf("<td")||!tags.indexOf("<th"))&&[3,"<table=
+><tbody><tr>","</tr></tbody></table>"]||!tags.indexOf("<col")&&[2,"<table><=
+tbody></tbody><colgroup>","</colgroup></table>"]||jQuery.browser.msie&&[1,"=
+div<div>","</div>"]||[0,"",""];div.innerHTML=3Dwrap[1]+elem+wrap[2];while(w=
+rap[0]--)div=3Ddiv.lastChild;if(jQuery.browser.msie){var tbody=3D!tags.inde=
+xOf("<table")&&tags.indexOf("<tbody")<0?div.firstChild&&div.firstChild.chil=
+dNodes:wrap[1]=3D=3D"<table>"&&tags.indexOf("<tbody")<0?div.childNodes:[];f=
+or(var j=3Dtbody.length-1;j>=3D0;--j)if(jQuery.nodeName(tbody[j],"tbody")&&=
+!tbody[j].childNodes.length)tbody[j].parentNode.removeChild(tbody[j]);if(/^=
+\s/.test(elem))div.insertBefore(context.createTextNode(elem.match(/^\s*/)[0=
+]),div.firstChild);}elem=3DjQuery.makeArray(div.childNodes);}if(elem.length=
+=3D=3D=3D0&&(!jQuery.nodeName(elem,"form")&&!jQuery.nodeName(elem,"select")=
+))return;if(elem[0]=3D=3Dundefined||jQuery.nodeName(elem,"form")||elem.opti=
+ons)ret.push(elem);else
+ret=3DjQuery.merge(ret,elem);});return ret;},attr:function(elem,name,value)=
+{if(!elem||elem.nodeType=3D=3D3||elem.nodeType=3D=3D8)return undefined;var=
+ notxml=3D!jQuery.isXMLDoc(elem),set=3Dvalue!=3D=3Dundefined,msie=3DjQuery.=
+browser.msie;name=3Dnotxml&&jQuery.props[name]||name;if(elem.tagName){var=
+ special=3D/href|src|style/.test(name);if(name=3D=3D"selected"&&jQuery.brow=
+ser.safari)elem.parentNode.selectedIndex;if(name in elem&&notxml&&!special)=
+{if(set){if(name=3D=3D"type"&&jQuery.nodeName(elem,"input")&&elem.parentNod=
+e)throw"type property can't be changed";elem[name]=3Dvalue;}if(jQuery.nodeN=
+ame(elem,"form")&&elem.getAttributeNode(name))return elem.getAttributeNode(=
+name).nodeValue;return elem[name];}if(msie&&notxml&&name=3D=3D"style")retur=
+n jQuery.attr(elem.style,"cssText",value);if(set)elem.setAttribute(name,""+=
+value);var attr=3Dmsie&&notxml&&special?elem.getAttribute(name,2):elem.getA=
+ttribute(name);return attr=3D=3D=3Dnull?undefined:attr;}if(msie&&name=3D=3D=
+"opacity"){if(set){elem.zoom=3D1;elem.filter=3D(elem.filter||"").replace(/a=
+lpha\([^)]*\)/,"")+(parseInt(value)+''=3D=3D"NaN"?"":"alpha(opacity=3D"+val=
+ue*100+")");}return elem.filter&&elem.filter.indexOf("opacity=3D")>=3D0?(pa=
+rseFloat(elem.filter.match(/opacity=3D([^)]*)/)[1])/100)+'':"";}name=3Dname=
+.replace(/-([a-z])/ig,function(all,letter){return letter.toUpperCase();});i=
+f(set)elem[name]=3Dvalue;return elem[name];},trim:function(text){return(tex=
+t||"").replace(/^\s+|\s+$/g,"");},makeArray:function(array){var ret=3D[];if=
+(array!=3Dnull){var i=3Darray.length;if(i=3D=3Dnull||array.split||array.set=
+Interval||array.call)ret[0]=3Darray;else
+while(i)ret[--i]=3Darray[i];}return ret;},inArray:function(elem,array){for(=
+var i=3D0,length=3Darray.length;i<length;i++)if(array[i]=3D=3D=3Delem)retur=
+n i;return-1;},merge:function(first,second){var i=3D0,elem,pos=3Dfirst.leng=
+th;if(jQuery.browser.msie){while(elem=3Dsecond[i++])if(elem.nodeType!=3D8)f=
+irst[pos++]=3Delem;}else
+while(elem=3Dsecond[i++])first[pos++]=3Delem;return first;},unique:function=
+(array){var ret=3D[],done=3D{};try{for(var i=3D0,length=3Darray.length;i<le=
+ngth;i++){var id=3DjQuery.data(array[i]);if(!done[id]){done[id]=3Dtrue;ret.=
+push(array[i]);}}}catch(e){ret=3Darray;}return ret;},grep:function(elems,ca=
+llback,inv){var ret=3D[];for(var i=3D0,length=3Delems.length;i<length;i++)i=
+f(!inv!=3D!callback(elems[i],i))ret.push(elems[i]);return ret;},map:functio=
+n(elems,callback){var ret=3D[];for(var i=3D0,length=3Delems.length;i<length=
+;i++){var value=3Dcallback(elems[i],i);if(value!=3Dnull)ret[ret.length]=3Dv=
+alue;}return ret.concat.apply([],ret);}});var userAgent=3Dnavigator.userAge=
+nt.toLowerCase();jQuery.browser=3D{version:(userAgent.match(/.+(?:rv|it|ra|=
+ie)[\/: ]([\d.]+)/)||[])[1],safari:/webkit/.test(userAgent),opera:/opera/.t=
+est(userAgent),msie:/msie/.test(userAgent)&&!/opera/.test(userAgent),mozill=
+a:/mozilla/.test(userAgent)&&!/(compatible|webkit)/.test(userAgent)};var st=
+yleFloat=3DjQuery.browser.msie?"styleFloat":"cssFloat";jQuery.extend({boxMo=
+del:!jQuery.browser.msie||document.compatMode=3D=3D"CSS1Compat",props:{"for=
+":"htmlFor","class":"className","float":styleFloat,cssFloat:styleFloat,styl=
+eFloat:styleFloat,readonly:"readOnly",maxlength:"maxLength",cellspacing:"ce=
+llSpacing"}});jQuery.each({parent:function(elem){return elem.parentNode;},p=
+arents:function(elem){return jQuery.dir(elem,"parentNode");},next:function(=
+elem){return jQuery.nth(elem,2,"nextSibling");},prev:function(elem){return=
+ jQuery.nth(elem,2,"previousSibling");},nextAll:function(elem){return jQuer=
+y.dir(elem,"nextSibling");},prevAll:function(elem){return jQuery.dir(elem,"=
+previousSibling");},siblings:function(elem){return jQuery.sibling(elem.pare=
+ntNode.firstChild,elem);},children:function(elem){return jQuery.sibling(ele=
+m.firstChild);},contents:function(elem){return jQuery.nodeName(elem,"iframe=
+")?elem.contentDocument||elem.contentWindow.document:jQuery.makeArray(elem.=
+childNodes);}},function(name,fn){jQuery.fn[name]=3Dfunction(selector){var=
+ ret=3DjQuery.map(this,fn);if(selector&&typeof selector=3D=3D"string")ret=
+=3DjQuery.multiFilter(selector,ret);return this.pushStack(jQuery.unique(ret=
+));};});jQuery.each({appendTo:"append",prependTo:"prepend",insertBefore:"be=
+fore",insertAfter:"after",replaceAll:"replaceWith"},function(name,original)=
+{jQuery.fn[name]=3Dfunction(){var args=3Darguments;return this.each(functio=
+n(){for(var i=3D0,length=3Dargs.length;i<length;i++)jQuery(args[i])[origina=
+l](this);});};});jQuery.each({removeAttr:function(name){jQuery.attr(this,na=
+me,"");if(this.nodeType=3D=3D1)this.removeAttribute(name);},addClass:functi=
+on(classNames){jQuery.className.add(this,classNames);},removeClass:function=
+(classNames){jQuery.className.remove(this,classNames);},toggleClass:functio=
+n(classNames){jQuery.className[jQuery.className.has(this,classNames)?"remov=
+e":"add"](this,classNames);},remove:function(selector){if(!selector||jQuery=
+.filter(selector,[this]).r.length){jQuery("*",this).add(this).each(function=
+(){jQuery.event.remove(this);jQuery.removeData(this);});if(this.parentNode)=
+this.parentNode.removeChild(this);}},empty:function(){jQuery(">*",this).rem=
+ove();while(this.firstChild)this.removeChild(this.firstChild);}},function(n=
+ame,fn){jQuery.fn[name]=3Dfunction(){return this.each(fn,arguments);};});jQ=
+uery.each(["Height","Width"],function(i,name){var type=3Dname.toLowerCase()=
+;jQuery.fn[type]=3Dfunction(size){return this[0]=3D=3Dwindow?jQuery.browser=
+.opera&&document.body["client"+name]||jQuery.browser.safari&&window["inner"=
++name]||document.compatMode=3D=3D"CSS1Compat"&&document.documentElement["cl=
+ient"+name]||document.body["client"+name]:this[0]=3D=3Ddocument?Math.max(Ma=
+th.max(document.body["scroll"+name],document.documentElement["scroll"+name]=
+),Math.max(document.body["offset"+name],document.documentElement["offset"+n=
+ame])):size=3D=3Dundefined?(this.length?jQuery.css(this[0],type):null):this=
+.css(type,size.constructor=3D=3DString?size:size+"px");};});function num(el=
+em,prop){return elem[0]&&parseInt(jQuery.curCSS(elem[0],prop,true),10)||0;}=
+var chars=3DjQuery.browser.safari&&parseInt(jQuery.browser.version)<417?"(?=
+:[\\w*_-]|\\\\.)":"(?:[\\w\u0128-\uFFFF*_-]|\\\\.)",quickChild=3Dnew RegExp=
+("^>\\s*("+chars+"+)"),quickID=3Dnew RegExp("^("+chars+"+)(#)("+chars+"+)")=
+,quickClass=3Dnew RegExp("^([#.]?)("+chars+"*)");jQuery.extend({expr:{"":fu=
+nction(a,i,m){return m[2]=3D=3D"*"||jQuery.nodeName(a,m[2]);},"#":function(=
+a,i,m){return a.getAttribute("id")=3D=3Dm[2];},":":{lt:function(a,i,m){retu=
+rn i<m[3]-0;},gt:function(a,i,m){return i>m[3]-0;},nth:function(a,i,m){retu=
+rn m[3]-0=3D=3Di;},eq:function(a,i,m){return m[3]-0=3D=3Di;},first:function=
+(a,i){return i=3D=3D0;},last:function(a,i,m,r){return i=3D=3Dr.length-1;},e=
+ven:function(a,i){return i%2=3D=3D0;},odd:function(a,i){return i%2;},"first=
+-child":function(a){return a.parentNode.getElementsByTagName("*")[0]=3D=3Da=
+;},"last-child":function(a){return jQuery.nth(a.parentNode.lastChild,1,"pre=
+viousSibling")=3D=3Da;},"only-child":function(a){return!jQuery.nth(a.parent=
+Node.lastChild,2,"previousSibling");},parent:function(a){return a.firstChil=
+d;},empty:function(a){return!a.firstChild;},contains:function(a,i,m){return=
+(a.textContent||a.innerText||jQuery(a).text()||"").indexOf(m[3])>=3D0;},vis=
+ible:function(a){return"hidden"!=3Da.type&&jQuery.css(a,"display")!=3D"none=
+"&&jQuery.css(a,"visibility")!=3D"hidden";},hidden:function(a){return"hidde=
+n"=3D=3Da.type||jQuery.css(a,"display")=3D=3D"none"||jQuery.css(a,"visibili=
+ty")=3D=3D"hidden";},enabled:function(a){return!a.disabled;},disabled:funct=
+ion(a){return a.disabled;},checked:function(a){return a.checked;},selected:=
+function(a){return a.selected||jQuery.attr(a,"selected");},text:function(a)=
+{return"text"=3D=3Da.type;},radio:function(a){return"radio"=3D=3Da.type;},c=
+heckbox:function(a){return"checkbox"=3D=3Da.type;},file:function(a){return"=
+file"=3D=3Da.type;},password:function(a){return"password"=3D=3Da.type;},sub=
+mit:function(a){return"submit"=3D=3Da.type;},image:function(a){return"image=
+"=3D=3Da.type;},reset:function(a){return"reset"=3D=3Da.type;},button:functi=
+on(a){return"button"=3D=3Da.type||jQuery.nodeName(a,"button");},input:funct=
+ion(a){return/input|select|textarea|button/i.test(a.nodeName);},has:functio=
+n(a,i,m){return jQuery.find(m[3],a).length;},header:function(a){return/h\d/=
+i.test(a.nodeName);},animated:function(a){return jQuery.grep(jQuery.timers,=
+function(fn){return a=3D=3Dfn.elem;}).length;}}},parse:[/^(\[) *@?([\w-]+)=
+ *([!*$^~=3D]*) *('?"?)(.*?)\4 *\]/,/^(:)([\w-]+)\("?'?(.*?(\(.*?\))?[^(]*?=
+)"?'?\)/,new RegExp("^([:.#]*)("+chars+"+)")],multiFilter:function(expr,ele=
+ms,not){var old,cur=3D[];while(expr&&expr!=3Dold){old=3Dexpr;var f=3DjQuery=
+.filter(expr,elems,not);expr=3Df.t.replace(/^\s*,\s*/,"");cur=3Dnot?elems=
+=3Df.r:jQuery.merge(cur,f.r);}return cur;},find:function(t,context){if(type=
+of t!=3D"string")return[t];if(context&&context.nodeType!=3D1&&context.nodeT=
+ype!=3D9)return[];context=3Dcontext||document;var ret=3D[context],done=3D[]=
+,last,nodeName;while(t&&last!=3Dt){var r=3D[];last=3Dt;t=3DjQuery.trim(t);v=
+ar foundToken=3Dfalse,re=3DquickChild,m=3Dre.exec(t);if(m){nodeName=3Dm[1].=
+toUpperCase();for(var i=3D0;ret[i];i++)for(var c=3Dret[i].firstChild;c;c=3D=
+c.nextSibling)if(c.nodeType=3D=3D1&&(nodeName=3D=3D"*"||c.nodeName.toUpperC=
+ase()=3D=3DnodeName))r.push(c);ret=3Dr;t=3Dt.replace(re,"");if(t.indexOf("=
+ ")=3D=3D0)continue;foundToken=3Dtrue;}else{re=3D/^([>+~])\s*(\w*)/i;if((m=
+=3Dre.exec(t))!=3Dnull){r=3D[];var merge=3D{};nodeName=3Dm[2].toUpperCase()=
+;m=3Dm[1];for(var j=3D0,rl=3Dret.length;j<rl;j++){var n=3Dm=3D=3D"~"||m=3D=
+=3D"+"?ret[j].nextSibling:ret[j].firstChild;for(;n;n=3Dn.nextSibling)if(n.n=
+odeType=3D=3D1){var id=3DjQuery.data(n);if(m=3D=3D"~"&&merge[id])break;if(!=
+nodeName||n.nodeName.toUpperCase()=3D=3DnodeName){if(m=3D=3D"~")merge[id]=
+=3Dtrue;r.push(n);}if(m=3D=3D"+")break;}}ret=3Dr;t=3DjQuery.trim(t.replace(=
+re,""));foundToken=3Dtrue;}}if(t&&!foundToken){if(!t.indexOf(",")){if(conte=
+xt=3D=3Dret[0])ret.shift();done=3DjQuery.merge(done,ret);r=3Dret=3D[context=
+];t=3D" "+t.substr(1,t.length);}else{var re2=3DquickID;var m=3Dre2.exec(t);=
+if(m){m=3D[0,m[2],m[3],m[1]];}else{re2=3DquickClass;m=3Dre2.exec(t);}m[2]=
+=3Dm[2].replace(/\\/g,"");var elem=3Dret[ret.length-1];if(m[1]=3D=3D"#"&&el=
+em&&elem.getElementById&&!jQuery.isXMLDoc(elem)){var oid=3Delem.getElementB=
+yId(m[2]);if((jQuery.browser.msie||jQuery.browser.opera)&&oid&&typeof oid.i=
+d=3D=3D"string"&&oid.id!=3Dm[2])oid=3DjQuery('[@id=3D"'+m[2]+'"]',elem)[0];=
+ret=3Dr=3Doid&&(!m[3]||jQuery.nodeName(oid,m[3]))?[oid]:[];}else{for(var i=
+=3D0;ret[i];i++){var tag=3Dm[1]=3D=3D"#"&&m[3]?m[3]:m[1]!=3D""||m[0]=3D=3D"=
+"?"*":m[2];if(tag=3D=3D"*"&&ret[i].nodeName.toLowerCase()=3D=3D"object")tag=
+=3D"param";r=3DjQuery.merge(r,ret[i].getElementsByTagName(tag));}if(m[1]=3D=
+=3D".")r=3DjQuery.classFilter(r,m[2]);if(m[1]=3D=3D"#"){var tmp=3D[];for(va=
+r i=3D0;r[i];i++)if(r[i].getAttribute("id")=3D=3Dm[2]){tmp=3D[r[i]];break;}=
+r=3Dtmp;}ret=3Dr;}t=3Dt.replace(re2,"");}}if(t){var val=3DjQuery.filter(t,r=
+);ret=3Dr=3Dval.r;t=3DjQuery.trim(val.t);}}if(t)ret=3D[];if(ret&&context=3D=
+=3Dret[0])ret.shift();done=3DjQuery.merge(done,ret);return done;},classFilt=
+er:function(r,m,not){m=3D" "+m+" ";var tmp=3D[];for(var i=3D0;r[i];i++){var=
+ pass=3D(" "+r[i].className+" ").indexOf(m)>=3D0;if(!not&&pass||not&&!pass)=
+tmp.push(r[i]);}return tmp;},filter:function(t,r,not){var last;while(t&&t!=
+=3Dlast){last=3Dt;var p=3DjQuery.parse,m;for(var i=3D0;p[i];i++){m=3Dp[i].e=
+xec(t);if(m){t=3Dt.substring(m[0].length);m[2]=3Dm[2].replace(/\\/g,"");bre=
+ak;}}if(!m)break;if(m[1]=3D=3D":"&&m[2]=3D=3D"not")r=3DisSimple.test(m[3])?=
+jQuery.filter(m[3],r,true).r:jQuery(r).not(m[3]);else if(m[1]=3D=3D".")r=3D=
+jQuery.classFilter(r,m[2],not);else if(m[1]=3D=3D"["){var tmp=3D[],type=3Dm=
+[3];for(var i=3D0,rl=3Dr.length;i<rl;i++){var a=3Dr[i],z=3Da[jQuery.props[m=
+[2]]||m[2]];if(z=3D=3Dnull||/href|src|selected/.test(m[2]))z=3DjQuery.attr(=
+a,m[2])||'';if((type=3D=3D""&&!!z||type=3D=3D"=3D"&&z=3D=3Dm[5]||type=3D=3D=
+"!=3D"&&z!=3Dm[5]||type=3D=3D"^=3D"&&z&&!z.indexOf(m[5])||type=3D=3D"$=3D"&=
+&z.substr(z.length-m[5].length)=3D=3Dm[5]||(type=3D=3D"*=3D"||type=3D=3D"~=
+=3D")&&z.indexOf(m[5])>=3D0)^not)tmp.push(a);}r=3Dtmp;}else if(m[1]=3D=3D":=
+"&&m[2]=3D=3D"nth-child"){var merge=3D{},tmp=3D[],test=3D/(-?)(\d*)n((?:\+|=
+-)?\d*)/.exec(m[3]=3D=3D"even"&&"2n"||m[3]=3D=3D"odd"&&"2n+1"||!/\D/.test(m=
+[3])&&"0n+"+m[3]||m[3]),first=3D(test[1]+(test[2]||1))-0,last=3Dtest[3]-0;f=
+or(var i=3D0,rl=3Dr.length;i<rl;i++){var node=3Dr[i],parentNode=3Dnode.pare=
+ntNode,id=3DjQuery.data(parentNode);if(!merge[id]){var c=3D1;for(var n=3Dpa=
+rentNode.firstChild;n;n=3Dn.nextSibling)if(n.nodeType=3D=3D1)n.nodeIndex=3D=
+c++;merge[id]=3Dtrue;}var add=3Dfalse;if(first=3D=3D0){if(node.nodeIndex=3D=
+=3Dlast)add=3Dtrue;}else if((node.nodeIndex-last)%first=3D=3D0&&(node.nodeI=
+ndex-last)/first>=3D0)add=3Dtrue;if(add^not)tmp.push(node);}r=3Dtmp;}else{v=
+ar fn=3DjQuery.expr[m[1]];if(typeof fn=3D=3D"object")fn=3Dfn[m[2]];if(typeo=
+f fn=3D=3D"string")fn=3Deval("false||function(a,i){return "+fn+";}");r=3DjQ=
+uery.grep(r,function(elem,i){return fn(elem,i,m,r);},not);}}return{r:r,t:t}=
+;},dir:function(elem,dir){var matched=3D[],cur=3Delem[dir];while(cur&&cur!=
+=3Ddocument){if(cur.nodeType=3D=3D1)matched.push(cur);cur=3Dcur[dir];}retur=
+n matched;},nth:function(cur,result,dir,elem){result=3Dresult||1;var num=3D=
+0;for(;cur;cur=3Dcur[dir])if(cur.nodeType=3D=3D1&&++num=3D=3Dresult)break;r=
+eturn cur;},sibling:function(n,elem){var r=3D[];for(;n;n=3Dn.nextSibling){i=
+f(n.nodeType=3D=3D1&&n!=3Delem)r.push(n);}return r;}});jQuery.event=3D{add:=
+function(elem,types,handler,data){if(elem.nodeType=3D=3D3||elem.nodeType=3D=
+=3D8)return;if(jQuery.browser.msie&&elem.setInterval)elem=3Dwindow;if(!hand=
+ler.guid)handler.guid=3Dthis.guid++;if(data!=3Dundefined){var fn=3Dhandler;=
+handler=3Dthis.proxy(fn,function(){return fn.apply(this,arguments);});handl=
+er.data=3Ddata;}var events=3DjQuery.data(elem,"events")||jQuery.data(elem,"=
+events",{}),handle=3DjQuery.data(elem,"handle")||jQuery.data(elem,"handle",=
+function(){if(typeof jQuery!=3D"undefined"&&!jQuery.event.triggered)return=
+ jQuery.event.handle.apply(arguments.callee.elem,arguments);});handle.elem=
+=3Delem;jQuery.each(types.split(/\s+/),function(index,type){var parts=3Dtyp=
+e.split(".");type=3Dparts[0];handler.type=3Dparts[1];var handlers=3Devents[=
+type];if(!handlers){handlers=3Devents[type]=3D{};if(!jQuery.event.special[t=
+ype]||jQuery.event.special[type].setup.call(elem)=3D=3D=3Dfalse){if(elem.ad=
+dEventListener)elem.addEventListener(type,handle,false);else if(elem.attach=
+Event)elem.attachEvent("on"+type,handle);}}handlers[handler.guid]=3Dhandler=
+;jQuery.event.global[type]=3Dtrue;});elem=3Dnull;},guid:1,global:{},remove:=
+function(elem,types,handler){if(elem.nodeType=3D=3D3||elem.nodeType=3D=3D8)=
+return;var events=3DjQuery.data(elem,"events"),ret,index;if(events){if(type=
+s=3D=3Dundefined||(typeof types=3D=3D"string"&&types.charAt(0)=3D=3D"."))fo=
+r(var type in events)this.remove(elem,type+(types||""));else{if(types.type)=
+{handler=3Dtypes.handler;types=3Dtypes.type;}jQuery.each(types.split(/\s+/)=
+,function(index,type){var parts=3Dtype.split(".");type=3Dparts[0];if(events=
+[type]){if(handler)delete events[type][handler.guid];else
+for(handler in events[type])if(!parts[1]||events[type][handler].type=3D=3Dp=
+arts[1])delete events[type][handler];for(ret in events[type])break;if(!ret)=
+{if(!jQuery.event.special[type]||jQuery.event.special[type].teardown.call(e=
+lem)=3D=3D=3Dfalse){if(elem.removeEventListener)elem.removeEventListener(ty=
+pe,jQuery.data(elem,"handle"),false);else if(elem.detachEvent)elem.detachEv=
+ent("on"+type,jQuery.data(elem,"handle"));}ret=3Dnull;delete events[type];}=
+}});}for(ret in events)break;if(!ret){var handle=3DjQuery.data(elem,"handle=
+");if(handle)handle.elem=3Dnull;jQuery.removeData(elem,"events");jQuery.rem=
+oveData(elem,"handle");}}},trigger:function(type,data,elem,donative,extra){=
+data=3DjQuery.makeArray(data);if(type.indexOf("!")>=3D0){type=3Dtype.slice(=
+0,-1);var exclusive=3Dtrue;}if(!elem){if(this.global[type])jQuery("*").add(=
+[window,document]).trigger(type,data);}else{if(elem.nodeType=3D=3D3||elem.n=
+odeType=3D=3D8)return undefined;var val,ret,fn=3DjQuery.isFunction(elem[typ=
+e]||null),event=3D!data[0]||!data[0].preventDefault;if(event){data.unshift(=
+{type:type,target:elem,preventDefault:function(){},stopPropagation:function=
+(){},timeStamp:now()});data[0][expando]=3Dtrue;}data[0].type=3Dtype;if(excl=
+usive)data[0].exclusive=3Dtrue;var handle=3DjQuery.data(elem,"handle");if(h=
+andle)val=3Dhandle.apply(elem,data);if((!fn||(jQuery.nodeName(elem,'a')&&ty=
+pe=3D=3D"click"))&&elem["on"+type]&&elem["on"+type].apply(elem,data)=3D=3D=
+=3Dfalse)val=3Dfalse;if(event)data.shift();if(extra&&jQuery.isFunction(extr=
+a)){ret=3Dextra.apply(elem,val=3D=3Dnull?data:data.concat(val));if(ret!=3D=
+=3Dundefined)val=3Dret;}if(fn&&donative!=3D=3Dfalse&&val!=3D=3Dfalse&&!(jQu=
+ery.nodeName(elem,'a')&&type=3D=3D"click")){this.triggered=3Dtrue;try{elem[=
+type]();}catch(e){}}this.triggered=3Dfalse;}return val;},handle:function(ev=
+ent){var val,ret,namespace,all,handlers;event=3Darguments[0]=3DjQuery.event=
+.fix(event||window.event);namespace=3Devent.type.split(".");event.type=3Dna=
+mespace[0];namespace=3Dnamespace[1];all=3D!namespace&&!event.exclusive;hand=
+lers=3D(jQuery.data(this,"events")||{})[event.type];for(var j in handlers){=
+var handler=3Dhandlers[j];if(all||handler.type=3D=3Dnamespace){event.handle=
+r=3Dhandler;event.data=3Dhandler.data;ret=3Dhandler.apply(this,arguments);i=
+f(val!=3D=3Dfalse)val=3Dret;if(ret=3D=3D=3Dfalse){event.preventDefault();ev=
+ent.stopPropagation();}}}return val;},fix:function(event){if(event[expando]=
+=3D=3Dtrue)return event;var originalEvent=3Devent;event=3D{originalEvent:or=
+iginalEvent};var props=3D"altKey attrChange attrName bubbles button cancela=
+ble charCode clientX clientY ctrlKey currentTarget data detail eventPhase=
+ fromElement handler keyCode metaKey newValue originalTarget pageX pageY pr=
+evValue relatedNode relatedTarget screenX screenY shiftKey srcElement targe=
+t timeStamp toElement type view wheelDelta which".split(" ");for(var i=3Dpr=
+ops.length;i;i--)event[props[i]]=3DoriginalEvent[props[i]];event[expando]=
+=3Dtrue;event.preventDefault=3Dfunction(){if(originalEvent.preventDefault)o=
+riginalEvent.preventDefault();originalEvent.returnValue=3Dfalse;};event.sto=
+pPropagation=3Dfunction(){if(originalEvent.stopPropagation)originalEvent.st=
+opPropagation();originalEvent.cancelBubble=3Dtrue;};event.timeStamp=3Devent=
+.timeStamp||now();if(!event.target)event.target=3Devent.srcElement||documen=
+t;if(event.target.nodeType=3D=3D3)event.target=3Devent.target.parentNode;if=
+(!event.relatedTarget&&event.fromElement)event.relatedTarget=3Devent.fromEl=
+ement=3D=3Devent.target?event.toElement:event.fromElement;if(event.pageX=3D=
+=3Dnull&&event.clientX!=3Dnull){var doc=3Ddocument.documentElement,body=3Dd=
+ocument.body;event.pageX=3Devent.clientX+(doc&&doc.scrollLeft||body&&body.s=
+crollLeft||0)-(doc.clientLeft||0);event.pageY=3Devent.clientY+(doc&&doc.scr=
+ollTop||body&&body.scrollTop||0)-(doc.clientTop||0);}if(!event.which&&((eve=
+nt.charCode||event.charCode=3D=3D=3D0)?event.charCode:event.keyCode))event.=
+which=3Devent.charCode||event.keyCode;if(!event.metaKey&&event.ctrlKey)even=
+t.metaKey=3Devent.ctrlKey;if(!event.which&&event.button)event.which=3D(even=
+t.button&1?1:(event.button&2?3:(event.button&4?2:0)));return event;},proxy:=
+function(fn,proxy){proxy.guid=3Dfn.guid=3Dfn.guid||proxy.guid||this.guid++;=
+return proxy;},special:{ready:{setup:function(){bindReady();return;},teardo=
+wn:function(){return;}},mouseenter:{setup:function(){if(jQuery.browser.msie=
+)return false;jQuery(this).bind("mouseover",jQuery.event.special.mouseenter=
+.handler);return true;},teardown:function(){if(jQuery.browser.msie)return=
+ false;jQuery(this).unbind("mouseover",jQuery.event.special.mouseenter.hand=
+ler);return true;},handler:function(event){if(withinElement(event,this))ret=
+urn true;event.type=3D"mouseenter";return jQuery.event.handle.apply(this,ar=
+guments);}},mouseleave:{setup:function(){if(jQuery.browser.msie)return fals=
+e;jQuery(this).bind("mouseout",jQuery.event.special.mouseleave.handler);ret=
+urn true;},teardown:function(){if(jQuery.browser.msie)return false;jQuery(t=
+his).unbind("mouseout",jQuery.event.special.mouseleave.handler);return true=
+;},handler:function(event){if(withinElement(event,this))return true;event.t=
+ype=3D"mouseleave";return jQuery.event.handle.apply(this,arguments);}}}};jQ=
+uery.fn.extend({bind:function(type,data,fn){return type=3D=3D"unload"?this.=
+one(type,data,fn):this.each(function(){jQuery.event.add(this,type,fn||data,=
+fn&&data);});},one:function(type,data,fn){var one=3DjQuery.event.proxy(fn||=
+data,function(event){jQuery(this).unbind(event,one);return(fn||data).apply(=
+this,arguments);});return this.each(function(){jQuery.event.add(this,type,o=
+ne,fn&&data);});},unbind:function(type,fn){return this.each(function(){jQue=
+ry.event.remove(this,type,fn);});},trigger:function(type,data,fn){return th=
+is.each(function(){jQuery.event.trigger(type,data,this,true,fn);});},trigge=
+rHandler:function(type,data,fn){return this[0]&&jQuery.event.trigger(type,d=
+ata,this[0],false,fn);},toggle:function(fn){var args=3Darguments,i=3D1;whil=
+e(i<args.length)jQuery.event.proxy(fn,args[i++]);return this.click(jQuery.e=
+vent.proxy(fn,function(event){this.lastToggle=3D(this.lastToggle||0)%i;even=
+t.preventDefault();return args[this.lastToggle++].apply(this,arguments)||fa=
+lse;}));},hover:function(fnOver,fnOut){return this.bind('mouseenter',fnOver=
+).bind('mouseleave',fnOut);},ready:function(fn){bindReady();if(jQuery.isRea=
+dy)fn.call(document,jQuery);else
+jQuery.readyList.push(function(){return fn.call(this,jQuery);});return this=
+;}});jQuery.extend({isReady:false,readyList:[],ready:function(){if(!jQuery.=
+isReady){jQuery.isReady=3Dtrue;if(jQuery.readyList){jQuery.each(jQuery.read=
+yList,function(){this.call(document);});jQuery.readyList=3Dnull;}jQuery(doc=
+ument).triggerHandler("ready");}}});var readyBound=3Dfalse;function bindRea=
+dy(){if(readyBound)return;readyBound=3Dtrue;if(document.addEventListener&&!=
+jQuery.browser.opera)document.addEventListener("DOMContentLoaded",jQuery.re=
+ady,false);if(jQuery.browser.msie&&window=3D=3Dtop)(function(){if(jQuery.is=
+Ready)return;try{document.documentElement.doScroll("left");}catch(error){se=
+tTimeout(arguments.callee,0);return;}jQuery.ready();})();if(jQuery.browser.=
+opera)document.addEventListener("DOMContentLoaded",function(){if(jQuery.isR=
+eady)return;for(var i=3D0;i<document.styleSheets.length;i++)if(document.sty=
+leSheets[i].disabled){setTimeout(arguments.callee,0);return;}jQuery.ready()=
+;},false);if(jQuery.browser.safari){var numStyles;(function(){if(jQuery.isR=
+eady)return;if(document.readyState!=3D"loaded"&&document.readyState!=3D"com=
+plete"){setTimeout(arguments.callee,0);return;}if(numStyles=3D=3D=3Dundefin=
+ed)numStyles=3DjQuery("style, link[rel=3Dstylesheet]").length;if(document.s=
+tyleSheets.length!=3DnumStyles){setTimeout(arguments.callee,0);return;}jQue=
+ry.ready();})();}jQuery.event.add(window,"load",jQuery.ready);}jQuery.each(=
+("blur,focus,load,resize,scroll,unload,click,dblclick,"+"mousedown,mouseup,=
+mousemove,mouseover,mouseout,change,select,"+"submit,keydown,keypress,keyup=
+,error").split(","),function(i,name){jQuery.fn[name]=3Dfunction(fn){return=
+ fn?this.bind(name,fn):this.trigger(name);};});var withinElement=3Dfunction=
+(event,elem){var parent=3Devent.relatedTarget;while(parent&&parent!=3Delem)=
+try{parent=3Dparent.parentNode;}catch(error){parent=3Delem;}return parent=
+=3D=3Delem;};jQuery(window).bind("unload",function(){jQuery("*").add(docume=
+nt).unbind();});jQuery.fn.extend({_load:jQuery.fn.load,load:function(url,pa=
+rams,callback){if(typeof url!=3D'string')return this._load(url);var off=3Du=
+rl.indexOf(" ");if(off>=3D0){var selector=3Durl.slice(off,url.length);url=
+=3Durl.slice(0,off);}callback=3Dcallback||function(){};var type=3D"GET";if(=
+params)if(jQuery.isFunction(params)){callback=3Dparams;params=3Dnull;}else{=
+params=3DjQuery.param(params);type=3D"POST";}var self=3Dthis;jQuery.ajax({u=
+rl:url,type:type,dataType:"html",data:params,complete:function(res,status){=
+if(status=3D=3D"success"||status=3D=3D"notmodified")self.html(selector?jQue=
+ry("<div/>").append(res.responseText.replace(/<script(.|\s)*?\/script>/g,""=
+)).find(selector):res.responseText);self.each(callback,[res.responseText,st=
+atus,res]);}});return this;},serialize:function(){return jQuery.param(this.=
+serializeArray());},serializeArray:function(){return this.map(function(){re=
+turn jQuery.nodeName(this,"form")?jQuery.makeArray(this.elements):this;}).f=
+ilter(function(){return this.name&&!this.disabled&&(this.checked||/select|t=
+extarea/i.test(this.nodeName)||/text|hidden|password/i.test(this.type));}).=
+map(function(i,elem){var val=3DjQuery(this).val();return val=3D=3Dnull?null=
+:val.constructor=3D=3DArray?jQuery.map(val,function(val,i){return{name:elem=
+.name,value:val};}):{name:elem.name,value:val};}).get();}});jQuery.each("aj=
+axStart,ajaxStop,ajaxComplete,ajaxError,ajaxSuccess,ajaxSend".split(","),fu=
+nction(i,o){jQuery.fn[o]=3Dfunction(f){return this.bind(o,f);};});var jsc=
+=3Dnow();jQuery.extend({get:function(url,data,callback,type){if(jQuery.isFu=
+nction(data)){callback=3Ddata;data=3Dnull;}return jQuery.ajax({type:"GET",u=
+rl:url,data:data,success:callback,dataType:type});},getScript:function(url,=
+callback){return jQuery.get(url,null,callback,"script");},getJSON:function(=
+url,data,callback){return jQuery.get(url,data,callback,"json");},post:funct=
+ion(url,data,callback,type){if(jQuery.isFunction(data)){callback=3Ddata;dat=
+a=3D{};}return jQuery.ajax({type:"POST",url:url,data:data,success:callback,=
+dataType:type});},ajaxSetup:function(settings){jQuery.extend(jQuery.ajaxSet=
+tings,settings);},ajaxSettings:{url:location.href,global:true,type:"GET",ti=
+meout:0,contentType:"application/x-www-form-urlencoded",processData:true,as=
+ync:true,data:null,username:null,password:null,accepts:{xml:"application/xm=
+l, text/xml",html:"text/html",script:"text/javascript, application/javascri=
+pt",json:"application/json, text/javascript",text:"text/plain",_default:"*/=
+*"}},lastModified:{},ajax:function(s){s=3DjQuery.extend(true,s,jQuery.exten=
+d(true,{},jQuery.ajaxSettings,s));var jsonp,jsre=3D/=3D\?(&|$)/g,status,dat=
+a,type=3Ds.type.toUpperCase();if(s.data&&s.processData&&typeof s.data!=3D"s=
+tring")s.data=3DjQuery.param(s.data);if(s.dataType=3D=3D"jsonp"){if(type=3D=
+=3D"GET"){if(!s.url.match(jsre))s.url+=3D(s.url.match(/\?/)?"&":"?")+(s.jso=
+np||"callback")+"=3D?";}else if(!s.data||!s.data.match(jsre))s.data=3D(s.da=
+ta?s.data+"&":"")+(s.jsonp||"callback")+"=3D?";s.dataType=3D"json";}if(s.da=
+taType=3D=3D"json"&&(s.data&&s.data.match(jsre)||s.url.match(jsre))){jsonp=
+=3D"jsonp"+jsc++;if(s.data)s.data=3D(s.data+"").replace(jsre,"=3D"+jsonp+"$=
+1");s.url=3Ds.url.replace(jsre,"=3D"+jsonp+"$1");s.dataType=3D"script";wind=
+ow[jsonp]=3Dfunction(tmp){data=3Dtmp;success();complete();window[jsonp]=3Du=
+ndefined;try{delete window[jsonp];}catch(e){}if(head)head.removeChild(scrip=
+t);};}if(s.dataType=3D=3D"script"&&s.cache=3D=3Dnull)s.cache=3Dfalse;if(s.c=
+ache=3D=3D=3Dfalse&&type=3D=3D"GET"){var ts=3Dnow();var ret=3Ds.url.replace=
+(/(\?|&)_=3D.*?(&|$)/,"$1_=3D"+ts+"$2");s.url=3Dret+((ret=3D=3Ds.url)?(s.ur=
+l.match(/\?/)?"&":"?")+"_=3D"+ts:"");}if(s.data&&type=3D=3D"GET"){s.url+=3D=
+(s.url.match(/\?/)?"&":"?")+s.data;s.data=3Dnull;}if(s.global&&!jQuery.acti=
+ve++)jQuery.event.trigger("ajaxStart");var remote=3D/^(?:\w+:)?\/\/([^\/?#]=
++)/;if(s.dataType=3D=3D"script"&&type=3D=3D"GET"&&remote.test(s.url)&&remot=
+e.exec(s.url)[1]!=3Dlocation.host){var head=3Ddocument.getElementsByTagName=
+("head")[0];var script=3Ddocument.createElement("script");script.src=3Ds.ur=
+l;if(s.scriptCharset)script.charset=3Ds.scriptCharset;if(!jsonp){var done=
+=3Dfalse;script.onload=3Dscript.onreadystatechange=3Dfunction(){if(!done&&(=
+!this.readyState||this.readyState=3D=3D"loaded"||this.readyState=3D=3D"comp=
+lete")){done=3Dtrue;success();complete();head.removeChild(script);}};}head.=
+appendChild(script);return undefined;}var requestDone=3Dfalse;var xhr=3Dwin=
+dow.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest=
+();if(s.username)xhr.open(type,s.url,s.async,s.username,s.password);else
+xhr.open(type,s.url,s.async);try{if(s.data)xhr.setRequestHeader("Content-Ty=
+pe",s.contentType);if(s.ifModified)xhr.setRequestHeader("If-Modified-Since"=
+,jQuery.lastModified[s.url]||"Thu, 01 Jan 1970 00:00:00 GMT");xhr.setReques=
+tHeader("X-Requested-With","XMLHttpRequest");xhr.setRequestHeader("Accept",=
+s.dataType&&s.accepts[s.dataType]?s.accepts[s.dataType]+", */*":s.accepts._=
+default);}catch(e){}if(s.beforeSend&&s.beforeSend(xhr,s)=3D=3D=3Dfalse){s.g=
+lobal&&jQuery.active--;xhr.abort();return false;}if(s.global)jQuery.event.t=
+rigger("ajaxSend",[xhr,s]);var onreadystatechange=3Dfunction(isTimeout){if(=
+!requestDone&&xhr&&(xhr.readyState=3D=3D4||isTimeout=3D=3D"timeout")){reque=
+stDone=3Dtrue;if(ival){clearInterval(ival);ival=3Dnull;}status=3DisTimeout=
+=3D=3D"timeout"&&"timeout"||!jQuery.httpSuccess(xhr)&&"error"||s.ifModified=
+&&jQuery.httpNotModified(xhr,s.url)&&"notmodified"||"success";if(status=3D=
+=3D"success"){try{data=3DjQuery.httpData(xhr,s.dataType,s.dataFilter);}catc=
+h(e){status=3D"parsererror";}}if(status=3D=3D"success"){var modRes;try{modR=
+es=3Dxhr.getResponseHeader("Last-Modified");}catch(e){}if(s.ifModified&&mod=
+Res)jQuery.lastModified[s.url]=3DmodRes;if(!jsonp)success();}else
+jQuery.handleError(s,xhr,status);complete();if(s.async)xhr=3Dnull;}};if(s.a=
+sync){var ival=3DsetInterval(onreadystatechange,13);if(s.timeout>0)setTimeo=
+ut(function(){if(xhr){xhr.abort();if(!requestDone)onreadystatechange("timeo=
+ut");}},s.timeout);}try{xhr.send(s.data);}catch(e){jQuery.handleError(s,xhr=
+,null,e);}if(!s.async)onreadystatechange();function success(){if(s.success)=
+s.success(data,status);if(s.global)jQuery.event.trigger("ajaxSuccess",[xhr,=
+s]);}function complete(){if(s.complete)s.complete(xhr,status);if(s.global)j=
+Query.event.trigger("ajaxComplete",[xhr,s]);if(s.global&&!--jQuery.active)j=
+Query.event.trigger("ajaxStop");}return xhr;},handleError:function(s,xhr,st=
+atus,e){if(s.error)s.error(xhr,status,e);if(s.global)jQuery.event.trigger("=
+ajaxError",[xhr,s,e]);},active:0,httpSuccess:function(xhr){try{return!xhr.s=
+tatus&&location.protocol=3D=3D"file:"||(xhr.status>=3D200&&xhr.status<300)|=
+|xhr.status=3D=3D304||xhr.status=3D=3D1223||jQuery.browser.safari&&xhr.stat=
+us=3D=3Dundefined;}catch(e){}return false;},httpNotModified:function(xhr,ur=
+l){try{var xhrRes=3Dxhr.getResponseHeader("Last-Modified");return xhr.statu=
+s=3D=3D304||xhrRes=3D=3DjQuery.lastModified[url]||jQuery.browser.safari&&xh=
+r.status=3D=3Dundefined;}catch(e){}return false;},httpData:function(xhr,typ=
+e,filter){var ct=3Dxhr.getResponseHeader("content-type"),xml=3Dtype=3D=3D"x=
+ml"||!type&&ct&&ct.indexOf("xml")>=3D0,data=3Dxml?xhr.responseXML:xhr.respo=
+nseText;if(xml&&data.documentElement.tagName=3D=3D"parsererror")throw"parse=
+rerror";if(filter)data=3Dfilter(data,type);if(type=3D=3D"script")jQuery.glo=
+balEval(data);if(type=3D=3D"json")data=3Deval("("+data+")");return data;},p=
+aram:function(a){var s=3D[];if(a.constructor=3D=3DArray||a.jquery)jQuery.ea=
+ch(a,function(){s.push(encodeURIComponent(this.name)+"=3D"+encodeURICompone=
+nt(this.value));});else
+for(var j in a)if(a[j]&&a[j].constructor=3D=3DArray)jQuery.each(a[j],functi=
+on(){s.push(encodeURIComponent(j)+"=3D"+encodeURIComponent(this));});else
+s.push(encodeURIComponent(j)+"=3D"+encodeURIComponent(jQuery.isFunction(a[j=
+])?a[j]():a[j]));return s.join("&").replace(/%20/g,"+");}});jQuery.fn.exten=
+d({show:function(speed,callback){return speed?this.animate({height:"show",w=
+idth:"show",opacity:"show"},speed,callback):this.filter(":hidden").each(fun=
+ction(){this.style.display=3Dthis.oldblock||"";if(jQuery.css(this,"display"=
+)=3D=3D"none"){var elem=3DjQuery("<"+this.tagName+" />").appendTo("body");t=
+his.style.display=3Delem.css("display");if(this.style.display=3D=3D"none")t=
+his.style.display=3D"block";elem.remove();}}).end();},hide:function(speed,c=
+allback){return speed?this.animate({height:"hide",width:"hide",opacity:"hid=
+e"},speed,callback):this.filter(":visible").each(function(){this.oldblock=
+=3Dthis.oldblock||jQuery.css(this,"display");this.style.display=3D"none";})=
+.end();},_toggle:jQuery.fn.toggle,toggle:function(fn,fn2){return jQuery.isF=
+unction(fn)&&jQuery.isFunction(fn2)?this._toggle.apply(this,arguments):fn?t=
+his.animate({height:"toggle",width:"toggle",opacity:"toggle"},fn,fn2):this.=
+each(function(){jQuery(this)[jQuery(this).is(":hidden")?"show":"hide"]();})=
+;},slideDown:function(speed,callback){return this.animate({height:"show"},s=
+peed,callback);},slideUp:function(speed,callback){return this.animate({heig=
+ht:"hide"},speed,callback);},slideToggle:function(speed,callback){return th=
+is.animate({height:"toggle"},speed,callback);},fadeIn:function(speed,callba=
+ck){return this.animate({opacity:"show"},speed,callback);},fadeOut:function=
+(speed,callback){return this.animate({opacity:"hide"},speed,callback);},fad=
+eTo:function(speed,to,callback){return this.animate({opacity:to},speed,call=
+back);},animate:function(prop,speed,easing,callback){var optall=3DjQuery.sp=
+eed(speed,easing,callback);return this[optall.queue=3D=3D=3Dfalse?"each":"q=
+ueue"](function(){if(this.nodeType!=3D1)return false;var opt=3DjQuery.exten=
+d({},optall),p,hidden=3DjQuery(this).is(":hidden"),self=3Dthis;for(p in pro=
+p){if(prop[p]=3D=3D"hide"&&hidden||prop[p]=3D=3D"show"&&!hidden)return opt.=
+complete.call(this);if(p=3D=3D"height"||p=3D=3D"width"){opt.display=3DjQuer=
+y.css(this,"display");opt.overflow=3Dthis.style.overflow;}}if(opt.overflow!=
+=3Dnull)this.style.overflow=3D"hidden";opt.curAnim=3DjQuery.extend({},prop)=
+;jQuery.each(prop,function(name,val){var e=3Dnew jQuery.fx(self,opt,name);i=
+f(/toggle|show|hide/.test(val))e[val=3D=3D"toggle"?hidden?"show":"hide":val=
+](prop);else{var parts=3Dval.toString().match(/^([+-]=3D)?([\d+-.]+)(.*)$/)=
+,start=3De.cur(true)||0;if(parts){var end=3DparseFloat(parts[2]),unit=3Dpar=
+ts[3]||"px";if(unit!=3D"px"){self.style[name]=3D(end||1)+unit;start=3D((end=
+||1)/e.cur(true))*start;self.style[name]=3Dstart+unit;}if(parts[1])end=3D((=
+parts[1]=3D=3D"-=3D"?-1:1)*end)+start;e.custom(start,end,unit);}else
+e.custom(start,val,"");}});return true;});},queue:function(type,fn){if(jQue=
+ry.isFunction(type)||(type&&type.constructor=3D=3DArray)){fn=3Dtype;type=3D=
+"fx";}if(!type||(typeof type=3D=3D"string"&&!fn))return queue(this[0],type)=
+;return this.each(function(){if(fn.constructor=3D=3DArray)queue(this,type,f=
+n);else{queue(this,type).push(fn);if(queue(this,type).length=3D=3D1)fn.call=
+(this);}});},stop:function(clearQueue,gotoEnd){var timers=3DjQuery.timers;i=
+f(clearQueue)this.queue([]);this.each(function(){for(var i=3Dtimers.length-=
+1;i>=3D0;i--)if(timers[i].elem=3D=3Dthis){if(gotoEnd)timers[i](true);timers=
+.splice(i,1);}});if(!gotoEnd)this.dequeue();return this;}});var queue=3Dfun=
+ction(elem,type,array){if(elem){type=3Dtype||"fx";var q=3DjQuery.data(elem,=
+type+"queue");if(!q||array)q=3DjQuery.data(elem,type+"queue",jQuery.makeArr=
+ay(array));}return q;};jQuery.fn.dequeue=3Dfunction(type){type=3Dtype||"fx"=
+;return this.each(function(){var q=3Dqueue(this,type);q.shift();if(q.length=
+)q[0].call(this);});};jQuery.extend({speed:function(speed,easing,fn){var op=
+t=3Dspeed&&speed.constructor=3D=3DObject?speed:{complete:fn||!fn&&easing||j=
+Query.isFunction(speed)&&speed,duration:speed,easing:fn&&easing||easing&&ea=
+sing.constructor!=3DFunction&&easing};opt.duration=3D(opt.duration&&opt.dur=
+ation.constructor=3D=3DNumber?opt.duration:jQuery.fx.speeds[opt.duration])|=
+|jQuery.fx.speeds.def;opt.old=3Dopt.complete;opt.complete=3Dfunction(){if(o=
+pt.queue!=3D=3Dfalse)jQuery(this).dequeue();if(jQuery.isFunction(opt.old))o=
+pt.old.call(this);};return opt;},easing:{linear:function(p,n,firstNum,diff)=
+{return firstNum+diff*p;},swing:function(p,n,firstNum,diff){return((-Math.c=
+os(p*Math.PI)/2)+0.5)*diff+firstNum;}},timers:[],timerId:null,fx:function(e=
+lem,options,prop){this.options=3Doptions;this.elem=3Delem;this.prop=3Dprop;=
+if(!options.orig)options.orig=3D{};}});jQuery.fx.prototype=3D{update:functi=
+on(){if(this.options.step)this.options.step.call(this.elem,this.now,this);(=
+jQuery.fx.step[this.prop]||jQuery.fx.step._default)(this);if(this.prop=3D=
+=3D"height"||this.prop=3D=3D"width")this.elem.style.display=3D"block";},cur=
+:function(force){if(this.elem[this.prop]!=3Dnull&&this.elem.style[this.prop=
+]=3D=3Dnull)return this.elem[this.prop];var r=3DparseFloat(jQuery.css(this.=
+elem,this.prop,force));return r&&r>-10000?r:parseFloat(jQuery.curCSS(this.e=
+lem,this.prop))||0;},custom:function(from,to,unit){this.startTime=3Dnow();t=
+his.start=3Dfrom;this.end=3Dto;this.unit=3Dunit||this.unit||"px";this.now=
+=3Dthis.start;this.pos=3Dthis.state=3D0;this.update();var self=3Dthis;funct=
+ion t(gotoEnd){return self.step(gotoEnd);}t.elem=3Dthis.elem;jQuery.timers.=
+push(t);if(jQuery.timerId=3D=3Dnull){jQuery.timerId=3DsetInterval(function(=
+){var timers=3DjQuery.timers;for(var i=3D0;i<timers.length;i++)if(!timers[i=
+]())timers.splice(i--,1);if(!timers.length){clearInterval(jQuery.timerId);j=
+Query.timerId=3Dnull;}},13);}},show:function(){this.options.orig[this.prop]=
+=3DjQuery.attr(this.elem.style,this.prop);this.options.show=3Dtrue;this.cus=
+tom(0,this.cur());if(this.prop=3D=3D"width"||this.prop=3D=3D"height")this.e=
+lem.style[this.prop]=3D"1px";jQuery(this.elem).show();},hide:function(){thi=
+s.options.orig[this.prop]=3DjQuery.attr(this.elem.style,this.prop);this.opt=
+ions.hide=3Dtrue;this.custom(this.cur(),0);},step:function(gotoEnd){var t=
+=3Dnow();if(gotoEnd||t>this.options.duration+this.startTime){this.now=3Dthi=
+s.end;this.pos=3Dthis.state=3D1;this.update();this.options.curAnim[this.pro=
+p]=3Dtrue;var done=3Dtrue;for(var i in this.options.curAnim)if(this.options=
+.curAnim[i]!=3D=3Dtrue)done=3Dfalse;if(done){if(this.options.display!=3Dnul=
+l){this.elem.style.overflow=3Dthis.options.overflow;this.elem.style.display=
+=3Dthis.options.display;if(jQuery.css(this.elem,"display")=3D=3D"none")this=
+.elem.style.display=3D"block";}if(this.options.hide)this.elem.style.display=
+=3D"none";if(this.options.hide||this.options.show)for(var p in this.options=
+.curAnim)jQuery.attr(this.elem.style,p,this.options.orig[p]);}if(done)this.=
+options.complete.call(this.elem);return false;}else{var n=3Dt-this.startTim=
+e;this.state=3Dn/this.options.duration;this.pos=3DjQuery.easing[this.option=
+s.easing||(jQuery.easing.swing?"swing":"linear")](this.state,n,0,1,this.opt=
+ions.duration);this.now=3Dthis.start+((this.end-this.start)*this.pos);this.=
+update();}return true;}};jQuery.extend(jQuery.fx,{speeds:{slow:600,fast:200=
+,def:400},step:{scrollLeft:function(fx){fx.elem.scrollLeft=3Dfx.now;},scrol=
+lTop:function(fx){fx.elem.scrollTop=3Dfx.now;},opacity:function(fx){jQuery.=
+attr(fx.elem.style,"opacity",fx.now);},_default:function(fx){fx.elem.style[=
+fx.prop]=3Dfx.now+fx.unit;}}});jQuery.fn.offset=3Dfunction(){var left=3D0,t=
+op=3D0,elem=3Dthis[0],results;if(elem)with(jQuery.browser){var parent=3Dele=
+m.parentNode,offsetChild=3Delem,offsetParent=3Delem.offsetParent,doc=3Delem=
+.ownerDocument,safari2=3Dsafari&&parseInt(version)<522&&!/adobeair/i.test(u=
+serAgent),css=3DjQuery.curCSS,fixed=3Dcss(elem,"position")=3D=3D"fixed";if(=
+elem.getBoundingClientRect){var box=3Delem.getBoundingClientRect();add(box.=
+left+Math.max(doc.documentElement.scrollLeft,doc.body.scrollLeft),box.top+M=
+ath.max(doc.documentElement.scrollTop,doc.body.scrollTop));add(-doc.documen=
+tElement.clientLeft,-doc.documentElement.clientTop);}else{add(elem.offsetLe=
+ft,elem.offsetTop);while(offsetParent){add(offsetParent.offsetLeft,offsetPa=
+rent.offsetTop);if(mozilla&&!/^t(able|d|h)$/i.test(offsetParent.tagName)||s=
+afari&&!safari2)border(offsetParent);if(!fixed&&css(offsetParent,"position"=
+)=3D=3D"fixed")fixed=3Dtrue;offsetChild=3D/^body$/i.test(offsetParent.tagNa=
+me)?offsetChild:offsetParent;offsetParent=3DoffsetParent.offsetParent;}whil=
+e(parent&&parent.tagName&&!/^body|html$/i.test(parent.tagName)){if(!/^inlin=
+e|table.*$/i.test(css(parent,"display")))add(-parent.scrollLeft,-parent.scr=
+ollTop);if(mozilla&&css(parent,"overflow")!=3D"visible")border(parent);pare=
+nt=3Dparent.parentNode;}if((safari2&&(fixed||css(offsetChild,"position")=3D=
+=3D"absolute"))||(mozilla&&css(offsetChild,"position")!=3D"absolute"))add(-=
+doc.body.offsetLeft,-doc.body.offsetTop);if(fixed)add(Math.max(doc.document=
+Element.scrollLeft,doc.body.scrollLeft),Math.max(doc.documentElement.scroll=
+Top,doc.body.scrollTop));}results=3D{top:top,left:left};}function border(el=
+em){add(jQuery.curCSS(elem,"borderLeftWidth",true),jQuery.curCSS(elem,"bord=
+erTopWidth",true));}function add(l,t){left+=3DparseInt(l,10)||0;top+=3Dpars=
+eInt(t,10)||0;}return results;};jQuery.fn.extend({position:function(){var=
+ left=3D0,top=3D0,results;if(this[0]){var offsetParent=3Dthis.offsetParent(=
+),offset=3Dthis.offset(),parentOffset=3D/^body|html$/i.test(offsetParent[0]=
+.tagName)?{top:0,left:0}:offsetParent.offset();offset.top-=3Dnum(this,'marg=
+inTop');offset.left-=3Dnum(this,'marginLeft');parentOffset.top+=3Dnum(offse=
+tParent,'borderTopWidth');parentOffset.left+=3Dnum(offsetParent,'borderLeft=
+Width');results=3D{top:offset.top-parentOffset.top,left:offset.left-parentO=
+ffset.left};}return results;},offsetParent:function(){var offsetParent=3Dth=
+is[0].offsetParent;while(offsetParent&&(!/^body|html$/i.test(offsetParent.t=
+agName)&&jQuery.css(offsetParent,'position')=3D=3D'static'))offsetParent=3D=
+offsetParent.offsetParent;return jQuery(offsetParent);}});jQuery.each(['Lef=
+t','Top'],function(i,name){var method=3D'scroll'+name;jQuery.fn[method]=3Df=
+unction(val){if(!this[0])return;return val!=3Dundefined?this.each(function(=
+){this=3D=3Dwindow||this=3D=3Ddocument?window.scrollTo(!i?val:jQuery(window=
+).scrollLeft(),i?val:jQuery(window).scrollTop()):this[method]=3Dval;}):this=
+[0]=3D=3Dwindow||this[0]=3D=3Ddocument?self[i?'pageYOffset':'pageXOffset']|=
+|jQuery.boxModel&&document.documentElement[method]||document.body[method]:t=
+his[0][method];};});jQuery.each(["Height","Width"],function(i,name){var tl=
+=3Di?"Left":"Top",br=3Di?"Right":"Bottom";jQuery.fn["inner"+name]=3Dfunctio=
+n(){return this[name.toLowerCase()]()+num(this,"padding"+tl)+num(this,"padd=
+ing"+br);};jQuery.fn["outer"+name]=3Dfunction(margin){return this["inner"+n=
+ame]()+num(this,"border"+tl+"Width")+num(this,"border"+br+"Width")+(margin?=
+num(this,"margin"+tl)+num(this,"margin"+br):0);};});})();
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/js/apache_boot.js
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/javascript
+
+$(document).ready(function() {
+  $('#switcher_1 a').addClass('active');
+  $('#switcher_2 a, #switcher_3 a').removeClass('active');
+  $('#feature_1').fadeIn();
+ =20
+  $('#switcher_1').click(function() {
+    $('#feature_2').hide();
+    $('#feature_3').hide();
+    $('#feature_1').fadeIn();
+    $('#switcher_1 a').addClass('active');
+    $('#switcher_2 a, #switcher_3 a').removeClass('active');
+    return false;
+  });
+   =20
+  $('#switcher_2').click(function() {
+    $('#feature_1').hide();
+    $('#feature_3').hide();
+    $('#feature_2').fadeIn();
+    $('#switcher_1 a, #switcher_3 a').removeClass('active');
+    $('#switcher_2 a').addClass('active');
+    return false;
+  });
+ =20
+  $('#switcher_3').click(function() {
+    $('#feature_1').hide();
+    $('#feature_2').hide();
+    $('#feature_3').fadeIn();
+    $('#switcher_3 a').addClass('active');
+    $('#switcher_1 a, #switcher_2 a').removeClass('active');
+    return false;
+  });
+});
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/images/feather-small.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhywA9AOflAAQCBBwWHBweHCQeJCwiLDQiNDwmRGQiREwqVHwiRGwmVJwaRJQeRGQqXMwO
+RFQubIwiTNQORKwaRLwWRIQmVFwufLQaRGQubJwiTHwqXGQulKweZIQqZHQubFwyjOwOTMQaTERC
+PKwiTJwmVHQufGQyjPQOTLweVHwudGwyfKQmXJQqZNQaTLQiXJQqbOQWTKQqRIQufLQmRHQyjMwe
+VIwudOwWTOwWVJQyRHwyjGw2lNQeVMQiXJQudGw2nPQWTOQaVLQmbKQqdKwqZHQ2lOwaVNweXMwi
+ZJwufIwyhLwqTJwuhIwyjNQiXMQmZPQaVOQeXNQiZMQmbLQqdKQufJQyhIQ2lIQ2nMwmbLwqdMQq
+bFxOPIRCRNQqTOQmTLQyZKQ6RPQiTLQ2RKwyhJw2lJRCXFRWXKRCRPQqVMw2XLw+ROQyTLw+XOwy
+TGxaRNQ+TPQ2VNQ6jIxWZGRiZJxWTKxSTFxmdORGTLRSbPRCVGxqbMxSTHxqTGRudMRebPRWVLRq
+VIx2VIx2bLRqfHR+hHx+fORmVOxejPxiXMxyVKSCVHyKlMR6bKyCfJSKfNx6XIyOlPR2XMyGXKyS
+XISarPx+ZOSGXLSSlJyanMySZKyafLSeXOyOZPyKZMSahMSeZNyaZKSmpPSSjMyiZJSqvMSilLyq
+ZLSmpLSqjPyaZKSutOyiZMSuZNSqbKyytLyutLSytMS2ZPymbMS2fLS2rKS6zNS6bOS2bLy6vMS6
+tPyybLy+vPyyhNy+bMS+vOS+dLzCxKzG1NTKbMTGxPy+dMzGxOzKdPTKfMzOzNTOzMTS3MzSzNTS
+1OTadNzW1Mza3PzWfNTa3Nza1Nza3PzefNze3Nze5NTm5OTi5PzmfNzm5OTm5OTm7OTq7Ozq7Pzy
+hOzu7Ozy9PTy9PT29Pz6/P//////////////////////////////////////////////////////
+/////////////////////////////////////////////////////yH+EUNyZWF0ZWQgd2l0aCBH
+SU1QACH5BAEKAP8ALAAAAADLAD0AAAj+AP8JHEiwoMGDAnEBQ8iwocOHECNKnEixosWLFglh3Mix
+o8ePIAmGCsWNYyiBwzCFXMmypcuN3syEwITt4jBIAl2FmiZQ1cufQIO23GYgQAhI0iq6IlVTVTBM
+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
+gAAAOw==
+
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/css/reset.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing=3D"0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/css/text.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* =3DBasic HTML
+---------------------------------------------------------------------------=
+-----*/
+
+body
+{
+	font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+a:focus
+{
+	outline: 1px dotted invert;
+}
+
+hr
+{
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 0 0;
+	clear: both;
+	height: 0;
+}
+
+/* =3DHeadings
+---------------------------------------------------------------------------=
+-----*/
+
+h1
+{
+	font-size: 25px;
+}
+
+h2
+{
+	font-size: 23px;
+}
+
+h3
+{
+	font-size: 21px;
+}
+
+h4
+{
+	font-size: 19px;
+}
+
+h5
+{
+	font-size: 17px;
+}
+
+h6
+{
+	font-size: 15px;
+}
+
+/* =3DSpacing
+---------------------------------------------------------------------------=
+-----*/
+
+ol
+{
+	list-style: decimal;
+}
+
+ul
+{
+	list-style: square;
+}
+
+li
+{
+	margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset
+{
+	margin-bottom: 20px;
+}
+dt
+{
+        font-weight: bold;
+}
+
+dd
+{
+        margin-left: 1em;
+}
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/css/960.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/*
+	960 Grid System ~ Core CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* =3DContainers
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12,
+.container_16
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/* =3DGrid >> Global
+---------------------------------------------------------------------------=
+-----*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16
+{
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container_12 .grid_3,
+.container_16 .grid_4
+{
+	width: 220px;
+}
+
+.container_12 .grid_6,
+.container_16 .grid_8
+{
+	width: 460px;
+}
+
+.container_12 .grid_9,
+.container_16 .grid_12
+{
+	width: 700px;
+}
+
+.container_12 .grid_12,
+.container_16 .grid_16
+{
+	width: 940px;
+}
+
+/* =3DGrid >> Children (Alpha ~ First, Omega ~ Last)
+---------------------------------------------------------------------------=
+-----*/
+
+.alpha
+{
+	margin-left: 0;
+}
+
+.omega
+{
+	margin-right: 0;
+}
+
+/* =3DGrid >> 12 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .grid_1
+{
+	width: 60px;
+}
+
+.container_12 .grid_2
+{
+	width: 140px;
+}
+
+.container_12 .grid_4
+{
+	width: 300px;
+}
+
+.container_12 .grid_5
+{
+	width: 380px;
+}
+
+.container_12 .grid_7
+{
+	width: 540px;
+}
+
+.container_12 .grid_8
+{
+	width: 620px;
+}
+
+.container_12 .grid_10
+{
+	width: 780px;
+}
+
+.container_12 .grid_11
+{
+	width: 860px;
+}
+
+/* =3DGrid >> 16 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_16 .grid_1
+{
+	width: 40px;
+}
+
+.container_16 .grid_2
+{
+	width: 100px;
+}
+
+.container_16 .grid_3
+{
+	width: 160px;
+}
+
+.container_16 .grid_5
+{
+	width: 280px;
+}
+
+.container_16 .grid_6
+{
+	width: 340px;
+}
+
+.container_16 .grid_7
+{
+	width: 400px;
+}
+
+.container_16 .grid_9
+{
+	width: 520px;
+}
+
+.container_16 .grid_10
+{
+/*	width: 580px; */
+}
+
+.container_16 .grid_11
+{
+	/* width: 640px; */
+}
+
+.container_16 .grid_13
+{
+	width: 760px;
+}
+
+.container_16 .grid_14
+{
+	width: 820px;
+}
+
+.container_16 .grid_15
+{
+	width: 880px;
+}
+
+/* =3DPrefix Extra Space >> Global
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .prefix_3,
+.container_16 .prefix_4
+{
+	padding-left: 240px;
+}
+
+.container_12 .prefix_6,
+.container_16 .prefix_8
+{
+	padding-left: 480px;
+}
+
+.container_12 .prefix_9,
+.container_16 .prefix_12
+{
+	padding-left: 720px;
+}
+
+/* =3DPrefix Extra Space >> 12 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .prefix_1
+{
+	padding-left: 80px;
+}
+
+.container_12 .prefix_2
+{
+	padding-left: 160px;
+}
+
+.container_12 .prefix_4
+{
+	padding-left: 320px;
+}
+
+.container_12 .prefix_5
+{
+	padding-left: 400px;
+}
+
+.container_12 .prefix_7
+{
+	padding-left: 560px;
+}
+
+.container_12 .prefix_8
+{
+	padding-left: 640px;
+}
+
+.container_12 .prefix_10
+{
+	padding-left: 800px;
+}
+
+.container_12 .prefix_11
+{
+	padding-left: 880px;
+}
+
+/* =3DPrefix Extra Space >> 16 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_16 .prefix_1
+{
+	padding-left: 60px;
+}
+
+.container_16 .prefix_2
+{
+	padding-left: 120px;
+}
+
+.container_16 .prefix_3
+{
+	padding-left: 180px;
+}
+
+.container_16 .prefix_5
+{
+	/* padding-left: 300px; */
+}
+
+.container_16 .prefix_6
+{
+	padding-left: 360px;
+}
+
+.container_16 .prefix_7
+{
+	padding-left: 420px;
+}
+
+.container_16 .prefix_9
+{
+	padding-left: 540px;
+}
+
+.container_16 .prefix_10
+{
+	padding-left: 600px;
+}
+
+.container_16 .prefix_11
+{
+	padding-left: 660px;
+}
+
+.container_16 .prefix_13
+{
+	padding-left: 780px;
+}
+
+.container_16 .prefix_14
+{
+	padding-left: 840px;
+}
+
+.container_16 .prefix_15
+{
+	padding-left: 900px;
+}
+
+/* =3DSuffix Extra Space >> Global
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .suffix_3,
+.container_16 .suffix_4
+{
+	padding-right: 240px;
+}
+
+.container_12 .suffix_6,
+.container_16 .suffix_8
+{
+	padding-right: 480px;
+}
+
+.container_12 .suffix_9,
+.container_16 .suffix_12
+{
+	padding-right: 720px;
+}
+
+/* =3DSuffix Extra Space >> 12 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .suffix_1
+{
+	padding-right: 80px;
+}
+
+.container_12 .suffix_2
+{
+	padding-right: 160px;
+}
+
+.container_12 .suffix_4
+{
+	padding-right: 320px;
+}
+
+.container_12 .suffix_5
+{
+	padding-right: 400px;
+}
+
+.container_12 .suffix_7
+{
+	padding-right: 560px;
+}
+
+.container_12 .suffix_8
+{
+	padding-right: 640px;
+}
+
+.container_12 .suffix_10
+{
+	padding-right: 800px;
+}
+
+.container_12 .suffix_11
+{
+	padding-right: 880px;
+}
+
+/* =3DSuffix Extra Space >> 16 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_16 .suffix_1
+{
+	padding-right: 60px;
+}
+
+.container_16 .suffix_2
+{
+	padding-right: 120px;
+}
+
+.container_16 .suffix_3
+{
+	padding-right: 180px;
+}
+
+.container_16 .suffix_5
+{
+	padding-right: 300px;
+}
+
+.container_16 .suffix_6
+{
+	padding-right: 360px;
+}
+
+.container_16 .suffix_7
+{
+	padding-right: 420px;
+}
+
+.container_16 .suffix_9
+{
+	padding-right: 540px;
+}
+
+.container_16 .suffix_10
+{
+	padding-right: 600px;
+}
+
+.container_16 .suffix_11
+{
+	padding-right: 660px;
+}
+
+.container_16 .suffix_13
+{
+	padding-right: 780px;
+}
+
+.container_16 .suffix_14
+{
+	padding-right: 840px;
+}
+
+.container_16 .suffix_15
+{
+	padding-right: 900px;
+}
+
+/* =3DClear Floated Elements
+---------------------------------------------------------------------------=
+-----*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear
+{
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after
+{
+	clear: both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfix
+{
+	display: inline-block;
+}
+
+* html .clearfix
+{
+	height: 1%;
+}
+
+.clearfix
+{
+	display: block;
+}
+
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/css/grid.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/*
+	960 Grid System ~ Core CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* =3DContainers
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12,
+.container_16
+{
+	width: 92%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+/* =3DGrid >> Global
+---------------------------------------------------------------------------=
+-----*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+/* .grid_10, */
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16
+{
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.container_12 .grid_3,
+.container_16 .grid_4
+{
+	width: 23%;
+}
+
+.container_12 .grid_6,
+.container_16 .grid_8
+{
+	width: 48%;
+}
+
+.container_12 .grid_9,
+.container_16 .grid_12
+{
+	width: 73%;
+}
+
+.container_16 .grid_16
+{
+	width: 98%;
+}
+.container_12 .grid_12
+{
+	width: 98%;
+}
+
+/* =3DGrid >> Children (Alpha ~ First, Omega ~ Last)
+---------------------------------------------------------------------------=
+-----*/
+
+.alpha
+{
+	margin-left: 0;
+}
+
+.omega
+{
+	margin-right: 0;
+}
+
+/* =3DGrid >> 12 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .grid_1
+{
+	width: 6.333%;
+}
+
+.container_12 .grid_2
+{
+	width: 14.666%;
+}
+
+.container_12 .grid_4
+{
+	width: 31.333%;
+}
+
+.container_12 .grid_5
+{
+	width: 39.666%;
+}
+
+.container_12 .grid_7
+{
+	width: 56.333%;
+}
+
+.container_12 .grid_8
+{
+	width: 64.666%;
+}
+
+.container_12 .grid_10
+{
+	width: 81.333%;
+}
+
+.container_12 .grid_11
+{
+	width: 89.666%;
+}
+
+/* =3DGrid >> 16 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_16 .grid_1
+{
+	width: 4.25%;
+}
+
+.container_16 .grid_2
+{
+	width: 10.5%;
+}
+
+.container_16 .grid_3
+{
+	width: 16.75%;
+}
+
+.container_16 .grid_5
+{
+	width: 29.25%;
+}
+
+.container_16 .grid_6
+{
+	width: 35.5%;
+}
+
+.container_16 .grid_7
+{
+	width: 41.75%;
+}
+
+.container_16 .grid_9
+{
+	width: 54.25%;
+}
+
+.container_16 .grid_10
+{
+	width: 60.5%;
+}
+
+.container_16 .grid_11
+{
+	text-align:center;
+}
+
+.grid_11 .prefix_5
+{
+	text-align:center;
+}
+
+.container_16 .grid_13
+{
+	width: 79.25%;
+}
+
+.container_16 .grid_14
+{
+	width: 85.5%;
+}
+
+.container_16 .grid_15
+{
+	width: 91.75%;
+}
+
+/* =3DPrefix Extra Space >> Global
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .prefix_3,
+.container_16 .prefix_4
+{
+	padding-left: 25%;
+}
+
+.container_12 .prefix_6,
+.container_16 .prefix_8
+{
+	padding-left: 50%;
+}
+
+.container_12 .prefix_9,
+.container_16 .prefix_12
+{
+	padding-left: 75%;
+}
+
+/* =3DPrefix Extra Space >> 12 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .prefix_1
+{
+	padding-left: 8.333%;
+}
+
+.container_12 .prefix_2
+{
+	padding-left: 16.666%;
+}
+
+.container_12 .prefix_4
+{
+	padding-left: 33.333%;
+}
+
+.container_12 .prefix_5
+{
+	padding-left: 41.666%;
+}
+
+.container_12 .prefix_7
+{
+	padding-left: 58.333%;
+}
+
+.container_12 .prefix_8
+{
+	padding-left: 66.666%;
+}
+
+.container_12 .prefix_10
+{
+	padding-left: 83.333%;
+}
+
+.container_12 .prefix_11
+{
+	padding-left: 91.666%;
+}
+
+/* =3DPrefix Extra Space >> 16 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_16 .prefix_1
+{
+	padding-left: 6.25%;
+}
+
+.container_16 .prefix_2
+{
+	padding-left: 12.5%;
+}
+
+.container_16 .prefix_3
+{
+	padding-left: 18.75%;
+}
+
+.container_16 .prefix_5
+{
+/*	padding-left: 31.25%; */
+	margin: 0 auto;
+}
+
+.container_16 .prefix_6
+{
+	padding-left: 37.5%;
+}
+
+.container_16 .prefix_7
+{
+	padding-left: 43.75%;
+}
+
+.container_16 .prefix_9
+{
+	padding-left: 56.25%;
+}
+
+.container_16 .prefix_10
+{
+	padding-left: 62.5%;
+}
+
+.container_16 .prefix_11
+{
+	padding-left: 68.75%;
+}
+
+.container_16 .prefix_13
+{
+	padding-left: 81.25%;
+}
+
+.container_16 .prefix_14
+{
+	padding-left: 87.5%;
+}
+
+.container_16 .prefix_15
+{
+	padding-left: 93.75%;
+}
+
+/* =3DSuffix Extra Space >> Global
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .suffix_3,
+.container_16 .suffix_4
+{
+	padding-right: 25%;
+}
+
+.container_12 .suffix_6,
+.container_16 .suffix_8
+{
+	padding-right: 50%;
+}
+
+.container_12 .suffix_9,
+.container_16 .suffix_12
+{
+	padding-right: 75%;
+}
+
+/* =3DSuffix Extra Space >> 12 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_12 .suffix_1
+{
+	padding-right: 8.333%;
+}
+
+.container_12 .suffix_2
+{
+	padding-right: 16.666%;
+}
+
+.container_12 .suffix_4
+{
+	padding-right: 33.333%;
+}
+
+.container_12 .suffix_5
+{
+	padding-right: 41.666%;
+}
+
+.container_12 .suffix_7
+{
+	padding-right: 58.333%;
+}
+
+.container_12 .suffix_8
+{
+	padding-right: 66.666%;
+}
+
+.container_12 .suffix_10
+{
+	padding-right: 83.333%;
+}
+
+.container_12 .suffix_11
+{
+	padding-right: 91.666%;
+}
+
+/* =3DSuffix Extra Space >> 16 Columns
+---------------------------------------------------------------------------=
+-----*/
+
+.container_16 .suffix_1
+{
+	padding-right: 6.25%;
+}
+
+.container_16 .suffix_2
+{
+	padding-right: 16.5%;
+}
+
+.container_16 .suffix_3
+{
+	padding-right: 18.75%;
+}
+
+.container_16 .suffix_5
+{
+	padding-right: 31.25%;
+}
+
+.container_16 .suffix_6
+{
+	padding-right: 37.5%;
+}
+
+.container_16 .suffix_7
+{
+	padding-right: 43.75%;
+}
+
+.container_16 .suffix_9
+{
+	padding-right: 56.25%;
+}
+
+.container_16 .suffix_10
+{
+	padding-right: 62.5%;
+}
+
+.container_16 .suffix_11
+{
+	padding-right: 68.75%;
+}
+
+.container_16 .suffix_13
+{
+	padding-right: 81.25%;
+}
+
+.container_16 .suffix_14
+{
+	padding-right: 87.5%;
+}
+
+.container_16 .suffix_15
+{
+	padding-right: 93.75%;
+}
+
+/* =3DClear Floated Elements
+---------------------------------------------------------------------------=
+-----*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear
+{
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after
+{
+	clear: both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfix
+{
+	display: inline-block;
+}
+
+* html .clearfix
+{
+	height: 1%;
+}
+
+.clearfix
+{
+	display: block;
+}
+
+#featured_switcher
+{
+	text-align:center;
+	margin: 0 auto;
+}
+
+------=_Part_2E46544_B0160A0.1376844523121
+Content-Location: http://www.apache.org/css/layout.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/*
+-----------------------------------------------
+Grey Box Method - Layout CSS
+----------------------------------------------- */
+
+body {
+	background: #eee;
+	border-top: 5px solid #000;
+	color: #333;
+	font-size: 11px;
+	padding: 0 0 40px;
+}
+
+
+/* anchors
+----------------------------------------------- */
+a {
+	color: #000;
+	font-weight:bold;
+	text-decoration: none;
+}
+a:hover {
+	color:#333;
+}
+
+
+/* 960 grid system container background
+----------------------------------------------- */
+.container_12,
+.container_16 {
+	background:#fff;
+}
+
+
+/* headings
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {line-height:1.2em; margin-bottom:.3em;}
+h2 {margin-top:1em;}
+h5 {font-size:1.2em;}
+h6 {font-size:1em; text-transform:uppercase;}
+
+
+h1 a {
+	font-weight:normal;
+}
+
+
+/* branding
+----------------------------------------------- */
+h1#branding {
+	font-weight:normal;
+	font-size:3em;
+	text-align:left;
+	background:#aaa;
+	padding:.7em 1em;
+	margin-bottom:0;
+}
+
+
+/* page heading
+----------------------------------------------- */
+h2#page-heading {
+	font-weight:normal;
+	padding:.5em;
+	margin:0 0 10px 0;
+	border-bottom:1px solid #ccc;
+}
+
+
+/* boxes
+----------------------------------------------- */
+.box {
+	background:#ddd;
+	margin-bottom:20px;
+	padding:10px 10px 1px 10px;
+}
+.box h2 {
+	font-size:1em;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#fff;
+	background:#333;
+	margin:-10px -10px 0 -10px;
+	padding:6px 12px;
+}
+.box h2 a,
+.box h2 a.visible {
+	color:#fff;
+	background:#333 url("../img/switch_minus.gif") 97% 50% no-repeat;
+	display:block;
+	padding:6px 12px;
+	margin:-6px -12px;
+	border:none;
+}
+.grid_4 .box h2 a {
+	background-position: 97% 50%;
+}
+.grid_5 .box h2 a {
+	background-position: 98% 50%;
+}
+.grid_12 .box h2 a {
+	background-position: 99% 50%;
+}
+
+
+.box h2 a.hidden,
+.box h2 a.hidden:hover {
+	background-image: url("../img/switch_plus.gif");
+}
+.box h2 a:hover {
+	background-color:#111;
+}
+.block {
+	padding-top:10px;
+}
+div.menu {
+	padding:0;
+}
+div.menu h2 {
+	margin:0;
+}
+div.menu .block {
+	padding-top:0;
+}
+
+
+/* paragraphs, quotes and lists
+----------------------------------------------- */
+p {
+	margin-bottom:1em;
+}
+blockquote {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size:1.2em;
+	padding-left:1em;
+	border-left:4px solid #ccc;
+}
+blockquote cite {
+	font-size:.9em;
+}
+ul, ol {
+	padding-top:0;
+}
+
+
+/* menus
+----------------------------------------------- */
+ul.menu {
+	list-style:none;
+	border-top:1px solid #bbb;
+}
+ul.menu li {
+	margin:0;
+}
+ul.menu li a {
+	display:block;
+	padding:4px 10px;
+	border-bottom:1px solid #ccc;
+}
+ul.menu li a:hover {
+	background:#eee;
+}
+ul.menu li a:active {
+	background:#ccc;
+}
+
+
+/* submenus
+----------------------------------------------- */
+ul.menu ul {
+	list-style:none;
+	margin:0;
+}
+ul.menu ul li a {
+	padding-left:30px;
+}
+
+
+/* section menus
+----------------------------------------------- */
+ul.section {
+	border-top:0;
+	margin-bottom:0;
+}
+ul.section li {
+	text-transform:uppercase;
+}
+ul.section li a {
+	background:#bbb;
+}
+ul.section li a:hover {
+	background:#aaa;
+}
+ul.section li a:active {
+	color:#fff;
+	background:#666;
+}
+ul.section li li a {
+	background:#ddd;
+	border-bottom:1px solid #eee;
+}
+ul.section li li a:hover {
+	background:#ccc;
+}
+ul.section li li a:active {
+	color:#000;
+	background:#fff;
+}
+ul.section ul li {
+	text-transform:none;
+}
+ul.section ul.current li a {
+	background:#eee;
+	border-bottom:1px solid #fff;
+}
+ul.section ul.current li a:hover {
+	background:#ddd;
+}
+ul.section ul.current li a:active {
+	background:#fff;
+}
+ul.section li a.current {
+	color:#fff;
+	background:#666;
+}
+ul.section li a.current:hover {
+	background:#555;
+}
+ul.section li a.current:active {
+	background:#444;
+}
+ul.section li a.active {
+	background:#fff;
+	cursor:default;
+}
+ul.section li.current > a.active,
+ul.section li.current > a.active:hover {
+	color:#fff;
+	background:#666;
+	cursor:default;
+}
+
+
+/* table
+----------------------------------------------- */
+table {
+	width:100%;
+	border:1px solid #bbb;
+	margin-bottom:10px;
+}
+col.colC {
+	width:8em;
+}
+th, td {
+	padding:.2em 1em;
+	text-align:left;
+}
+thead th {
+	border-bottom:2px solid #888;
+	background:#bbb;
+	padding:.4em 1em .2em;
+}
+thead th.table-head {
+	font-size:1em;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#fff;
+	background:#555;
+	border:1px solid #555;
+}
+tbody th,
+tbody td {
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	background:#eee;
+}
+tbody tr.odd th,
+tbody tr.odd td {
+	background:#fff;
+}
+tfoot th,
+tfoot td {
+	border-top:2px solid #666;
+	background:#eee;
+}
+tfoot tr.total th,
+tfoot tr.total td {
+	border-top:6px double #666;
+}
+tfoot tr.total th {
+	text-transform:uppercase;
+}
+th.currency,
+td.currency {
+	text-align:right;
+}
+
+
+/* forms
+----------------------------------------------- */
+form {
+	overflow:hidden;
+}
+fieldset {
+	border:1px solid #bbb;
+	padding:10px;
+	position:relative;
+	background:#e9e9e9;
+	margin-bottom:10px;
+}
+legend {
+	font-size:1.1em;
+	padding:.4em .8em;
+	background:#fff;
+	border:1px solid #bbb;
+}
+fieldset.login p {
+	margin-bottom:1em;
+	margin-top:0pt;
+}
+fieldset p label {
+	width:98%;
+}
+fieldset p input {
+	width:98%;
+}
+fieldset p select {
+	width:99%;
+}
+fieldset.login p label {
+	float:left;
+	line-height:2em;
+	margin-right:3%;
+	text-align:right;
+	width:32%;
+}
+fieldset.login p input {
+	width:60%;
+}
+fieldset.login input.button {
+	margin-left:35%;
+}
+form p.notice {
+	font-weight:bold;
+}
+input.search.text {
+	width:66%;
+}
+input.search.button {
+	width:28%;
+	margin-left:2%;
+}
+
+
+/* articles
+----------------------------------------------- */
+.articles {
+	padding:0;
+}
+.articles h2 {
+	margin:0;
+}
+#articles {
+	padding-top:0;
+}
+.article {
+	border-top:1px solid #666;
+	padding-top:.5em;
+}
+.box .article {
+	border-top:3px solid #fff;
+	padding:13px 10px 0 10px;
+}
+.article h2 {
+	font-size:2em;
+	font-weight:normal;
+	text-transform:none;
+	color:#333;
+	background:transparent;
+	padding:0;
+	margin:0;
+	border:none;
+}
+.article h3 {
+	margin-bottom:.2em;
+	font-size:1.6em;
+}
+.box .first {
+	border-top:none;
+}
+.article h4 {
+	font-size:1.2em;
+	text-transform:uppercase;
+	margin-bottom:.5em;
+}
+.article a.image {
+	float:left;=20
+	margin:3px 10px 3px 0;=20
+	padding:4px;
+	border:1px solid #bbb;
+	background:#fff;
+}
+.article a.image:hover {
+	border:1px solid #666;
+}
+.article a.image img {
+	float:left;=20
+}
+.article p.meta {
+	color:#666;
+	border-top:1px dotted #999;
+	border-bottom:1px dotted #999;
+	padding:.3em 0;
+	margin-bottom:.8em;
+}
+
+
+/* site information
+----------------------------------------------- */
+#site_info .box {
+	color:#ccc;
+	background:#666;
+	margin-bottom:10px;
+}
+#site_info a {
+	color:#fff;
+}
+#site_info a:hover {
+	color:#000;
+}
+
+
+/* AJAX sliding shelf
+----------------------------------------------- */
+#loading {float:right; margin-right:14px; margin-top:-2px;}
+.block {padding-bottom:1px;}
+
+
+/* Accordian
+----------------------------------------------- */
+.toggler {
+	color: #222;
+	margin: 0;
+	padding: 2px 5px;
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #f5f5f5;
+	border-left: 1px solid #f5f5f5;
+	font-size:1.1em;
+	font-weight: normal;
+}
+.element h4 {
+	margin: 0;
+	padding:4px;
+	line-height:1.2em;
+}
+.element p {
+	margin: 0;
+	padding: 4px;
+}
+.float-right {
+	padding:10px 20px;
+	float:right;
+}
+
+#accordian-block {
+	padding-bottom:10px;
+}
+
+
+/* Mootools Kwicks
+----------------------------------------------- */
+#kwick-box {=20
+	padding:0;
+	overflow:hidden;
+}
+#kwick-box h2 {=20
+	margin:0;
+}
+#kwick {
+	position: relative;
+}
+#kwick .kwicks {
+	display: block;
+	background: #999;
+	height: 120px;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+}
+#kwick li {
+	float: left;
+	margin:0;
+	padding:0;
+}
+#kwick .kwick {
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	height: 100px;
+	width: 215px;
+	padding: 10px;
+	background: #fff;
+}
+#kwick .kwick span {
+	color:#fff;
+}
+#kwick .one {
+	background: #666;
+}
+#kwick .two {
+	background: #777;
+}
+#kwick .three {
+	background: #888;
+}
+#kwick .four {
+	background: #999;
+}
+
+------=_Part_2E46544_B0160A0.1376844523121--

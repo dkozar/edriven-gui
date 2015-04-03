@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B77BB15-C683-4EC2-B62F-49D36AD2604A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eDriven.Gui.Designer</RootNamespace>
+    <AssemblyName>eDriven.Gui.Designer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\eDriven.Gui.Designer.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Production|AnyCPU' ">
+    <OutputPath>bin\Production\</OutputPath>
+    <DefineConstants>TRACE;PRODUCTION</DefineConstants>
+    <Optimize>true</Optimize>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\Base\ISkinnableAdapter.cs" />
+    <Compile Include="Adapters\Base\SkinnableContainerAdapter.cs" />
+    <Compile Include="Adapters\Base\SkinnableComponentAdapter.cs" />
+    <Compile Include="Adapters\WindowAdapter.cs" />
+    <Compile Include="Adapters\DropDownListAdapter.cs" />
+    <Compile Include="Adapters\TextAreaAdapter.cs" />
+    <Compile Include="Adapters\HSliderAdapter.cs" />
+    <Compile Include="Adapters\VSliderAdapter.cs" />
+    <Compile Include="Adapters\ScrollerAdapter.cs" />
+    <Compile Include="Adapters\VScrollBarAdapter.cs" />
+    <Compile Include="Adapters\HScrollBarAdapter.cs" />
+    <Compile Include="Collections\SaveableAdapterCollection.cs" />
+    <Compile Include="Collections\SaveableStringCollection.cs" />
+    <Compile Include="Reflection\eDrivenEffectAttributeAttribute.cs" />
+    <Compile Include="Data\Binding\____Bindable.cs" />
+    <Compile Include="Data\Binding\____BindableComponent.cs" />
+    <Compile Include="Data\Binding\____Binding.cs" />
+    <Compile Include="Data\Binding\____BindingComponent.cs" />
+    <Compile Include="Data\Binding\____BindingTest.cs" />
+    <Compile Include="Data\IBindable.cs" />
+    <Compile Include="Adapters\ButtonAdapter.cs" />
+    <Compile Include="Adapters\CheckBoxAdapter.cs" />
+    <Compile Include="Adapters\ComboBoxAdapter.cs" />
+    <Compile Include="Adapters\Base\ComponentAdapter.cs" />
+    <Compile Include="Adapters\Base\ComponentAdapterBase.cs" />
+    <Compile Include="Adapters\Base\GroupAdapter.cs" />
+    <Compile Include="Data\BindableStringDataProvider.cs" />
+    <Compile Include="Data\ListItemDataProvider.cs" />
+    <Compile Include="Data\StringDataProvider.cs" />
+    <Compile Include="Adapters\Base\IComponentAdapter.cs" />
+    <Compile Include="Adapters\SpacerAdapter.cs" />
+    <Compile Include="Adapters\DialogAdapter.cs" />
+    <Compile Include="Adapters\Base\IComponentFactory.cs" />
+    <Compile Include="Bridge.cs" />
+    <Compile Include="Adapters\ImageAdapter.cs" />
+    <Compile Include="Adapters\LabelAdapter.cs" />
+    <Compile Include="Adapters\ListAdapter.cs" />
+    <Compile Include="Adapters\NumericStepperAdapter.cs" />
+    <Compile Include="Adapters\PanelAdapter.cs" />
+    <Compile Include="Reflection\ChildGroupDescriptor.cs" />
+    <Compile Include="Reflection\DesignerReflection.cs" />
+    <Compile Include="Adapters\StageAdapter.cs" />
+    <Compile Include="Adapters\TabNavigatorAdapter.cs" />
+    <Compile Include="Adapters\TextFieldAdapter.cs" />
+    <Compile Include="Collections\SaveableCollectionBase.cs" />
+    <Compile Include="LevelLoadedStrategy.cs" />
+    <Compile Include="GuiLookup.cs" />
+    <Compile Include="Info.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Events\EventMapping.cs" />
+    <Compile Include="Events\EventMappingDescriptor.cs" />
+    <Compile Include="Reflection\ChildCollectionAttribute.cs" />
+    <Compile Include="Reflection\ToolboxAttribute.cs" />
+    <Compile Include="Rendering\DesignerOverlay.cs" />
+    <Compile Include="Rendering\DesignerOverlayStage.cs" />
+    <Compile Include="DesignerState.cs" />
+    <Compile Include="Styles\PlayModeOverlaySelectionLabelStyle.cs" />
+    <Compile Include="Styles\PlayModeOverlaySelectionBorderStyle.cs" />
+    <Compile Include="Styles\PlayModeOverlayHoverBorderStyle.cs" />
+    <Compile Include="Styles\PlayModeOverlayHoverLabelStyle.cs" />
+    <Compile Include="Util\ComponentAdapterUtil.cs" />
+    <Compile Include="Util\GameObjectUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eDriven.Core\eDriven.Core.csproj">
+      <Project>{F4447751-B5FB-43CE-88F5-9BDF05B87F1E}</Project>
+      <Name>eDriven.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eDriven.Gui\eDriven.Gui.csproj">
+      <Project>{FD30C434-F7A6-4F23-8C20-CBE56A49EDB6}</Project>
+      <Name>eDriven.Gui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy $(TargetPath) $(SolutionDir)\Assets\eDriven\Libs\ /Y
+Copy $(TargetDir)$(TargetName).pdb $(SolutionDir)\Assets\eDriven\Libs\ /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<Configuration>
+  <NamespaceFolders>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddEventHandler/d:Data</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddEventHandler/d:Dto</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddEventHandler/d:ScriptGenerators</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddEventHandler/d:Wizard</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddEventHandler</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddStyleDeclaration/d:Data</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddStyleDeclaration/d:Wizard</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:AddStyleDeclaration</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Dialogs/d:UpdateCheck</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Editors</SkipFolder>
+    <SkipFolder>A6D97BDB-015E-4E8C-8BE5-5A60E73CABAB/d:Rendering/d:PropertyDrawers</SkipFolder>
+  </NamespaceFolders>
+</Configuration>

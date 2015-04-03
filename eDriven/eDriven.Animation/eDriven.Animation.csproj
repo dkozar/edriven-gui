@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8AC27378-7B1D-420B-AC44-AF217C6E23CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eDriven.Animation</RootNamespace>
+    <AssemblyName>eDriven.Animation</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\eDriven.Animation.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Asset store|AnyCPU' ">
+    <OutputPath>bin\Asset store\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Production|AnyCPU' ">
+    <OutputPath>bin\Production\</OutputPath>
+    <DefineConstants>TRACE;PRODUCTION</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.cs" />
+    <Compile Include="Animation\Animation.cs" />
+    <Compile Include="Animation\AnimationPackage.cs" />
+    <Compile Include="Animation\AnimationPackageLoader.cs" />
+    <Compile Include="Animation\Frame.cs" />
+    <Compile Include="Animation\FrameAnimator.cs" />
+    <Compile Include="Animation\IAnimator.cs" />
+    <Compile Include="Animation\PathDescriptor.cs" />
+    <Compile Include="Check\Acme2.cs" />
+    <Compile Include="TweenErrorSignal.cs" />
+    <Compile Include="Info.cs" />
+    <Compile Include="Interpolators\ColorInterpolator.cs" />
+    <Compile Include="Interpolators\Vector3Interpolator.cs" />
+    <Compile Include="Plugins\ITweenFactoryPlugin.cs" />
+    <Compile Include="SetPropertyFunc.cs" />
+    <Compile Include="ICompositeAsyncAction.cs" />
+    <Compile Include="IAsyncAction.cs" />
+    <Compile Include="IMultiAnimation.cs" />
+    <Compile Include="ITargetedAction.cs" />
+    <Compile Include="ITween.cs" />
+    <Compile Include="ITweenFactoryOperator.cs" />
+    <Compile Include="ITweenParameters.cs" />
+    <Compile Include="SetProperty.cs" />
+    <Compile Include="ITweenFactory.cs" />
+    <Compile Include="Pause.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TweenFactory.cs" />
+    <Compile Include="Tween\AnimationToken.cs" />
+    <Compile Include="IComposite.cs" />
+    <Compile Include="Interpolators\DefaultInterpolators.cs" />
+    <Compile Include="Tween\TweenBase.cs" />
+    <Compile Include="Tween\TweenRegistry.cs" />
+    <Compile Include="Tween\TweenUtil.cs" />
+    <Compile Include="IAnimation.cs" />
+    <Compile Include="Tween\Composite.cs" />
+    <Compile Include="Tween\PropertyReader.cs" />
+    <Compile Include="Sequence.cs" />
+    <Compile Include="Easing\Back.cs" />
+    <Compile Include="Easing\Bounce.cs" />
+    <Compile Include="Easing\Circ.cs" />
+    <Compile Include="Easing\Cubic.cs" />
+    <Compile Include="Easing\EasingHelper.cs" />
+    <Compile Include="Easing\Elastic.cs" />
+    <Compile Include="Easing\Expo.cs" />
+    <Compile Include="Easing\Linear.cs" />
+    <Compile Include="Easing\Quad.cs" />
+    <Compile Include="Easing\Quart.cs" />
+    <Compile Include="Easing\Quint.cs" />
+    <Compile Include="Easing\Sine.cs" />
+    <Compile Include="Interpolators\FloatInterpolator.cs" />
+    <Compile Include="Interpolators\IInterpolator.cs" />
+    <Compile Include="Interpolators\PointInterpolator.cs" />
+    <Compile Include="Interpolators\RectangleInterpolator.cs" />
+    <Compile Include="Interpolators\Vector2Interpolator.cs" />
+    <Compile Include="Parallel.cs" />
+    <Compile Include="Tween\Tween.cs" />
+    <Compile Include="Tween\TweenerException.cs" />
+    <Compile Include="Tween\TweenOption.cs" />
+    <Compile Include="Tween\TweenOptionType.cs" />
+    <Compile Include="Wrappers\AnimatorInstanceBase.cs" />
+    <Compile Include="Wrappers\ResizeInstance.cs" />
+    <Compile Include="Wrappers\Resize.cs" />
+    <Compile Include="Wrappers\Move.cs" />
+    <Compile Include="Wrappers\MoveInstance.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eDriven.Core\eDriven.Core.csproj">
+      <Project>{F4447751-B5FB-43CE-88F5-9BDF05B87F1E}</Project>
+      <Name>eDriven.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Easing\easing_readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy $(TargetPath) $(SolutionDir)\Assets\eDriven\Libs\ /Y
+Copy $(TargetDir)$(TargetName).pdb $(SolutionDir)\Assets\eDriven\Libs\ /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

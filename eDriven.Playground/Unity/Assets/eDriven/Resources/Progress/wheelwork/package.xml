@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://edriven.dankokozar.com/"
+	Path="Progress/wheelwork/" >
+	<Animations>
+		<Animation Id="progress" Path="" FramePrefix="" FrameSuffix="" FrameDuration="0.1" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="F1" Duration="0.083" />
+				<Frame Path="F2" Duration="0.083" />
+				<Frame Path="F3" Duration="0.083" />
+				<Frame Path="F4" Duration="0.083" />
+				<Frame Path="F5" Duration="0.083" />
+			</Frames>
+		</Animation>
+	</Animations>
+</AnimationPackage>

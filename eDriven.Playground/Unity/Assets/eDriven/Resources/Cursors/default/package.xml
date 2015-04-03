@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://edriven.dankokozar.com/" 
+  Path="Cursors/default/" >
+	<Animations>
+		<Animation Id="pointer" OffsetX="-9" OffsetY="-2">
+			<Frames>
+				<Frame Path="SmoothHand-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="wait" Path="SmoothHourglass/" FramePrefix="SmoothHourglass-" FrameSuffix="-32x32x32" FrameDuration="0.112" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="F1" Duration="0.25" />
+				<Frame Path="F2" Duration="0.25" />
+				<Frame Path="F3" Duration="0.25" />
+				<Frame Path="F4" Duration="0.25" />
+				<Frame Path="F5" Duration="0.25" />
+				<Frame Path="F6" Duration="0.25" />
+				<Frame Path="F7" Duration="0.583" />
+				<Frame Path="F8" Duration="0.083" />
+				<Frame Path="F9" Duration="0.083" />
+				<Frame Path="F10" Duration="0.083" />
+				<Frame Path="F11" Duration="0.083" />
+			</Frames>
+		</Animation>
+		<Animation Id="crosshair" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="Precision-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="move" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothMove-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="e-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothHorizontalSize-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="n-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothVerticalSize-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="s-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothVerticalSize-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="w-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothHorizontalSize-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="nw-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothDiagonal1-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="sw-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothDiagonal2-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="se-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothDiagonal1-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="ne-resize" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="SmoothDiagonal2-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="progress" Path="SmoothWorking/" FramePrefix="SmoothWorking-" FrameSuffix="-32x32x32" OffsetX="-2" OffsetY="-2">
+			<Frames>
+				<Frame Path="F1" Duration="0.33" />
+				<Frame Path="F2" Duration="0.33" />
+				<Frame Path="F3" Duration="0.33" />
+				<Frame Path="F4" Duration="0.5" />
+				<Frame Path="F5" Duration="0.083" />
+				<Frame Path="F6" Duration="0.083" />
+				<Frame Path="F7" Duration="0.083" />
+				<Frame Path="F8" Duration="0.083" />
+			</Frames>
+		</Animation>
+		<Animation Id="text" OffsetX="-16" OffsetY="-16">
+			<Frames>
+				<Frame Path="TextSelect-F1-32x32x32" />
+			</Frames>
+		</Animation>
+		<Animation Id="help" OffsetX="-2" OffsetY="-2">
+			<Frames>
+				<Frame Path="SmoothQuestion-F1-32x32x32" />
+			</Frames>
+		</Animation>
+
+		<Animation Id="dd-accept" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-accept" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-reject" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-reject" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-copy" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-copy" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-move" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-move" />
+			</Frames>
+		</Animation>
+		<Animation Id="dd-link" OffsetX="-2" OffsetY="-3">
+			<Frames>
+				<Frame Path="dd-link" />
+			</Frames>
+		</Animation>
+		
+	</Animations>
+</AnimationPackage>

@@ -41,3 +41,23 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# =========================
+# My operational files (dkozar)
+# =========================
+
+*.ffs_gui
+*.obproj
+*.obproj.map
+*.tmp
+_ReSharper.eDriven/
+_ReSharper.eDriven.Playground/
+_ReSharper.Unity/
+Backup/
+Library/
+bin/
+obj/
+eDriven.Playground/bin/
+eDriven.Playground/obj/
+eDriven.Playground/Unity/bin/
+eDriven.Playground/Unity/obj/
