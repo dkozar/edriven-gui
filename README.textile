@@ -39,7 +39,7 @@ h2. Resources
 * "eDriven Forum":http://forum.edrivengui.com/
 * "eDriven Programming Manual":http://edriven.dankokozar.com/manual/eDriven_Manual_2-0.pdf (note: eDriven.Gui and eDriven.Animation also included)
 * "eDriven API":http://edriven.dankokozar.com/api/2-0/ (note: eDriven.Gui and eDriven.Animation also included)
-* "Unity AssetStore":https://www.assetstore.unity3d.com/en/#!/content/3796 - Get the compiled package from 
+* "Unity AssetStore":https://www.assetstore.unity3d.com/en/#!/content/3796 - Download and install the compiled package 
 * "Videos":http://www.youtube.com/playlist?list=PL7EE340828F962941
 * "Demo site":http://edrivenunity.com/ (requires Unity web player)
 * "Unity Forum Q&A thread":http://forum.unity3d.com/threads/148424-eDriven-Q-amp-A
