@@ -6,32 +6,32 @@ h2. Author: Danko Kozar
 
 h2. Concept
 
- * eDriven.Gui is a powerful GUI framework for Unity3d.
- * You could use eDriven.Gui to build a wide range of apps, from games to business applications.
- * Some parts of the framework are ported from Apache Flex.
+* eDriven.Gui is a powerful GUI framework for Unity3d.
+* You could use eDriven.Gui to build a wide range of apps, from games to business applications.
+* Some parts of the framework are ported from Apache Flex.
 
 Features:
-- Built on top of eDriven.Core
-- Retained mode GUI
-- Display list (composite pattern)
-- Component lifecycle
-- Invalidation-validation mechanism
-- Implements OOP concepts
-- Event-driven (DOM Level 3 events)
-- Event bubbling
-- Signals and slots
-- Skinnable
-- Layout engine
-- Plugin architecture
-- Internal tweening engine
-- Dialogs and alerts
-- Firebug-like inspector
-- Cursor management
-- Focus management
-- Tab management
-- Tooltips
-- Components as C# classes
-- DLL component distribution
+* Built on top of eDriven.Core
+* Retained mode GUI
+* Display list (composite pattern)
+* Component lifecycle
+* Invalidation-validation mechanism
+* Implements OOP concepts
+* Event-driven (DOM Level 3 events)
+* Event bubbling
+* Signals and slots
+* Skinnable
+* Layout engine
+* Plugin architecture
+* Internal tweening engine
+* Dialogs and alerts
+* Firebug-like inspector
+* Cursor management
+* Focus management
+* Tab management
+* Tooltips
+* Components as C# classes
+* DLL component distribution
 
 h2. Resources
 
