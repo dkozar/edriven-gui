@@ -4,8 +4,6 @@ h1. "Unity3d":http://unity3d.com/ GUI framework.
 
 h2. Author: Danko Kozar
 
-![eDriven.Gui Logo](wallpaper.png)
-
 h2. Concept
 
  * eDriven.Gui is a powerful GUI framework for Unity3d.
