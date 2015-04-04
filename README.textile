@@ -10,7 +10,7 @@ h2. Concept
 * You could use eDriven.Gui to build a wide range of apps, from games to business applications.
 * Some parts of the framework are ported from Apache Flex.
 
-h2. Features:
+h2. Features
 
 * Built on top of eDriven.Core
 * Retained mode GUI
@@ -36,17 +36,41 @@ h2. Features:
 
 h2. Usage
 
-1. Download the repository to your Windows PC
+1. Download the repository to your Windows PC.
 
-2. Open the solution file in Visual Studio (VS2012 or later)
+2. Open the solution file in Visual Studio (VS2012 or later).
 
    * The proper solution file to open is "UnityVS.Unity.sln":https://github.com/dkozar/edriven-gui/blob/master/eDriven.Playground/Unity/UnityVS.Unity.sln
-   * The location of the file is due to UnityVS not being able to work differently at a time
+   * The location of the file is due to UnityVS not being able to work differently at the time
 
-3. Ctrl + Shift + B should build the solution
-   * the build process should copy all the relevant .DLLs into the "Libs":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Libs folder
+3. Ctrl + Shift + B should build the solution.
+   * the post-build process should copy all the relevant .DLLs into the "Libs":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Libs folder
 
-4. Open any Unity "Demo":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Demo/Gui/Code and run it
+4. Open any Unity "Demo":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Demo/Gui/Code and run it.
+
+h2. Build
+
+There are currently 3 build configurations:
+
+1. DEBUG
+2. RELEASE
+3. PRODUCTION
+
+You can switch configurations using the combo box located at the top of Visual Studio.
+
+Depending of the chosen configuration, some parts of framework code will be included or excluded in build (look for "#if DEBUG", "#if RELEASE" and "#if PRODUCTION" statements in code).
+
+The .DLLs that are being built are always copied to the *same* location, owerwriting those built before ("Libs":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Libs)
+
+You should manually add the "PRODUCTION" configuration (Visual Studio -> Configuration manager -> Active solution configuration -> New -> Name: "Production".
+
+Here's the explanation for each build configuration:
+
+1. DEBUG: Used for development. Multiple "#if DEBUG" statements are being pushed into code, as well as "DebugMode" switch on multiple classes. The DebugMode switch could be set to true to enable logging of messages for the host class.
+
+2. RELEASE: I used this configuration for making the *free version* of the framework. The free version included multiple hack checks etc.
+
+3. PRODUCTION: You would normally want .DLLs built with this configuration in production. This version excludes any debug statements and hack checks. 
 
 h2. Debugging
 
