@@ -1,8 +1,8 @@
-h1. eDriven.Gui
+h1. "eDriven.Gui":http://edrivengui.com/
 
 h1. "Unity3d":http://unity3d.com/ GUI framework.
 
-h2. Author: Danko Kozar
+h2. Author: "Danko Kozar":http://dankokozar.com
 
 h2. Concept
 
