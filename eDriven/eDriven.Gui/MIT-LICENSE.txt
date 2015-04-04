@@ -1,4 +1,4 @@
-Copyright (c) 2010-2014 Danko Kozar (except of the Apache Flex ports) 
+Copyright (c) 2010-2014 Danko Kozar (except Apache Flex ports) 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
