@@ -47,21 +47,12 @@ namespace eDriven.Gui.Components
 		 */
 		private static Point GetLayoutContentSize(IViewport viewport)
 		{
-			// TODO(hmuller):prefer to do nothing if transform doesn't change size, see Component/nonDeltaLayoutMatrix()
 			float cw = viewport.ContentWidth;
 			float ch = viewport.ContentHeight;
 			if (cw == 0 && ch == 0 || null == cw || null == ch)
 				return new Point(0,0);
-			//return MatrixUtil.transformSize(cw, ch, Viewport.getLayoutMatrix());
 			return new Point(cw, ch);
 		}
-
-		//----------------------------------
-		//  HsbVisible
-		//----------------------------------    
-
-		private float _hsbScaleX = 1;
-		private float _hsbScaleY = 1;
 
 		/**
 		 *  
@@ -102,8 +93,7 @@ namespace eDriven.Gui.Components
 			Scroller scroller = GetScroller();
 			float minViewportInset = scroller.MinViewportInset;
 			ScrollBarBase hsb = scroller.HorizontalScrollBar;
-			float sy = (HsbVisible) ? 1 : _hsbScaleY;
-			return Math.Max(minViewportInset, LayoutUtil.GetPreferredBoundsHeight(hsb) * sy); // hsb.getPreferredBoundsHeight(HsbVisible) * sy);
+			return Math.Max(minViewportInset, LayoutUtil.GetPreferredBoundsHeight(hsb));
 		}
 
 		/** --------------------------

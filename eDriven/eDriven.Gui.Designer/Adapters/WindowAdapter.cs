@@ -34,7 +34,7 @@ using Component = eDriven.Gui.Components.Component;
 namespace eDriven.Gui.Designer.Adapters
 {
     /// <summary>
-    /// The adapter for Dialog component
+    /// The adapter for Window component
     /// </summary>
     [Obfuscation(Exclude = true)]
     [Toolbox(Icon = "eDriven/Editor/Controls/window")]
@@ -70,8 +70,8 @@ namespace eDriven.Gui.Designer.Adapters
         {
             base.Apply(component);
 
-            Window dialog = (Window)component;
-            dialog.Title = Title;
+            Window window = (Window)component;
+            window.Title = Title;
         }
     }
 }

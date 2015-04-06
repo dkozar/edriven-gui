@@ -84,9 +84,7 @@ namespace eDriven.Gui.Designer.Adapters
         {
             return new Dialog();
         }
-
-        //private ComponentAdapter[] _oldButtonGroupChildren = new ComponentAdapter[] { };
-
+        
         public override void Apply(Component component)
         {
             base.Apply(component);

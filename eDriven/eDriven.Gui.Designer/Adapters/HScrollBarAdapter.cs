@@ -72,8 +72,6 @@ namespace eDriven.Gui.Designer.Adapters
             UseWidth = true;
             UsePercentWidth = false;
             Width = 200;
-
-            //SkinClass = typeof(HScrollBarSkin).FullName;
         }
 
         public override Type DefaultSkinClass
@@ -100,8 +98,6 @@ namespace eDriven.Gui.Designer.Adapters
             scrollBar.Maximum = Maximum;
             scrollBar.Value = Value;
             scrollBar.PageSize = PageSize;
-            /*scrollBar.PageScrollSize = PageScrollSize;
-            scrollBar.LineScrollSize = LineScrollSize;*/
         }
     }
 }

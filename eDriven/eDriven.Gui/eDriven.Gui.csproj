@@ -369,7 +369,6 @@
     <Compile Include="Animation\GlobalLoadingMask.cs" />
     <Compile Include="Containers\Core\ChildMover.cs" />
     <Compile Include="Components\Core\DisplayObjectContainerException.cs" />
-    <Compile Include="Containers\Core\ScrollableContainer.cs" />
     <Compile Include="Containers\Core\ScrollPolicy.cs" />
     <Compile Include="Geom\ConstrainMetrics.cs" />
     <Compile Include="Geom\EdgeMetrics.cs" />

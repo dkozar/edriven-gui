@@ -4,7 +4,23 @@
  
 Copyright (c) 2010-2014 Danko Kozar
 
-All rights reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
  
 */
 
@@ -147,14 +163,6 @@ namespace eDriven.Gui.Designer.Adapters
         [Saveable]
         [Obfuscation(Exclude = true)]
         public bool FactoryMode;
-
-        /**
-     * GUID is used for adding children
-     * After the play mode is stopped, we are loosing all our references to objects, and we have to find them using the GUID after they are recreated
-     * Then, we must fill the ContentChildren and other collections with new references
-     * */
-        //[Saveable]
-        //public string Guid;
     
         #endregion
 
@@ -167,7 +175,7 @@ namespace eDriven.Gui.Designer.Adapters
         public string Tooltip;
 
         [Saveable]
-        public string StyleName; // previously StyleMapper
+        public string StyleName;
 
         [Saveable]
         public int X;
@@ -246,21 +254,6 @@ namespace eDriven.Gui.Designer.Adapters
 
         [Saveable]
         public int VerticalCenter;
-    
-        /*[Saveable]
-    public bool SyncMargins = true;
-
-    [Saveable]
-    public int MarginLeft;
-
-    [Saveable]
-    public int MarginRight;
-
-    [Saveable]
-    public int MarginTop;
-
-    [Saveable]
-    public int MarginBottom;*/
 
         [Saveable]
         public bool Visible = true;
@@ -291,12 +284,6 @@ namespace eDriven.Gui.Designer.Adapters
 
         [Saveable]
         public bool ShowTransform = true;
-
-        /*[Saveable]
-    public bool ShowPadding = true;*/
-
-        /*[Saveable]
-    public bool ShowMargins = true;*/
 
         [Saveable]
         public bool ShowStyles = true;
@@ -337,16 +324,8 @@ namespace eDriven.Gui.Designer.Adapters
         /// <returns></returns>
         public Component DoInstantiate(bool register) // TODO: Set this internal and expose the whole class through adapter
         {
-            //Debug.Log("DoInstantiate: " + this);
-            //if (_instantiated)
-            //    return _component;
-
-            //var constructor = ComponentType.GetConstructor(Type.EmptyTypes);
-            //_component = (Component)constructor.Invoke(null);
             Component component = NewInstance();
             Apply(component);
-            //Debug.Log("Validating now: " + component);
-            //component.ValidateNow();
 
             if (register)
             {
@@ -429,11 +408,7 @@ namespace eDriven.Gui.Designer.Adapters
 
             #region StyleName
 
-/* Note: with adapters, we could possibly apply only strings as style names! */
-            /* NOTE:; Here was a BUG!!! Style have never applied to the actual component because component.StyleName is null and not "component.StyleName is string"!! */
-            //if ((component.StyleName is string) && StyleName != (string) component.StyleName)
-            if (/*(component.StyleName is string) && */StyleName != (string)component.StyleName)
-                // /*!string.IsNullOrEmpty(StyleName) &&*/ commented fixes combobox
+            if (StyleName != (string)component.StyleName)
             {
                 component.StyleName = !string.IsNullOrEmpty(StyleName) ? StyleName : null;
             }
@@ -517,25 +492,11 @@ namespace eDriven.Gui.Designer.Adapters
             component.RotationPivot = RotationPivot;
 
             component.Scale = Scale;
-
-            //component.MarginLeft = MarginLeft;
-            //component.MarginRight = MarginRight;
-            //component.MarginTop = MarginTop;
-            //component.MarginBottom = MarginBottom;
-            /*component.SetStyle("marginLeft", MarginLeft);
-        component.SetStyle("marginRight", MarginRight);
-        component.SetStyle("marginTop", MarginTop);
-        component.SetStyle("marginBottom", MarginBottom);*/
-
+            
             #endregion
         }
 
         #region Child instantiation
-
-        /// <summary>
-        /// To avoid instantiation of this list for each container, we keep it in the single place
-        /// </summary>
-        //private static List<ComponentAdapter> _childrenToSkip = new List<ComponentAdapter>();
 
         private bool _assignToDescriptor;
 
@@ -550,16 +511,11 @@ namespace eDriven.Gui.Designer.Adapters
         {
             _assignToDescriptor = assignToDescriptor;
 
-            //Debug.Log("Producing " + descriptor);
-            //Component component = null;
-
             if (instantiate)
             {
                 _component = DoInstantiate(assignToDescriptor);
                 InitEvents(_component);
             }
-
-            //Debug.Log("Produce: " + this);
 
             /**
              * IMPORTANT (20130813):
@@ -569,74 +525,55 @@ namespace eDriven.Gui.Designer.Adapters
              * */
             if (null != _component)
             {
-                //_component.AddEventListener(FrameworkEvent.PREINITIALIZE, PreinitializeHandler);
-                _component.AddEventListener(FrameworkEvent.INITIALIZE, InitializeHandler); // 20131216! (more in e-mail)
+                _component.AddEventListener(FrameworkEvent.INITIALIZE, InitializeHandler);
             }
-
-            //ContainerAdapter containerAdapter = this as ContainerAdapter;
-            //if (null != containerAdapter) // && !containerAdapter.FactoryMode)
-            //{
-            //    containerAdapter.InstantiateChildren(assignToDescriptor);
-            //}
-
-            //Debug.Log("    --- Produced");
 
             return _component;
         }
 
-        /*public virtual GroupAdapter GetDefaultGroupAdapter()
-        {
-            return this as GroupAdapter; // for a group
-        }*/
-
         private void InitializeHandler(Core.Events.Event e)
         {
-            //_component.RemoveEventListener(FrameworkEvent.PREINITIALIZE, PreinitializeHandler);
             _component.RemoveEventListener(FrameworkEvent.INITIALIZE, InitializeHandler);
 
             GroupAdapter groupAdapter = this as GroupAdapter;
-            //GroupAdapter groupAdapter = GetDefaultGroupAdapter();
-            if (null != groupAdapter) // && !containerAdapter.FactoryMode)
+            if (null != groupAdapter)
             {
-                //_childrenToSkip.Clear(); // important!
-                //List<ComponentAdapter> childrenToSkip = new List<ComponentAdapter>();
                 groupAdapter.InstantiateChildren(_assignToDescriptor);
             }
-            else
-            {
-                //Debug.Log("_component: " + _component);
+            //else
+            //{
+            //    // TODO: This is for some future implementation (designer skins etc..)
+            //    //Debug.Log("_component: " + _component);
+            //    // PREINITIALIZE was needed *because of this *
+            //    // but INITIALIZE is the right event, because coded skins are created after PREINITIALIZE!!!
+            //    /*SkinnableComponent skinnableComponent = _component as SkinnableComponent;
+            //    if (null != skinnableComponent)
+            //    {
+            //        //Debug.Log("Processing skinnable component", this);
 
-                // TODO: This is for some future implementation (designer skins etc..)
-                // PREINITIALIZE was needed *because of this *
-                // but INITIALIZE is the right event, because coded skins are created after PREINITIALIZE!!!
-                /*SkinnableComponent skinnableComponent = _component as SkinnableComponent;
-                if (null != skinnableComponent)
-                {
-                    //Debug.Log("Processing skinnable component", this);
+            //        // this is a skinnable component
+            //        // look for a skin
 
-                    // this is a skinnable component
-                    // look for a skin
+            //        var adapter = GuiLookup.FindAdapter(gameObject, "skin");
+            //        if (null == adapter || !gameObject.activeInHierarchy || !adapter.enabled)
+            //            return;
 
-                    var adapter = GuiLookup.FindAdapter(gameObject, "skin");
-                    if (null == adapter || !gameObject.activeInHierarchy || !adapter.enabled)
-                        return;
+            //        //Debug.Log("    adapter skin: " + adapter, adapter);
 
-                    //Debug.Log("    adapter skin: " + adapter, adapter);
-
-                    var skin = adapter.Produce(true, true);
-                    if (null != skin)
-                    {
-                        //Debug.Log("        About to attach adapter skin: " + skin, adapter);
-                        try {
-                            skinnableComponent.AttachAdapterSkin(skin);
-                        }
-                        catch (Exception ex)
-                        {
-                            Debug.LogError(ex, adapter);
-                        }
-                    }
-                }*/
-            }
+            //        var skin = adapter.Produce(true, true);
+            //        if (null != skin)
+            //        {
+            //            //Debug.Log("        About to attach adapter skin: " + skin, adapter);
+            //            try {
+            //                skinnableComponent.AttachAdapterSkin(skin);
+            //            }
+            //            catch (Exception ex)
+            //            {
+            //                Debug.LogError(ex, adapter);
+            //            }
+            //        }
+            //    }*/
+            //}
         }
 
         /// <summary>

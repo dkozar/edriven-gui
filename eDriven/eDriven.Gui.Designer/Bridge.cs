@@ -57,39 +57,5 @@ namespace eDriven.Gui.Designer
         }
 
         #endregion
-
-        /*#region Handling GUID
-
-        /// <summary>
-        /// Handle GUID signal is emiting the adapter needed for handling GUID
-        /// The signal is being used for decoupling the concrete implementation, and because this library (eDriven.Gui.Designer) 
-        /// shouldn't reference the eDriven.Gui.Editor library because of the circular problem
-        /// </summary>
-        //public static Signal HandleGuidSignal = new Signal();
-
-        /// <summary>
-        /// Signals the persistence layer to handle GUID on the supplied adapter
-        /// </summary>
-        /// <param name="adapter"></param>
-        public static void HandleGuid(ComponentAdapter adapter)
-        {
-            //if (null == adapter.Component)
-            //{
-            //    // deffering the gui rewrite for a frame
-            //    // this is because when adding a prefab *live*, the component isn't instantiated yet!
-            //    DeferManager.Instance.Defer(delegate
-            //    {
-            //        HandleGuidSignal.Emit(adapter);
-            //    }, 1);
-            //}
-            //else
-            //{
-            //    HandleGuidSignal.Emit(adapter);
-            //}
-
-            HandleGuidSignal.Emit(adapter);
-        }
-
-        #endregion*/
     }
 }

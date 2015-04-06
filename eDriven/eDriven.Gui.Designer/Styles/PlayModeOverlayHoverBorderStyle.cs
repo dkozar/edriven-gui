@@ -64,8 +64,6 @@ namespace eDriven.Gui.Designer.Styles
         public static Color BorderColor = Color.white;
 
         private static ProgramaticStyle _style;
-        
-        //private const int Weight = 2;
 
         public static void Draw()
         {
@@ -74,21 +72,12 @@ namespace eDriven.Gui.Designer.Styles
 
         private static void Initialize()
         {
-            //Debug.Log("PlayModeOverlayHoverBorderStyle initializer");
-
             _style = new ProgramaticStyle {Style = _instance};
-            /*_style.Font = Font ?? FontMapper.GetDefault();
-            _style.Alignment = TextAnchor.MiddleLeft;
-            _style.Padding = new RectOffset(10, 10, 0, 0);*/
 
             int w = (BorderWidth + 1) * 2;
 
-            //_style.FixedWidth = 100;
-            //_style.FixedHeight = 100;
             _style.Border = new RectOffset(BorderWidth + 1, BorderWidth + 1, BorderWidth + 1, BorderWidth + 1);
 
-            //_style.FontSize = 30;
-            //_style.NormalTextColor = Color.grey;
             _style.NormalGraphics = new Rect(w, w,
                                              new Fill(new Color(0.9f, 0.9f, 0.9f, 0)),//), // transparent fill!
                                              new Stroke(BorderWidth) { Color = BorderColor/*Color.red*/, }

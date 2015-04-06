@@ -91,9 +91,6 @@ Click this message to select the problematic component.", SkinClass, this), this
                 }
 
                 var type = GlobalTypeDictionary.Instance[SkinClass];
-                //Debug.Log("type: " + type);
-                // just apply, without thinking
-                //component.SkinClass = Type.GetType(SkinClass);
                 if (component.SkinClass != type)
                 {
                     component.SkinClass = type;

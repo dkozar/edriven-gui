@@ -337,7 +337,6 @@ namespace eDriven.Gui.Components
 		{
 			MouseEvent me = (MouseEvent) e;
 
-			// TODO (chaase): We might want a different event mechanism eventually
 			// which would push this enabled check into the child/skin components
 			if (!Enabled)
 				return;

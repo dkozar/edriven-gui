@@ -80,7 +80,7 @@ namespace eDriven.Gui.Designer
         /// <returns></returns>
         public static ComponentAdapter FindAdapter(string id)
         {
-            Object[] foundObjects = Object.FindSceneObjectsOfType(typeof(ComponentAdapter));
+            Object[] foundObjects = Object.FindObjectsOfType(typeof(ComponentAdapter));
             if (foundObjects.Length == 0)
                 return null;
 
@@ -105,7 +105,7 @@ namespace eDriven.Gui.Designer
         /// <returns></returns>
         public static T FindAdapter<T>(string id) where T : ComponentAdapter
         {
-            Object[] foundObjects = Object.FindSceneObjectsOfType(typeof(T));
+            Object[] foundObjects = Object.FindObjectsOfType(typeof(T));
             if (foundObjects.Length == 0)
                 return null;
 
@@ -146,11 +146,6 @@ namespace eDriven.Gui.Designer
             {
                 adapter = FindAdapterRecursive(go, id);    
             }
-
-            //if (null != adapter)
-            //{
-            //    Debug.Log("Found: " + adapter);
-            //}
 
             return adapter;
         }
@@ -193,28 +188,16 @@ namespace eDriven.Gui.Designer
 
             if (adapter.Id == id && adapter.ComponentType == typeof(T))
                 return adapter as T;
-
-            //ContainerAdapter containerAdapter = adapter as ContainerAdapter;
-
-            //if (null != containerAdapter)
-            //{
-                //adapter = Array.Find(containerAdapter.Children, delegate(ComponentAdapter d)
-                //{
-                //    return d.Component.Id == id &&
-                //           d.ComponentType == typeof(T);
-                //});
-
+            
             int count = adapter.transform.childCount;
             for (int i = 0; i < count; i++)
             {
                 Transform childTransform = adapter.transform.GetChild(i);
-                //adapter = childTransform.GetComponent<ComponentAdapter>();
                 // Note: recursion
                 adapter = FindAdapter<T>(childTransform.gameObject, id);
                 if (adapter.Id == id && adapter.ComponentType == typeof(T))
                     return adapter as T;
             }
-            //}
 
             return adapter as T;
         }
@@ -241,12 +224,6 @@ namespace eDriven.Gui.Designer
 
             if (null != groupAdapter)
             {
-                //adapter = Array.Find(containerAdapter.Children, delegate(ComponentAdapter d)
-                //{
-                //    return d.Component.Id == id &&
-                //           d.ComponentType == typeof(T);
-                //});
-
                 int count = groupAdapter.transform.childCount;
                 for (int i = 0; i < count; i++)
                 {
@@ -279,12 +256,6 @@ namespace eDriven.Gui.Designer
 
             if (null != groupAdapter)
             {
-                //adapter = Array.Find(containerAdapter.Children, delegate(ComponentAdapter d)
-                //{
-                //    return d.Component.Id == id &&
-                //           d.ComponentType == typeof(T);
-                //});
-
                 int count = groupAdapter.transform.childCount;
                 for (int i = 0; i < count; i++)
                 {
@@ -344,15 +315,6 @@ namespace eDriven.Gui.Designer
             return null;
         }
 
-        //public static Component GetComponent<T>(string id) where T : Component
-        //{
-        //    ComponentAdapter adapter = GetAdapter<T>(id);
-        //    if (null == adapter)
-        //        return null;
-
-        //    return adapter.Component;
-        //}
-
         #endregion
 
         #region Produce
@@ -365,10 +327,6 @@ namespace eDriven.Gui.Designer
         /// <returns></returns>
         public static Component Produce<T>(string id) where T : ComponentAdapter
         {
-            //var factory = GetAdapter<T>(id);
-            //var instance = factory.NewInstance();
-            //factory.Apply();
-            //return instance;
             var factory = FindAdapter<T>(id);
             if (null == factory)
             {
@@ -486,13 +444,11 @@ namespace eDriven.Gui.Designer
             {
                 if (null != component.Parent)
                 {
-                    //Debug.Log("     component.Parent: " + component.Parent);
                     return GetGameObject(component.Parent as Component);
                 }
             }
 
             if (null != gameObject) {
-                //Debug.Log("gameObject found: " + gameObject);
                 return gameObject;
             }
 
@@ -546,28 +502,6 @@ namespace eDriven.Gui.Designer
 
             return name;
         }
-
-        #endregion
-
-        #region Helper
-
-        //public delegate Object IdToObjectLookup(int instanceId);
-        //private static IdToObjectLookup _idToObject;
-        //public static IdToObjectLookup GetObjectWithId
-        //{
-        //    get
-        //    {
-        //        if (null == _idToObject)
-        //        {
-        //            throw new Exception("GetObjectWithId not set");
-        //        }
-        //        return _idToObject;
-        //    }
-        //    set
-        //    {
-        //        _idToObject = value;
-        //    }
-        //}
 
         #endregion
     }

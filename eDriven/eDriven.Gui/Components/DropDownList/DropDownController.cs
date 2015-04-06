@@ -119,10 +119,7 @@ namespace eDriven.Gui.Components
          *  <p>This is called from the openButton setter after the openButton has been set.</p>
          */ 
         private void AddOpenTriggers()
-        {
-            // TODO (jszeto): Change this to be mouseDown. Figure out how to not 
-            // trigger systemManager_mouseDown.
-            if (null == OpenButton) 
+        {if (null == OpenButton) 
                 return;
             if (null == RolloverOpenDelay)
                 OpenButton.AddEventListener(ButtonEvent.BUTTON_DOWN, OpenButtonButtonDownHandler);
@@ -138,8 +135,6 @@ namespace eDriven.Gui.Components
          */ 
         private void RemoveOpenTriggers()
         {
-            // TODO (jszeto): Change this to be mouseDown. Figure out how to not 
-            // trigger systemManager_mouseDown.
             if (null == OpenButton)
                 return;
             if (null == RolloverOpenDelay)

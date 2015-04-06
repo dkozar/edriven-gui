@@ -14,10 +14,10 @@ namespace eDriven.Gui.Managers
 	/// By far the most important piece in the framework. :)
 	/// </summary>
 	public sealed class InvalidationManager
-	{
+    {
 
 #if DEBUG
-		internal static bool DebugMode;
+        internal static bool DebugMode;
 #endif
 
 		#region Singleton

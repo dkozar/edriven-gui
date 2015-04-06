@@ -50,22 +50,6 @@ namespace eDriven.Gui.Designer
         [SerializeField]
         public bool Enabled = true;
 
-        //[SerializeField]
-        //public MethodInfo MethodInfo;
-
-        //public EventMapping(string eventType, MethodInfo methodInfo)
-        //{
-        //    EventType = eventType;
-        //    ScriptName = methodInfo.ReflectedType.ToString();
-        //    MethodName = methodInfo.Name;
-        //    //MethodInfo = methodInfo;
-        //}
-
-        //void OnEnable()
-        //{
-        //    hideFlags = HideFlags.HideAndDontSave;
-        //}
-
         public override string ToString()
         {
             return string.Format(@"[{0}] -> {1}.{2}
@@ -102,12 +86,14 @@ Phase: {3}", EventType, ScriptName, MethodName, Phase);
 
         public object Clone()
         {
-            EventMapping mapping = new EventMapping();
-            mapping.EventType = EventType;
-            mapping.ScriptName = ScriptName;
-            mapping.MethodName = MethodName;
-            mapping.Enabled = Enabled;
-            mapping.Phase = Phase;
+            EventMapping mapping = new EventMapping
+            {
+                EventType = EventType,
+                ScriptName = ScriptName,
+                MethodName = MethodName,
+                Enabled = Enabled,
+                Phase = Phase
+            };
             return mapping;
         }
     }

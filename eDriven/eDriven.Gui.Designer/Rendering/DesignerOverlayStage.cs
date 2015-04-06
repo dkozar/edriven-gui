@@ -100,10 +100,8 @@ namespace eDriven.Gui.Designer.Rendering
         {
             ZIndex = STAGE_DEPTH;
             Id = "DesignerOverlayStage";
-            //LayoutDescriptor = LayoutDescriptor.Absolute;
             Layout = new AbsoluteLayout();
             FocusEnabled = false;
-            //ScrollContent = false;
             Enabled = true;
 
             Register();
@@ -131,25 +129,18 @@ namespace eDriven.Gui.Designer.Rendering
 
         internal void Hover(DisplayObject target)
         {
-            //Debug.Log("Hover: " + target);
             var dlm = target as DisplayListMember;
             // do not analyze anything from this stage
             if (null != dlm && !DesignerOverlay.IsInspectable(dlm))
                 return; 
             
             var go = GuiLookup.GetGameObject((Component) target);
-            //var path = GuiLookup.GetPath(go.transform);
 
             if (null != go)
             {
                 _hoverOverlay.Visible = true;
                 var bounds = target.Transform.GlobalBounds;
                 
-                /*if (!(target is Stage))
-                {
-                    bounds = bounds.Expand(PlayModeOverlayHoverBorderStyle.BorderWidth);
-                }*/
-
                 /**
                  * 1. Expand around component
                  * */
@@ -166,13 +157,10 @@ namespace eDriven.Gui.Designer.Rendering
             {
                 Unhover();
             }
-            
-            //_hoverOverlay.ValidateNow(); // NONO!
         }
 
         internal void Select(DisplayObject target)
         {
-            //Debug.Log("Select: " + target);
             var dlm = target as DisplayListMember;
             // do not analyze anything from this stage
             if (null != dlm && !DesignerOverlay.IsInspectable(dlm))
@@ -184,11 +172,7 @@ namespace eDriven.Gui.Designer.Rendering
             {
                 _selectionOverlay.Visible = true;
                 var bounds = target.Transform.GlobalBounds;
-                /*if (!(target is Stage))
-                {
-                    bounds = bounds.Expand(PlayModeOverlaySelectionBorderStyle.BorderWidth);
-                }*/
-
+                
                 /**
                  * 1. Expand around component
                  * */
@@ -209,7 +193,6 @@ namespace eDriven.Gui.Designer.Rendering
             if (null == _selectionOverlay)
                 return;
             _selectionOverlay.Visible = false;
-            //_selectionOverlay.Bounds = new Rectangle(-100, -100, 10, 10);
             _selectionOverlay.Move(-100, -100);
             _selectionOverlay.SetActualSize(10, 10);
         }
@@ -219,7 +202,6 @@ namespace eDriven.Gui.Designer.Rendering
             if (null == _hoverOverlay)
                 return;
             _hoverOverlay.Visible = false;
-            //_hoverOverlay.Bounds = new Rectangle(-100, -100, 10, 10);
             _hoverOverlay.Move(-100, -100);
             _hoverOverlay.SetActualSize(10, 10);
         }

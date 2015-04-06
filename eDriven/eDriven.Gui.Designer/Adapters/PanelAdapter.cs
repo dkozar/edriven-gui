@@ -71,7 +71,6 @@ namespace eDriven.Gui.Designer.Adapters
         /// Control bar group children
         /// </summary>
         [Saveable]
-        //[SerializeField]
         [ChildCollection(ShowHeader = true, TargetContainer = "ControlBarGroup", Label = "Control bar", Icon = "eDriven/Editor/Icons/group_control_bar")]
         public List<ComponentAdapter> ControlBarGroupChildren = new List<ComponentAdapter>();
 
@@ -79,7 +78,6 @@ namespace eDriven.Gui.Designer.Adapters
         /// Tool group children
         /// </summary>
         [Saveable]
-        //[SerializeField]
         [ChildCollection(ShowHeader = true, TargetContainer = "ToolGroup", Label = "Tools", Icon = "eDriven/Editor/Icons/group_tools")]
         public List<ComponentAdapter> ToolGroupChildren = new List<ComponentAdapter>();
 
@@ -87,7 +85,6 @@ namespace eDriven.Gui.Designer.Adapters
         ///</summary>
         public PanelAdapter()
         {
-            //ClipContent = true;
             MinWidth = 200;
             MinHeight = 100;
         }
@@ -96,12 +93,8 @@ namespace eDriven.Gui.Designer.Adapters
         {
             return new Panel
             {
-                //ClipContent = true,
-                //ScrollContent = true,
-                //LayoutDescriptor = eDriven.Gui.Layout.LayoutDescriptor.VerticalTopLeft
                 Layout = new VerticalLayout
                 {
-                    //Direction = eDriven.Gui.Layout.LayoutDirection.Vertical,
                     VerticalAlign = VerticalAlign.Top,
                     HorizontalAlign = HorizontalAlign.Left
                 }
@@ -119,7 +112,6 @@ namespace eDriven.Gui.Designer.Adapters
             Panel panel = (Panel)component;
             panel.Title = Title;
             panel.Icon = Icon;
-            //panel.ContentGroup.ClipAndEnableScrolling = ClipAndEnableScrolling; // TODO ? - no: in skin
 
             switch (Layout)
             {

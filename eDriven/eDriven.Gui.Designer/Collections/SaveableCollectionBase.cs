@@ -56,7 +56,7 @@ namespace eDriven.Gui.Designer.Collections
 
         [Saveable]
         [SerializeField]
-        private T[] _items = new T[] { };
+        private T[] _items = { };
 
         /// <summary>
         /// Items
@@ -75,10 +75,6 @@ namespace eDriven.Gui.Designer.Collections
         /// <param name="item"></param>
         public virtual void Add(T item)
         {
-            //Debug.Log("Adding item " + item);
-            //if (null != ComponentAdapter)
-            //    ProcessListener(ComponentAdapter, null, item, _enabled);
-
             var list = new List<T>(_items) { item };
             _items = list.ToArray();
         }
@@ -101,10 +97,6 @@ namespace eDriven.Gui.Designer.Collections
 
             if (found > -1)
             {
-                //Debug.Log("Removing item at " + found);
-                //if (null != ComponentAdapter)
-                //    ProcessListener(ComponentAdapter, null, Items[found], false);
-
                 var list = new List<T>(_items);
                 list.Remove(item);
                 _items = list.ToArray();
@@ -128,10 +120,7 @@ namespace eDriven.Gui.Designer.Collections
 
             list.Remove(item);
             list.Insert(index, item);
-
-            //if (null != ComponentAdapter)
-            //    ProcessListener(ComponentAdapter, null, Items[found], false);
-
+            
             _items = list.ToArray();
         }
 
@@ -146,10 +135,6 @@ namespace eDriven.Gui.Designer.Collections
         public virtual object Clone()
         {
             SaveableCollectionBase<T> desc = new SaveableCollectionBase<T> { ComponentAdapter = _componentAdapter }; // the same adapter reference
-            //foreach (var mapping in Items)
-            //{
-            //    desc.Add((T)mapping.Clone());
-            //}
             return desc;
         }
 

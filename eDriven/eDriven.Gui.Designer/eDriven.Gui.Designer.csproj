@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adapters\Base\ISkinnableAdapter.cs" />
     <Compile Include="Adapters\Base\SkinnableContainerAdapter.cs" />
     <Compile Include="Adapters\Base\SkinnableComponentAdapter.cs" />
     <Compile Include="Adapters\WindowAdapter.cs" />
@@ -78,12 +77,6 @@
     <Compile Include="Collections\SaveableAdapterCollection.cs" />
     <Compile Include="Collections\SaveableStringCollection.cs" />
     <Compile Include="Reflection\eDrivenEffectAttributeAttribute.cs" />
-    <Compile Include="Data\Binding\____Bindable.cs" />
-    <Compile Include="Data\Binding\____BindableComponent.cs" />
-    <Compile Include="Data\Binding\____Binding.cs" />
-    <Compile Include="Data\Binding\____BindingComponent.cs" />
-    <Compile Include="Data\Binding\____BindingTest.cs" />
-    <Compile Include="Data\IBindable.cs" />
     <Compile Include="Adapters\ButtonAdapter.cs" />
     <Compile Include="Adapters\CheckBoxAdapter.cs" />
     <Compile Include="Adapters\ComboBoxAdapter.cs" />
@@ -106,7 +99,6 @@
     <Compile Include="Reflection\ChildGroupDescriptor.cs" />
     <Compile Include="Reflection\DesignerReflection.cs" />
     <Compile Include="Adapters\StageAdapter.cs" />
-    <Compile Include="Adapters\TabNavigatorAdapter.cs" />
     <Compile Include="Adapters\TextFieldAdapter.cs" />
     <Compile Include="Collections\SaveableCollectionBase.cs" />
     <Compile Include="LevelLoadedStrategy.cs" />

@@ -43,18 +43,17 @@ namespace eDriven.Gui.Designer.Data
     {
         [Saveable]
         [SerializeField]
-        public string[] Keys = new string[] { };
+        public string[] Keys = { };
 
         [Saveable]
         [SerializeField]
-        public string[] Values = new string[] { };
+        public string[] Values = { };
 
-// ReSharper disable UnusedMember.Local
+        // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         void InitializeComponent(Component component)
-// ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
-            //_component = component;
             if (!enabled)
             {
                 Debug.Log("ListItemDataProvider not enabled");
@@ -64,17 +63,15 @@ namespace eDriven.Gui.Designer.Data
             Apply(component);
         }
 
-// ReSharper disable UnusedMember.Local
+        // ReSharper disable UnusedMember.Local
         void Update()
-// ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
         
         }
 
         public override void Apply(Component component)
         {
-            //Debug.Log("=== Apply ===", transform);
-
             DataGroup dataProviderClient = component as DataGroup;
             if (null == dataProviderClient)
             {

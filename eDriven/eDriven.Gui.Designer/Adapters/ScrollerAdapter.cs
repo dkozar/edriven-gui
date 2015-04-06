@@ -4,7 +4,23 @@
  
 Copyright (c) 2010-2014 Danko Kozar
 
-All rights reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
  
 */
 
@@ -105,9 +121,6 @@ namespace eDriven.Gui.Designer.Adapters
 
             ContentChildren.Add(child);
 
-//        Debug.Log(@"After: 
-//" + LayoutOrder);
-
             if (child.FactoryMode)
                 return;
 
@@ -142,25 +155,17 @@ namespace eDriven.Gui.Designer.Adapters
         /// </summary>
         override public void RemoveAllChildren()
         {
-            //DepthOrder.Clear();
-            //LayoutOrder.Clear();
-
-            //if (!Instantiated && !State.IsPlaying) // not instantiated
             if (!Instantiated || !DesignerState.IsPlaying) // not instantiated // 20130512
                 return;
-
-            //Debug.Log("transform.childCount: " + transform.childCount);
 
             for (int i = transform.childCount - 1; i >= 0; i--)
             {
                 var childAdapter = GuiLookup.GetAdapter(transform.GetChild(i));
-                //Debug.Log("childAdapter: " + childAdapter);
                 if (null != childAdapter)
                     RemoveChild(childAdapter);
             }
 
             ContentChildren.Clear();
-            //ContentChildren = new List<ComponentAdapter>(ContentChildren);
         }
 
         /// <summary>
@@ -170,7 +175,6 @@ namespace eDriven.Gui.Designer.Adapters
         /// <returns></returns>
         override public int GetChildIndex(ComponentAdapter child)
         {
-            //return LayoutOrder.FindIndex(delegate(string val) { return val == child.Guid; });
             return ContentChildren.FindIndex(delegate(ComponentAdapter componentAdapter)
             {
                 return componentAdapter == child;
@@ -196,19 +200,14 @@ namespace eDriven.Gui.Designer.Adapters
         /// <param name="register"></param>
         override public void DoInstantiate(ComponentAdapter childAdapter, bool register)
         {
-            //Debug.Log("DoInstantiate1: " + childAdapter);
-
             if (!childAdapter.Instantiated)
             {
                 childAdapter.DoInstantiate(register);
             }
 
-            //Debug.Log("DoInstantiate2: " + childAdapter.Component);
-
             var scroller = (Scroller)Component;
             if (null != scroller)
             {
-                //scroller.AddContentChild(childAdapter.Component);
                 var group = childAdapter.Component as GroupBase;
                 if (null == group)
                 {
@@ -233,8 +232,6 @@ namespace eDriven.Gui.Designer.Adapters
 
                 if (null == childAdapters || childAdapters.Count == 0)
                     continue;
-
-                //var attr = groupDescriptor.Attribute;
 
                 if (null == Component) // not instantiated
                     return;
@@ -261,8 +258,6 @@ namespace eDriven.Gui.Designer.Adapters
                     UnityEngine.Debug.LogError(string.Format(@"Scroller viewport should be of IViewport type: {0}
 {1}", this, ex));
                 }
-
-                //ComponentAdapterUtil.PopulateContainer(assignToDescriptor, childAdapters.ToArray(), targetContainer, false, true);
             }
         }
     

@@ -56,13 +56,10 @@ namespace eDriven.Gui.Designer.Util
         ///<returns></returns>
         public static bool ListContainsNullReference(List<ComponentAdapter> adapterList)
         {
-            //Debug.Log("Running ContainsNullReference:");
             int count = adapterList.Count;
-            //Debug.Log("count: " + count);
 
             for (int i = 0; i < count; i++)
             {
-                //Debug.Log(string.Format(@"   - Comparing: {0} and {1}", list1[i], list2[i])); // beware of null for Debug
                 if (adapterList[i] == null) 
                     return true;
             }
@@ -121,13 +118,6 @@ Child adapters:
             if (null == targetContainer && null == thisComponent)
                 return;
 
-            //Debug.Log(string.Format(@"DrawingList: {0}", container.QDrawingList.Count));
-
-            //if (muteEvents)
-            //    container.CreatingContentPane = true;
-
-            //Debug.Log("container.NumberOfContentChildren: " + container.NumberOfContentChildren);
-
             var list = thisComponent as IContentChildList; // Group, Panel, Window etc.
 
             if (removeAllChildren)
@@ -140,9 +130,6 @@ Child adapters:
                         list.RemoveAllContentChildren();
                 }
             }
-                
-
-            //Debug.Log(string.Format(@"SortedChildren2: {0}", container.QDrawingList.Count));
 
             foreach (ComponentAdapter adapter in componentAdapters)
             {
@@ -151,8 +138,6 @@ Child adapters:
 
                 Component component = adapter.Produce(!adapter.FactoryMode, assignToDescriptor);
                 if (null != component) {
-                    //Debug.Log("  *Adding component: " + component);
-                    
                     if (null != targetContainer)
                         targetContainer.AddContentChild(component);
                     else
@@ -160,19 +145,8 @@ Child adapters:
                         if (list != null)
                             list.AddContentChild(component);
                     }
-
-                    //// 20130813 - moved from ComponentAdapter.Produce, 
-                    //// to avoid to subscribe/unsubscribe to PREINITIALIZE
-                    //ContainerAdapter ca = adapter as ContainerAdapter;
-                    //if (null != ca)
-                    //{
-                    //    ca.InstantiateChildren(assignToDescriptor);
-                    //}
                 }
             }
-
-            //if (muteEvents)
-            //    container.CreatingContentPane = false;
         }
     }
 }

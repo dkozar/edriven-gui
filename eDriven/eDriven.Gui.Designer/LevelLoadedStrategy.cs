@@ -27,7 +27,6 @@ THE SOFTWARE.
 #endregion License
 
 using eDriven.Core.Managers;
-using eDriven.Gui.Designer.Util;
 using UnityEngine;
 
 namespace eDriven.Gui.Designer

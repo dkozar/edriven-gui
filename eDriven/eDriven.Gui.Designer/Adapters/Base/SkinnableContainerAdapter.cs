@@ -81,8 +81,6 @@ namespace eDriven.Gui.Designer.Adapters
             if (component is SkinnableComponent && !string.IsNullOrEmpty(SkinClass) &&
                 (null == component.SkinClass || SkinClass != component.SkinClass.FullName))
             {
-                //Debug.Log("SkinClass: " + SkinClass);
-
                 if (!GlobalTypeDictionary.Instance.ContainsKey(SkinClass)) {
                     Debug.LogError(string.Format(@"Couldn't find reflected class [{0}] on adapter [{1}]. Maybe you have changed a class name or namespace? 
 Click this message to select the problematic component.", SkinClass, this), this);
@@ -90,9 +88,6 @@ Click this message to select the problematic component.", SkinClass, this), this
                 }
 
                 var type = GlobalTypeDictionary.Instance[SkinClass];
-                //Debug.Log("type: " + type);
-                // just apply, without thinking
-                //component.SkinClass = Type.GetType(SkinClass);
                 if (component.SkinClass != type)
                 {
                     component.SkinClass = type;
@@ -102,11 +97,6 @@ Click this message to select the problematic component.", SkinClass, this), this
 
             #endregion
         }
-
-        /*/// <summary>
-        /// Static dictionary containing the last used skin per adapter type
-        /// </summary>
-        private static readonly Dictionary<Type, string> LastUsedSkins = new Dictionary<Type, string>();*/
 
         /// <summary>
         /// Remembers the last used skin

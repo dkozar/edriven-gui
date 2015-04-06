@@ -337,20 +337,6 @@ namespace eDriven.Gui.Data
 		 */
 		private void RemoveRendererAt(int index)
 		{
-			// TODO (rfrishbe): we can't key off of the oldDataProvider for 
-			// the item because it might not be there anymore (for instance, 
-			// in a dataProvider reset where the new data is loaded into 
-			// the dataProvider--the dataProvider doesn't actually change, 
-			// but we still need to clean up).
-			// Because of this, we are assuming the item is either:
-			//   1.  The data property if the item implements IDataRenderer 
-			//       and there is an ItemRenderer or ItemRendererFunction
-			//   2.  The item itself
-			
-			// Probably could fix above by also storing indexToData[], but that doesn't 
-			// seem worth it.  Sending in the wrong item here doesn't result in a big error...
-			// just the event with have the wrong item associated with it
-			
 			IVisualElement renderer = _indexToRenderer[index];
 			object item;
 			
@@ -372,27 +358,9 @@ namespace eDriven.Gui.Data
 			if (_indexToRenderer.Count == 0)
 				return;
 
-			//if (_virtualRendererIndices && (_virtualRendererIndices.length > 0))
-			//{
-			//    for each (int index in _virtualRendererIndices.concat().sort(SortDecreasing))
-			//        RemoveRendererAt(index);
-				
-			//    _virtualRendererIndices.length = 0;
-			//    _oldVirtualRendererIndices.length = 0;
-				
-			//    for (int i = _freeRenderers.length - 1; i >= 0; i--)
-			//    {
-			//        IVisualElement myItemRenderer = _freeRenderers.pop() as IVisualElement;
-			//        base.RemoveChild(myItemRenderer as DisplayObject);
-			//    }
-			//}   
-			//else 
-			//{
-				for (int index = _indexToRenderer.Count - 1; index >= 0; index--)
-					RemoveRendererAt(index);
-			//}
+			for (int index = _indexToRenderer.Count - 1; index >= 0; index--)
+				RemoveRendererAt(index);
 
-			//_indexToRenderer = []; // should be redundant
 			_indexToRenderer.Clear();  // should be redundant
 
 			if (null != Layout)

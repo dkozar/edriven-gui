@@ -49,8 +49,6 @@ namespace eDriven.Gui.Designer
 
             foreach (MemberInfo memberInfo in adapterType.GetMembers())
             {
-                //var attributes = memberInfo.GetCustomAttributes(typeof(ChildCollectionAttribute), true);
-
                 var attributes = Core.Reflection.CoreReflector.GetMemberAttributes<ChildCollectionAttribute>(memberInfo);
 
                 if (null != attributes && attributes.Count > 0)
@@ -75,80 +73,5 @@ namespace eDriven.Gui.Designer
 
             return descriptors;
         }
-
-        ///// <summary>
-        ///// Gets all skin classes
-        ///// </summary>
-        ///// <param name="dict"></param>
-        //public static void GetAllStyleableClasses(ref Dictionary<string, Type> dict)
-        //{
-        //    List<Type> types = GetAllLoadedTypes();
-
-        //    foreach (Type type in types)
-        //    {
-        //        if (type.IsClass)
-        //        {
-        //            if (typeof(IStyleClient).IsAssignableFrom(type)) {
-        //                StyleAttribute[] styleAttributes = (StyleAttribute[])type.GetCustomAttributes(typeof(StyleAttribute), true);
-
-        //                //Debug.Log("hostComponentAttributes.Length: " + hostComponentAttributes.Length);
-        //                if (styleAttributes.Length > 0)
-        //                {
-        //                    //Debug.Log(3);
-        //                    dict.Add(type.FullName, type);
-        //                }
-        //            }
-        //        }
-        //    }
-        //}
-
-        ///// <summary>
-        ///// Gets all style properties
-        ///// </summary>
-        ///// <param name="type"></param>
-        //public static List<StyleAttribute> GetStyleAttributes(Type type)
-        //{
-        //    //Debug.Log("GetStyleAttributes: " + type);
-
-        //    StyleAttribute[] styleAttributes = (StyleAttribute[])type.GetCustomAttributes(typeof(StyleAttribute), true);
-        //    //Debug.Log("styleAttributes.Length: " + styleAttributes.Length);
-            
-        //    List<StyleAttribute> attributes = new List<StyleAttribute>();
-        //    foreach (StyleAttribute attribute in styleAttributes)
-        //    {
-        //        //Debug.Log("attribute: " + attribute.Name + "; " + attribute.Type);
-        //        if (null != attribute.Type && StyleProperty.AlowedTypes.ContainsKey(attribute.Type))
-        //            attributes.Add(attribute);
-        //    }
-        //    //Debug.Log("Allowed attributes: " + attributes.Count);
-
-        //    return attributes;
-        //}
-
-        //private static List<Type> _allTypes;
-        ///// <summary>
-        ///// Gets all loaded types from all assemblies
-        ///// </summary>
-        ///// <returns></returns>
-        //public static List<Type> GetAllLoadedTypes()
-        //{
-        //    /**
-        //     * 1. Get all types for all loaded assemblies
-        //     * This is done only when componet tab expanded, so is no performance issue
-        //     * */
-
-        //    if (null == _allTypes)
-        //    {
-        //        _allTypes = new List<Type>();
-                
-        //        Assembly[] loadedAssemblies = AppDomain.CurrentDomain.GetAssemblies();
-        //        foreach (Assembly assembly in loadedAssemblies)
-        //        {
-        //            _allTypes.AddRange(assembly.GetTypes());
-        //        }
-        //    }
-
-        //    return _allTypes;
-        //}
     }
 }

@@ -43,19 +43,19 @@ namespace eDriven.Gui.Designer.Data
         // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         void ComponentInstantiated(Component descriptor)
-            // ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
-            DataGroup combo = descriptor as DataGroup;
-            if (null != combo)
+            DataGroup dataGroup = descriptor as DataGroup;
+            if (null != dataGroup)
             {
                 //Debug.Log("Setting dataprovider on combo: " + combo);
             }
             else
             {
-                Debug.Log("No combo found");
+                Debug.Log("No dataGroup found");
             }
 
-            if (null != combo)
+            if (null != dataGroup)
             {
                 List<object> list = new List<object>();
 
@@ -64,7 +64,7 @@ namespace eDriven.Gui.Designer.Data
                     list.Add(new ListItem(s, s));
                 }
 
-                combo.DataProvider = new ArrayList(list);
+                dataGroup.DataProvider = new ArrayList(list);
             }
         }
 
@@ -78,6 +78,6 @@ namespace eDriven.Gui.Designer.Data
 
         [Saveable]
         [SerializeField]
-        public string[] Data = new string[] { };
+        public string[] Data = { };
     }
 }

@@ -32,7 +32,7 @@ using eDriven.Gui.Components;
 namespace eDriven.Gui.Designer.Adapters
 {
     /// <summary>
-    /// The ability to create new instance of a given class
+    /// The ability to create a new instance of a given class
     /// </summary>
     public interface IComponentFactory
     {

@@ -69,7 +69,6 @@ namespace eDriven.Gui.Designer.Styles
         {
             const int w = (Weight + 1) * 2;
 
-            //Debug.Log("PlayModeOverlayHoverLabelStyle initializer");
             _style = new ProgramaticStyle
                          {
                              Style = _instance,

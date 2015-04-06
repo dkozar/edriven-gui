@@ -293,7 +293,6 @@ namespace eDriven.Gui.Components
          *  
          *  Called whenever we need to update the text passed to the labelDisplay skin part
          */
-        // TODO (jszeto): Make this protected and make the name more generic (passing data to skin) 
         protected virtual void UpdateLabelDisplay(object displayItem = null)
         {
             // DropDownList and ComboBox will override this function

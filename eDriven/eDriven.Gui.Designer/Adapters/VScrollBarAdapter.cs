@@ -55,12 +55,6 @@ namespace eDriven.Gui.Designer.Adapters
         [Saveable]
         public float PageSize = 300f;
 
-        /*[Saveable]
-        public float PageScrollSize = 1;
-
-        [Saveable]
-        public float LineScrollSize = 1;*/
-
         #endregion
 
         public VScrollBarAdapter()
@@ -98,8 +92,6 @@ namespace eDriven.Gui.Designer.Adapters
             scrollBar.Maximum = Maximum;
             scrollBar.Value = Value;
             scrollBar.PageSize = PageSize;
-            /*scrollBar.PageScrollSize = PageScrollSize;
-            scrollBar.LineScrollSize = LineScrollSize;*/
         }
     }
 }

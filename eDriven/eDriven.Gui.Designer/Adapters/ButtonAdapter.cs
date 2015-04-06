@@ -57,10 +57,6 @@ namespace eDriven.Gui.Designer.Adapters
         public ButtonAdapter()
         {
             HighlightOnFocus = false;
-            /*PaddingLeft = 6;
-            PaddingRight = 6;
-            PaddingTop = 2;
-            PaddingBottom = 2;*/
         }
 
         public override Type ComponentType
@@ -75,7 +71,7 @@ namespace eDriven.Gui.Designer.Adapters
 
         public override Component NewInstance()
         {
-            return new Button(); // { PaddingLeft = 6, PaddingRight = 6, PaddingTop = 6, PaddingBottom = 6 };
+            return new Button();
         }
 
         public override void Apply(Component component)

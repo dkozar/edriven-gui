@@ -61,16 +61,10 @@ namespace eDriven.Gui.Designer.Adapters
             return new List();
         }
 
-        /// <summary>
-        /// Applies the values from the adapter to a component
-        /// </summary>
-        /// <param name="component"></param>
-        public override void Apply(Component component)
-        {
-            base.Apply(component);
-            // Component ID used by developer for locating the component via ComponentManager<br/>
-            // Must be unique in the application
-            List list = (List)component;
-        }
+        //public override void Apply(Component component)
+        //{
+        //    base.Apply(component);
+        //    List list = (List)component;
+        //}
     }
 }

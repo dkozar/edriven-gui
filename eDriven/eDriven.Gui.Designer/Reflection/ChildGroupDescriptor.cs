@@ -60,11 +60,8 @@ namespace eDriven.Gui.Designer
         /// <returns></returns>
         public IContentChildList GetTargetContainer(IContentChildList me)
         {
-            //Debug.Log("TargetContainerMemberInfo: " + TargetContainerMemberInfo);
-            //Debug.Log("GetTargetContainer: " + me);
             if (null != TargetContainerMemberInfo && null != me)
             {
-                //Debug.Log("Getting TargetContainerMemberInfo: " + TargetContainerMemberInfo.Name);
                 return (Group)Core.Reflection.CoreReflector.GetMemberValue(
                     TargetContainerMemberInfo,
                     me
@@ -83,14 +80,6 @@ namespace eDriven.Gui.Designer
                 return null;
 
             List<ComponentAdapter> collection = Core.Reflection.CoreReflector.GetMemberValue(CollectionMemberInfo, containerAdapter) as List<ComponentAdapter>;
-
-            // temp hack
-            //if (null == collection)
-            //{
-            //    var arr = Core.Reflection.ReflectionUtil.GetMemberValue(CollectionMemberInfo, containerAdapter) as ComponentAdapter[];
-            //    if (null != arr)
-            //        collection = new List<ComponentAdapter>(arr);
-            //}
             return collection;
         }
     }

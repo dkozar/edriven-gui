@@ -4,7 +4,23 @@
  
 Copyright (c) 2010-2014 Danko Kozar
 
-All rights reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
  
 */
 
@@ -82,7 +98,7 @@ namespace eDriven.Gui.Designer.Adapters
         /// If using a complex layout, LayoutEnum.None is the default
         /// </summary>
         [Saveable]
-        public LayoutEnum Layout = LayoutEnum.Absolute; // default, just as at Container
+        public LayoutEnum Layout = LayoutEnum.Absolute; // default, just as Group
 
         /// <summary>
         /// Gap if using HorizontalLayout or VerticalLayout
@@ -287,13 +303,6 @@ namespace eDriven.Gui.Designer.Adapters
         public SaveableStringCollection LayoutOrder = new SaveableStringCollection();
 
         /// <summary>
-        /// Depth order (TODO)
-        /// </summary>
-        //[Saveable] // not saveable anymore
-        //[SerializeField]
-        //public SaveableStringCollection DepthOrder = new SaveableStringCollection();
-
-        /// <summary>
         /// The collection of GUIDs of controls being special (non-content) children, like button group children, tools etc.
         /// </summary>
         [Saveable]
@@ -306,10 +315,7 @@ namespace eDriven.Gui.Designer.Adapters
         protected override void OnEnableImpl()
         {
             base.OnEnableImpl();
-
-            //ChildAdapters.ComponentAdapter = this;
             LayoutOrder.ComponentAdapter = this;
-            //DepthOrder.ComponentAdapter = this;
         }
 
         /// <summary>
@@ -372,9 +378,6 @@ namespace eDriven.Gui.Designer.Adapters
                 ContentChildren.Insert(index, child);
             else
                 ContentChildren.Add(child);
-            
-//        Debug.Log(@"After: 
-//" + LayoutOrder);
 
             if (child.FactoryMode)
                 return;
@@ -413,12 +416,6 @@ namespace eDriven.Gui.Designer.Adapters
         /// </summary>
         public virtual void RemoveAllChildren()
         {
-            /*if (!Instantiated || !DesignerState.IsPlaying) // not instantiated // 20130512
-                return;*/
-            // NONO: should be available also in edit mode
-
-            //Debug.Log("transform.childCount: " + transform.childCount);
-
             for (int i = transform.childCount - 1; i >= 0; i--)
             {
                 var childAdapter = GuiLookup.GetAdapter(transform.GetChild(i));
@@ -521,13 +518,11 @@ namespace eDriven.Gui.Designer.Adapters
 
                 if (null == childAdapters)
                     continue;
-
-                //var attr = groupDescriptor.Attribute;
-
+                
                 if (null == Component) // not instantiated
                     return;
 
-                Group targetContainer; // = (Group)Component;
+                Group targetContainer;
                 if (null != groupDescriptor.TargetContainerMemberInfo)
                 {
                     /**
@@ -538,30 +533,13 @@ namespace eDriven.Gui.Designer.Adapters
                         Component
                     );
 
-                    /*if (null == targetContainer)
-                    throw new Exception(string.Format(@"Cannot locate target container ""{0}"": {1}", groupDescriptor.TargetContainerMemberInfo, this));*/
                 }
                 else
                 {
                     /**
-                 * 2. Try reading the ContentGroup
-                 * */
-                    /*var member = GlobalMemberCache.Instance.Get(Component.GetType(), "ContentGroup");
-                    if (null != member)
-                    {
-                        targetContainer = (Group) member.GetValue(Component);
-                    }
-                    else
-                    {*/
-                        /**
-                     * 3. Try casting this to Group (if this is a Stage class for instance)
+                     * 2. Try casting this to Group (if this is a Stage class for instance)
                      * */
-                        targetContainer = Component as Group;
-                    /*}*/
-
-                    /*if (null == targetContainer)
-                    throw new Exception(@"Cannot locate target container: " + this);*/
-                    // if no targetContainer found, we'll use the AddContentChild method...
+                    targetContainer = Component as Group;
                 }
 
                 ComponentAdapterUtil.PopulateContainer(Component, targetContainer, childAdapters.ToArray(), assignToDescriptor, false, true);

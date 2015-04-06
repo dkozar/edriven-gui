@@ -435,35 +435,6 @@ namespace eDriven.Gui.Components
             }
         }
 
-        /*public override void SetFocus() // TODO (?)
-        {
-            if (stage)
-            {            
-                stage.focus = textInput.textDisplay;            
-            }
-        }*/
-
-        /*protected override bool IsOurFocus(DisplayObject target)
-        {
-            return target == TextInput.textDisplay;
-        }*/
-
-        /*public override void FocusInHandler(Event e)
-        {
-            base.FocusInHandler(e);
-
-            // Since the API ignores the visual editable and selectable 
-            // properties make sure the selection should be set first.
-            if (null != TextInput && 
-                (TextInput.Editable/* || TextInput.selectable#1#))
-            {
-                // Workaround RET handling the mouse and performing its own selection logic
-                //callLater(textInput.selectAll);
-            }
-        
-            userTypedIntoText = false;
-        }*/
-
         public override void FocusOutHandler(Event e)
         {
             // always commit the selection if we focus out        

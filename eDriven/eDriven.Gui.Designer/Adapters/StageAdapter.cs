@@ -57,7 +57,6 @@ namespace eDriven.Gui.Designer.Adapters
         /// Internally it creates the Stage instance
         /// It listens for the changes in the inspector and propagates them to the Stage instance
         /// </summary>
-        /// <remarks>Author: Danko Kozar</remarks>
 
 #if DEBUG
         // ReSharper disable UnassignedField.Global
@@ -98,27 +97,6 @@ namespace eDriven.Gui.Designer.Adapters
         #endregion
 
         #region Unity Messages
-
-//    // ReSharper disable UnusedMember.Local
-//    [Obfuscation(Exclude = true)]
-//    void Start()
-//    // ReSharper restore UnusedMember.Local
-//    {
-//        if (!enabled)
-//            return; // do not register this stage
-//#if DEBUG
-//        if (DebugMode)
-//            Debug.Log("Gui started.");
-//#endif
-//        //if (!Instantiated)
-//        //    DoInstantiate();
-
-//        Produce(!FactoryMode, true); // StageAdapter is ContainerAdapter, so we are walking down
-
-//        // Stage could be null if it is a template
-//        if (null != Stage)
-//            Stage.Register();
-//    }
 
 // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
@@ -162,7 +140,7 @@ namespace eDriven.Gui.Designer.Adapters
         // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         protected override void OnEnableImpl()
-            // ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
             base.OnEnableImpl();
 
@@ -176,7 +154,7 @@ namespace eDriven.Gui.Designer.Adapters
         // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         void OnDisable()
-            // ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
             if (null != Stage)
             {
@@ -402,13 +380,13 @@ namespace eDriven.Gui.Designer.Adapters
             return Stage.RemoveChildAt(index);
         }
 
-        /*/// <summary>
-        /// Removes all stage children
-        /// </summary>
-        public void RemoveAllChildren()
-        {
-            Stage.RemoveAllChildren();
-        }*/
+        ///// <summary>
+        ///// Removes all stage children
+        ///// </summary>
+        //public void RemoveAllChildren()
+        //{
+        //    Stage.RemoveAllChildren();
+        //}
 
         ///<summary>
         /// Swaps two children

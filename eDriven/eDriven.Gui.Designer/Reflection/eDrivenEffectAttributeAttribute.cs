@@ -30,7 +30,7 @@ using System;
 
 namespace eDriven.Gui.Designer
 {
-    public class EffectAttribute : System.Attribute
+    public class EffectAttribute : Attribute
     {
     }
 }

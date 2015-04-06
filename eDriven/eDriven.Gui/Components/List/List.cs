@@ -298,7 +298,6 @@ namespace eDriven.Gui.Components
         internal void SetSelectedIndices(List<int> value, bool dispatchChangeEvent/* = false*/)
 // ReSharper restore MemberCanBePrivate.Global
         {
-            // TODO (jszeto) Do a deep compare of the vectors
             if (_proposedSelectedIndices == value || 
                 (null != value && value.Count == 1 &&
                  null != SelectedIndices && SelectedIndices.Count == 1 &&    

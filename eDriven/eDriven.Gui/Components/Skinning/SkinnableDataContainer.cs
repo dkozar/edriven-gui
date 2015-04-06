@@ -350,14 +350,6 @@ namespace eDriven.Gui.Components
         {
             base.AddEventListener(eventType, handler, phases, priority);
 
-            // TODO (rfrishbe): this isn't ideal as we should deal with the useCapture, 
-            // priority, and useWeakReference parameters.
-
-            // if it's a different type of event or the dataGroup doesn't
-            // exist, don't worry about it.  When the dataGroup, 
-            // gets created up, we'll check to see whether we need to add this 
-            // event listener to the dataGroup.
-
             if (eventType == RendererExistenceEvent.RENDERER_ADD && null != DataGroup)
             {
                 DataGroup.AddEventListener(RendererExistenceEvent.RENDERER_ADD, DispatchEvent);

@@ -61,11 +61,6 @@ namespace eDriven.Gui.Designer.Styles
 
         #endregion
 
-        //public static Color BackgroundColor = Color.white; //new Color(0, 0, 1f, 0.3f);
-        //public static Color TextColor = Color.white;
-        //public static Font Font;
-        //public static int FontSize;
-
         private static ProgramaticStyle _style;
 
         private const int Weight = 2;
@@ -77,8 +72,6 @@ namespace eDriven.Gui.Designer.Styles
 
         private static void Initialize()
         {
-            //Debug.Log("PlayModeOverlayHoverLabelStyle initializer");
-
             _style = new ProgramaticStyle
                          {
                              Style = _instance,
@@ -86,18 +79,11 @@ namespace eDriven.Gui.Designer.Styles
                              Padding = new RectOffset(6, 6, 3, 4),
                              Font = FontMapper.GetWithFallback("pixel").Font
                          };
-
-            //_style.Font = FontMapper.GetDefault();
-            //Debug.Log("Initialized * " + _style.Font);
             
-            /*if (FontMapper.IsMapping("pixel"))
-                _style.Font = FontMapper.Get("pixel");*/
-
             const int w = (Weight + 1)*2;
 
             _style.Border = new RectOffset(Weight + 1, Weight + 1, Weight + 1, Weight + 1);
 
-            //_style.FontSize = FontSize;
             _style.NormalTextColor = Color.white; // we'll tint it from outside
             _style.NormalGraphics = new Rect(w, w, new Fill(Color.white)); // we'll tint it from outside
             

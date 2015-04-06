@@ -60,11 +60,10 @@ namespace eDriven.Gui.Designer.Adapters
             return new ComboBox();
         }
 
-        public override void Apply(Component component)
-        {
-            base.Apply(component);
-
-            ComboBox comboBox = (ComboBox)component;
-        }
+        //public override void Apply(Component component)
+        //{
+        //    base.Apply(component);
+        //    ComboBox comboBox = (ComboBox)component;
+        //}
     }
 }

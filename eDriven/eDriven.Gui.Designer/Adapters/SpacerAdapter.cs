@@ -54,11 +54,11 @@ namespace eDriven.Gui.Designer.Adapters
             return new Spacer();
         }
 
-        /*public override void Apply(Component component)
-        {
-            base.Apply(component);
+        //public override void Apply(Component component)
+        //{
+        //    base.Apply(component);
 
-            Spacer spacer = (Spacer)component;
-        }*/
+        //    Spacer spacer = (Spacer)component;
+        //}
     }
 }

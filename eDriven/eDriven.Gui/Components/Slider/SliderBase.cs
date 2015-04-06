@@ -413,38 +413,8 @@ namespace eDriven.Gui.Components
 
             if (newValue != PendingValue)
             {
-                float slideDuration = (float) GetStyle("slideDuration");
-                if (false/*slideDuration != 0*/)
-                {
-                    //if (!animator)
-                    //{
-                    //    animator = new Animation();
-                    //    var animTarget:AnimationTarget = new AnimationTarget(animationUpdateHandler);
-                    //    animTarget.endFunction = animationEndHandler;
-                    //    animator.animationTarget = animTarget;                    
-                    //    // TODO (chaase): hard-coding easer for now - how to style it?
-                    //    animator.easer = new Sine(0);
-                    //}
-                    
-                    // Finish any current animation before we start the next one.
-                    //if (animator.isPlaying)
-                    //    stopAnimation();
-                    
-                    // holds the final value to be set when animation ends
-                    slideToValue = newValue;
-                    //animator.duration = slideDuration * 
-                    //    (Math.abs(pendingValue - slideToValue) / (maximum - minimum));
-                    //animator.motionPaths = new <MotionPath>[
-                    //    new SimpleMotionPath("value", pendingValue, slideToValue)];
-                    
-                    DispatchEvent(new FrameworkEvent(FrameworkEvent.CHANGE_START));
-                    //animator.play();
-                }
-                else
-                {
-                    SetValue(newValue);
-                    DispatchEvent(new Event(Event.CHANGE));
-                }
+                SetValue(newValue);
+                DispatchEvent(new Event(Event.CHANGE));
             }
         }
 

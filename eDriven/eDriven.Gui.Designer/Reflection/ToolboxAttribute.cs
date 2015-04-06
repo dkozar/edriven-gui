@@ -31,7 +31,7 @@ using System;
 namespace eDriven.Gui.Designer
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
-    public class ToolboxAttribute : System.Attribute
+    public class ToolboxAttribute : Attribute
     {
         /// <summary>
         /// Icon loaded from the Resources folder and displayed on toolbox button

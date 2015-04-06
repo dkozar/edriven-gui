@@ -64,11 +64,6 @@ namespace eDriven.Gui.Designer.Rendering
         /// </summary>
         public static Signal ClickSignal = new Signal();
 
-        ///// <summary>
-        ///// The signal emmiting when component double clicked in the game view
-        ///// </summary>
-        //public static Signal DoubleClickSignal = new Signal();
-
         #endregion
 
         #region Singleton
@@ -102,9 +97,7 @@ namespace eDriven.Gui.Designer.Rendering
 
         protected DesignerOverlay() // constructor is protected
         {
-            //_inputSlot = new RenderSlot(this);
-            //_keyDownSlot = new KeyDownSlot(this);
-            //_keyUpSlot = new KeyUpSlot(this);
+            
         }
 
         #endregion
@@ -124,15 +117,15 @@ namespace eDriven.Gui.Designer.Rendering
         // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         void Start()
-            // ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
             InitStage();
         }
 
-// ReSharper disable UnusedMember.Local
+        // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         void OnEnable()
-// ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
 #if DEBUG
             if (DebugMode)
@@ -142,17 +135,16 @@ namespace eDriven.Gui.Designer.Rendering
             SystemManager.Instance.DisposingSignal.Connect(DisposingSlot, true);
         }
 
-// ReSharper disable UnusedMember.Local
+        // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         void OnDisable()
-// ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
 #if DEBUG
             if (DebugMode)
                 Debug.Log("DesignerOverlay disabled");
 #endif
             TurnOff();
-
             _instance = null;
             SystemManager.Instance.DisposingSignal.Disconnect(DisposingSlot);
         }
@@ -166,9 +158,7 @@ namespace eDriven.Gui.Designer.Rendering
         private void TurnOn()
         {
             HandleEventListeners();
-
             MouseEventDispatcher.PlayModeInspect = true; // !DesignerMode;
-
             if (null != _selectedComponent && IsInspectable(_selectedComponent))
                 Select(_selectedComponent);
         }
@@ -176,12 +166,8 @@ namespace eDriven.Gui.Designer.Rendering
         private void TurnOff()
         {
             HandleEventListeners();
-
             MouseEventDispatcher.PlayModeInspect = false;
-
             Unhover();
-
-            //SystemManager.Instance.RenderSignal.Disconnect(RenderSlot);
         }
 
         /// <summary>
@@ -198,9 +184,6 @@ namespace eDriven.Gui.Designer.Rendering
 
         private void InitStage()
         {
-            //if (null != _stage || null == Font)
-            //    return; // init only once
-            //Debug.Log("Initializing Stage");
             _stage = DesignerOverlayStage.Instance;
         }
 
@@ -212,8 +195,6 @@ namespace eDriven.Gui.Designer.Rendering
         {
             if (enabled)
             {
-                //MouseEventDispatcher.Instance.AddEventListener(MouseEvent.MOUSE_OVER, MouseOverSlot);
-                //MouseEventDispatcher.Instance.AddEventListener(MouseEvent.MOUSE_OUT, MouseOutSlot);
                 MouseEventDispatcher.Instance.InspectorMouseOverSignal.Connect(MouseOverSlot);
                 MouseEventDispatcher.Instance.InspectorMouseOutSignal.Connect(MouseOutSlot);
                 MouseEventDispatcher.Instance.InspectorMouseLeaveSignal.Connect(MouseLeaveSlot);
@@ -226,13 +207,9 @@ namespace eDriven.Gui.Designer.Rendering
                 MouseEventDispatcher.Instance.AddEventListener(MouseEvent.MIDDLE_CLICK, SpecialClickHandler, EventPhase.Capture | EventPhase.Target);
 
                 SystemManager.Instance.RenderSignal.Connect(RenderSlot); // get update signals for checking GUI state
-                //SystemManager.Instance.KeyDownSignal.Connect(KeyDownSlot);
-                //SystemManager.Instance.KeyUpSignal.Connect(KeyUpSlot);
             }
             else
             {
-                //MouseEventDispatcher.Instance.RemoveEventListener(MouseEvent.MOUSE_OVER, MouseOverSlot);
-                //MouseEventDispatcher.Instance.RemoveEventListener(MouseEvent.MOUSE_OUT, MouseOutSlot);
                 MouseEventDispatcher.Instance.InspectorMouseOverSignal.Disconnect(MouseOverSlot);
                 MouseEventDispatcher.Instance.InspectorMouseOutSignal.Disconnect(MouseOutSlot);
                 MouseEventDispatcher.Instance.InspectorMouseLeaveSignal.Disconnect(MouseLeaveSlot);
@@ -243,8 +220,6 @@ namespace eDriven.Gui.Designer.Rendering
                 MouseEventDispatcher.Instance.RemoveEventListener(MouseEvent.MIDDLE_CLICK, SpecialClickHandler, EventPhase.Capture | EventPhase.Target);
 
                 SystemManager.Instance.RenderSignal.Disconnect(RenderSlot);
-                //SystemManager.Instance.KeyDownSignal.Disconnect(KeyDownSlot);
-                //SystemManager.Instance.KeyUpSignal.Disconnect(KeyUpSlot);
             }
         }
 
@@ -265,7 +240,6 @@ namespace eDriven.Gui.Designer.Rendering
                 return;
 
             GameObject go = GuiLookup.GetGameObject(comp);
-            //Debug.Log("     go: " + go);
 
             if (null == go)
                 return;
@@ -274,13 +248,8 @@ namespace eDriven.Gui.Designer.Rendering
             if (null == adapter)
                 return;
 
-            //Debug.Log("     adapter: " + adapter);
-
             if (null == adapter.Component)
                 return;
-
-            //if (_hoveredComponent == adapter.Component) // commented out 20130216 because of the stage leave bug
-            //    return;
 
             _hoveredComponent = adapter.Component;
 
@@ -293,7 +262,6 @@ namespace eDriven.Gui.Designer.Rendering
             Hover(_hoveredComponent);
         }
 
-        //internal void MouseOutSlot(Event e)
         internal void MouseOutSlot(params object[] parameters)
         {
             Component target = (Component)parameters[0];
@@ -305,7 +273,6 @@ namespace eDriven.Gui.Designer.Rendering
                 Unhover();
         }
 
-        //internal void MouseOutSlot(Event e)
         internal void MouseLeaveSlot(params object[] parameters)
         {
 #if DEBUG
@@ -324,10 +291,8 @@ namespace eDriven.Gui.Designer.Rendering
             MouseEvent me = (MouseEvent)e;
             if (me.CurrentEvent.control || me.CurrentEvent.shift)
             {
-                //Debug.Log("Click");
                 e.CancelAndStopPropagation(); // disable the actual button click in the capture phase. Sweet ^_^
             }
-            //_stack.Clear();
 
             GameObject go = GuiLookup.GetGameObject((Component) e.Target);
 
@@ -356,7 +321,6 @@ namespace eDriven.Gui.Designer.Rendering
             _hoveredComponent = adapter.Component;
 
             ClickSignal.Emit(_hoveredComponent);
-            //Debug.Log("ClickSignal.NumSlots: " + ClickSignal.NumSlots);
         }
 
         internal void SpecialClickHandler(Event e)
@@ -368,10 +332,8 @@ namespace eDriven.Gui.Designer.Rendering
             MouseEvent me = (MouseEvent)e;
             if (me.CurrentEvent.control || me.CurrentEvent.shift)
             {
-                //Debug.Log("Click");
                 e.CancelAndStopPropagation(); // disable the actual button click in the capture phase. Sweet ^_^
             }
-            //_stack.Clear();
 
             GameObject go = GuiLookup.GetGameObject((Component) e.Target);
 
@@ -400,7 +362,6 @@ namespace eDriven.Gui.Designer.Rendering
             _hoveredComponent = adapter.Component;
 
             ClickSignal.Emit(_hoveredComponent, e);
-            //Debug.Log("DoubleClickSignal.NumSlots: " + DoubleClickSignal.NumSlots);
         }
 
         #endregion
@@ -440,7 +401,6 @@ namespace eDriven.Gui.Designer.Rendering
         public void Hover(DisplayListMember component)
         {
             _hoveredComponent = component;
-            //Debug.Log("Hover: " + component + "; Stage:" + _stage);
             if (null != _stage)
                 _stage.Hover(component);
         }
@@ -457,7 +417,6 @@ namespace eDriven.Gui.Designer.Rendering
         /// <param name="component"></param>
         public void Select(DisplayListMember component)
         {
-            //Debug.Log("Select: " + component);
             _selectedComponent = component;
             if (null != _stage)
                 _stage.Select(component);
@@ -489,7 +448,7 @@ namespace eDriven.Gui.Designer.Rendering
         /// </summary>
         public static void Attach()
         {
-// ReSharper disable once UnusedVariable
+            // ReSharper disable once UnusedVariable
             DesignerOverlay overlay = (DesignerOverlay)Framework.GetComponent<DesignerOverlay>(true); // add if non-existing
         }
     }

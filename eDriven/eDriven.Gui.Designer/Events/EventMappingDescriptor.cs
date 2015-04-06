@@ -43,11 +43,11 @@ namespace eDriven.Gui.Designer
     [Serializable]
     public class EventMappingDescriptor : SaveableCollectionBase<EventMapping>, ICloneable // where T:ICloneable
     {
-        private static readonly Type[] TypeOfEvent = new[] { typeof(Event) };
+        private static readonly Type[] TypeOfEvent = { typeof(Event) };
 
         private const BindingFlags AllInstanceMethodsBindingFlags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
 
-        private static readonly ParameterModifier[] Modifiers = new[] { new ParameterModifier() };
+        private static readonly ParameterModifier[] Modifiers = { new ParameterModifier() };
 
         [Saveable]
         [SerializeField]

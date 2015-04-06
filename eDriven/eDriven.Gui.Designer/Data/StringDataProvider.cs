@@ -52,18 +52,16 @@ namespace eDriven.Gui.Designer.Data
 
         // ReSharper disable UnusedMember.Local
         void Update()
-            // ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
 
         }
 
-// ReSharper disable UnusedMember.Local
+        // ReSharper disable UnusedMember.Local
         [Obfuscation(Exclude = true)]
         void InitializeComponent(Component component)
-// ReSharper restore UnusedMember.Local
+        // ReSharper restore UnusedMember.Local
         {
-            //_component = component;
-
             if (!enabled)
             {
                 //Debug.Log("StringDataProvider not enabled");
@@ -75,8 +73,6 @@ namespace eDriven.Gui.Designer.Data
 
         public override void Apply(Component component)
         {
-            //Debug.Log("=== Apply ===", transform);
-
             DataGroup dataProviderClient = component as DataGroup;
             SkinnableDataContainer skinnableDataContainer = component as SkinnableDataContainer;
             if (null == dataProviderClient && null == skinnableDataContainer)
