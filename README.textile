@@ -88,3 +88,8 @@ h2. Resources
 * "Unity Forum Q&A thread":http://forum.unity3d.com/threads/148424-eDriven-Q-amp-A
 * "Author's homepage":http://dankokozar.com
 * "I'm @DankoKozar on Twitter":https://twitter.com/DankoKozar.
+
+h2. Special thanks to
+
+* "Marc Schaerer":https://twitter.com/gayasoft
+* "Ivan J. Mandic":https://twitter.com/IvanJMandic
