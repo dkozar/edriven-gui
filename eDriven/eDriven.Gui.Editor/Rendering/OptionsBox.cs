@@ -256,14 +256,14 @@ namespace eDriven.Gui.Editor.Rendering
 					);
 			}
 
-#if RELEASE
+#if TRIAL
 			EditorSettings.CheckForUpdates = true;
 			GUI.enabled = false;
 #endif
 			_checkForUpdatesRenderer.TabIndex = EditorSettings.CheckForUpdates ? 1 : 0;
 			_checkForUpdatesRenderer.Render();
 
-#if RELEASE
+#if TRIAL
 			GUI.enabled = true;
 #endif
 
@@ -372,14 +372,14 @@ namespace eDriven.Gui.Editor.Rendering
 					);
 			}
 
-#if RELEASE
+#if TRIAL
 				EditorSettings.CheckForUpdates = true;
 				GUI.enabled = false;
 #endif
 			_updateCheckPeriodRenderer.TabIndex = EditorSettings.UpdateCheckPeriod;
 			_updateCheckPeriodRenderer.Render();
 
-#if RELEASE
+#if TRIAL
 				GUI.enabled = true;
 #endif
 

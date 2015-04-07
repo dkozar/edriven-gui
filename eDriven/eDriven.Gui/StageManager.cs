@@ -12,7 +12,7 @@ using eDriven.Gui.Styles.MediaQueries;
 using eDriven.Gui.Util;
 using UnityEngine;
 
-#if RELEASE
+#if TRIAL
     using eDriven.Animation;
     using eDriven.Gui.Check;
     using eDriven.Animation.Check;
@@ -90,12 +90,12 @@ namespace eDriven.Gui
             Debug.Log(string.Format(@"***** Debug build *****"));
 #endif
 
-#if RELEASE
+#if TRIAL
             Debug.Log(string.Format(@"***** eDriven.Gui Free Edition *****"));
 #endif
 
-#if !PRODUCTION
-            Debug.Log(string.Format(@"***** Not a production build *****"));
+#if !RELEASE
+            Debug.Log(string.Format(@"***** Not a realese build *****"));
 #endif
             /**
              * 1) Connect to system manager clocks
@@ -149,12 +149,12 @@ namespace eDriven.Gui
                 Debug.Log(string.Format("StageManager instantiated [width: {0}; height:{1}]", _size.X, _size.Y));
 #endif
 
-#if RELEASE
+#if TRIAL
             // check piracy
             //GenuineChecker.Check();
 #endif
 
-#if RELEASE
+#if TRIAL
             _acme = (Acme) Framework.GetComponent<Acme>(true);
             _lockStyle = LockButtonStyle.Instance;
             //if (!Application.isEditor) {
@@ -177,7 +177,7 @@ namespace eDriven.Gui
 
         private readonly Point _size = new Point();
 
-#if RELEASE
+#if TRIAL
         #region RELEASE
 
         private Acme _acme;
@@ -418,7 +418,7 @@ namespace eDriven.Gui
         public void Render()
         {
 
-#if RELEASE
+#if TRIAL
 
             /* HACK CHECK */
             if (null == _acme || !_acme.gameObject.activeInHierarchy || !_acme.enabled || _lockStyle == null)

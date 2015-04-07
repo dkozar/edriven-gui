@@ -213,7 +213,7 @@ namespace eDriven.Gui.Managers
             SystemEventDispatcher.Instance.AddEventListener(MouseEvent.MIDDLE_MOUSE_UP, OnMiddleMouseUp);
             SystemEventDispatcher.Instance.AddEventListener(MouseEvent.MOUSE_WHEEL, OnMouseWheel);
 
-#if RELEASE
+#if TRIAL
     /* HACK CHECK */
             Acme acme = (Acme) Framework.GetComponent<Acme>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy/*active*/ || !acme.enabled)

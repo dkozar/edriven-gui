@@ -93,7 +93,7 @@ namespace eDriven.Gui.Managers
 
             SystemEventDispatcher.Instance.AddEventListener(MouseEvent.MOUSE_DOWN, OnMouseDown);
 
-#if RELEASE
+#if TRIAL
             /* HACK CHECK */
             Acme acme = (Acme) Framework.GetComponent<Acme>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy/*active*/ || !acme.enabled)

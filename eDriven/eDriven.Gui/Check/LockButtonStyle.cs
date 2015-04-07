@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 #endregion License
 
-#if RELEASE
+#if TRIAL
 
 using eDriven.Gui.Mappers;
 using eDriven.Gui.Components;

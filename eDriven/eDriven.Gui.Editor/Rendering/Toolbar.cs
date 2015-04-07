@@ -32,7 +32,7 @@ using eDriven.Gui.Editor.Processing;
 using UnityEditor;
 using UnityEngine;
 
-#if RELEASE
+#if TRIAL
 using eDriven.Gui.Editor.Dialogs;
 #endif
 
@@ -188,7 +188,7 @@ This is processor intensive so turn it OFF when not needed (or else the editor m
             
             GUILayout.FlexibleSpace();
 
-#if RELEASE
+#if TRIAL
             if (GUILayout.Button(GuiContentCache.Instance.Purchase, StyleCache.Instance.Button, GUILayout.Height(30)))
             {
                 //Application.OpenURL("http://u3d.as/content/adjungo/e-driven-gui/36Q");

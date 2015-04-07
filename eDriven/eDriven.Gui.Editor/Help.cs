@@ -75,7 +75,7 @@ You can also switch between panels by clicking the component on screen:
 2. Right click: switches to Order panel
 3. Middle click: switches to Layout panel";
 
-#if RELEASE
+#if TRIAL
             text += @"
 
 Use the Purchase button to purchase a non-watermarked version of eDriven.Gui via the Unity Asset Store.

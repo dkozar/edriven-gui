@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 #endregion License
 
-#if RELEASE
+#if TRIAL
 
 using System;
 using System.IO;

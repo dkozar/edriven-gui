@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 #endregion License
 
-#if RELEASE
+#if TRIAL
 
 using UnityEditor;
 using UnityEngine;

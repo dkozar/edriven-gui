@@ -52,7 +52,7 @@ namespace eDriven.Gui.Check
             //if (Application.genuineCheckAvailable)
             //    isNotGenuine = !Application.genuine;
 
-#if RELEASE
+#if TRIAL
             if (ForceUrlCheck || 
                 (/*Application.isWebPlayer && */Application.internetReachability != NetworkReachability.NotReachable))
             {

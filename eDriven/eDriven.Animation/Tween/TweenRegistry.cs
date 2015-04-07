@@ -31,7 +31,7 @@ using System.Collections.Generic;
 using eDriven.Core.Managers;
 using UnityEngine;
 
-#if RELEASE
+#if TRIAL
 using eDriven.Core;
 using eDriven.Animation.Check;
 #endif
@@ -143,7 +143,7 @@ namespace eDriven.Animation
                 Debug.Log(string.Format("===== TweenRegistry: Tween added [now running {0}] =====\nAdded => {1}", _tweens.Count, tween));
 #endif
 
-#if RELEASE
+#if TRIAL
             /* RELEASE HACK CHECK */
             Acme2 acme = (Acme2)Framework.GetComponent<Acme2>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy || !acme.enabled)

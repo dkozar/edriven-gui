@@ -78,7 +78,7 @@ namespace eDriven.Gui.Editor.Rendering
         public Texture WatchChanges { get; private set; }
         public Texture PlayModeGameViewInfo { get; private set; }
 
-#if RELEASE
+#if TRIAL
         public Texture Purchase { get; private set; }
 #endif
 
@@ -271,7 +271,7 @@ namespace eDriven.Gui.Editor.Rendering
             Logo2 = (Texture)Resources.Load(LogoPath2);
             AutoSave = (Texture)Resources.Load(EditorIconsPath + "disk_multiple");
             
-#if RELEASE
+#if TRIAL
             Purchase = (Texture)Resources.Load(EditorIconsPath + "purchase");
 #endif
             WindowTitleIcon = (Texture)Resources.Load(EditorIconsPath + "edriven_gui_bw");

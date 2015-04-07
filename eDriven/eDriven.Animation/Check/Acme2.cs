@@ -1,5 +1,5 @@
 ﻿using Random = System.Random;
-#if RELEASE
+#if TRIAL
 using System.Reflection;
 using UnityEngine;
 

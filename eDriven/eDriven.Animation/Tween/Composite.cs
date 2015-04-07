@@ -30,7 +30,7 @@ using System;
 using System.Collections.Generic;
 using eDriven.Animation.Easing;
 using eDriven.Animation.Interpolators;
-#if RELEASE
+#if TRIAL
 using eDriven.Core;
 using eDriven.Animation.Check;
 #else
@@ -93,7 +93,7 @@ namespace eDriven.Animation
 #endif
             _count = _children.Count;
 
-#if RELEASE
+#if TRIAL
             /* RELEASE HACK CHECK */
             Acme2 acme = (Acme2)Framework.GetComponent<Acme2>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy || !acme.enabled)

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-#if !RELEASE
+#if !TRIAL
 [assembly: AssemblyTitle("eDriven.Gui")]
 #endif
 
-#if RELEASE
+#if TRIAL
 [assembly: AssemblyTitle("eDriven.Gui Free Edition")]
 #endif
 
@@ -17,11 +17,11 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 
-#if !RELEASE
+#if !TRIAL
 [assembly: AssemblyProduct("eDriven.Gui")]
 #endif
 
-#if RELEASE
+#if TRIAL
 [assembly: AssemblyProduct("eDriven.Gui Free Edition")]
 #endif
 

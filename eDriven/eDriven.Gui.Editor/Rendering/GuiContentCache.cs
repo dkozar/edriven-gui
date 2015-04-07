@@ -85,7 +85,7 @@ namespace eDriven.Gui.Editor.Rendering
         public GUIContent Logo1;
         public GUIContent Logo2;
         
-#if RELEASE
+#if TRIAL
         public GUIContent Purchase;
         public GUIContent PurchaseButton;
 #endif
@@ -203,7 +203,7 @@ namespace eDriven.Gui.Editor.Rendering
             Logo1 = new GUIContent(TextureCache.Instance.Logo);
             Logo2 = new GUIContent(TextureCache.Instance.Logo2);
             
-#if RELEASE
+#if TRIAL
             Purchase = new GUIContent("Purchase", TextureCache.Instance.Purchase); 
             PurchasePanelTitle = new GUIContent(" Purchase", TextureCache.Instance.MainPanelTitleIcon);
             PurchaseButton = new GUIContent("Purchase", TextureCache.Instance.Purchase);

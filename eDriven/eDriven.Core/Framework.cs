@@ -46,21 +46,14 @@ namespace eDriven.Core
 
 #if DEBUG
         /// <summary>
-        /// Do not write onfo messages to log
-        /// </summary>
-        public static bool EnableInfoMessages = true;
-#endif
-        
-#if RELEASE
-        /// <summary>
-        /// Do not write onfo messages to log
+        /// Write info messages to log
         /// </summary>
         public static bool EnableInfoMessages = true;
 #endif
 
-#if PRODUCTION
+#if !DEBUG
         /// <summary>
-        /// Do not write onfo messages to log
+        /// Do not write info messages to log
         /// </summary>
         public static bool EnableInfoMessages; // false by default
 #endif

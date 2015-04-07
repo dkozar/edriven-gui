@@ -93,7 +93,7 @@ namespace eDriven.Gui.Managers
 
             SystemManager.Instance.DisposingSignal.Connect(DisposingSlot, true);
 
-#if RELEASE
+#if TRIAL
             /* HACK CHECK */
             Acme acme = (Acme) Framework.GetComponent<Acme>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy/*active*/ || !acme.enabled)

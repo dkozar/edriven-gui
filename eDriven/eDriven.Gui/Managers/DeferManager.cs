@@ -89,7 +89,7 @@ namespace eDriven.Gui.Managers
             //_updateSlot = new DelayManagerUpdateSlot(this);
             //_inputSlot = new DelayManagerInputSlot(this);
 
-#if RELEASE
+#if TRIAL
             /* HACK CHECK */
             Acme acme = (Acme) Framework.GetComponent<Acme>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy/*active*/ || !acme.enabled)

@@ -151,7 +151,7 @@ namespace eDriven.Gui.Managers
                 MouseEventDispatcher.Instance.AddEventListener(MouseEvent.MOUSE_MOVE, MouseMoveHandler);
             MouseEventDispatcher.Instance.AddEventListener(MouseEvent.MOUSE_OUT, MouseOutHandler);
 
-#if RELEASE
+#if TRIAL
             /* HACK CHECK */
             Acme acme = (Acme) Framework.GetComponent<Acme>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy/*active*/ || !acme.enabled)

@@ -32,7 +32,7 @@ using eDriven.Animation.Easing;
 using eDriven.Animation.Interpolators;
 using eDriven.Core.Reflection;
 
-#if RELEASE
+#if TRIAL
 using eDriven.Core;
 using eDriven.Animation.Check;
 #else
@@ -222,7 +222,7 @@ namespace eDriven.Animation
             if (DebugMode)
                 Debug.Log("InitProxy");
 #endif
-#if RELEASE
+#if TRIAL
             /* RELEASE HACK CHECK */
             Acme2 acme = (Acme2) Framework.GetComponent<Acme2>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy || !acme.enabled)

@@ -2,11 +2,11 @@
 {
     public class Info
     {
-#if !RELEASE
+#if !TRIAL
         public const string AssemblyName = "eDriven.Gui.Designer";
 #endif
 
-#if RELEASE
+#if TRIAL
         public const string AssemblyName = "eDriven.Gui.Designer Free Edition";
 #endif
         public const string AssemblyVersion = "2.4.0";
@@ -14,7 +14,7 @@
         public const string Copyright = "Copyright (c) Danko Kozar 2010-2014";
         public const string Web = "edriven.dankokozar.com";
 
-#if RELEASE
+#if TRIAL
         public const string Note = "Use of this assembly must be limited to evaluation or educational purposes only, and it is not to be used for commercial purposes.";
 #endif
         public override string ToString()

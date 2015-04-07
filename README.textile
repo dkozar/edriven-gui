@@ -55,23 +55,23 @@ There are currently 3 build configurations:
 
 1. DEBUG
 2. RELEASE
-3. PRODUCTION
+3. TRIAL
 
 You can switch configurations using the combo box located at the top of Visual Studio.
 
-Depending of the chosen configuration, some parts of framework code will be included or excluded in build (look for "#if DEBUG", "#if RELEASE" and "#if PRODUCTION" statements in code).
+Depending of the chosen configuration, some parts of framework code will be included or excluded in build (look for "#if DEBUG", "#if RELEASE" and "#if TRIAL" statements in code).
 
 The .DLLs that are being built are always copied to the *same* location, owerwriting those built before ("Libs":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Libs)
 
-You should manually add the "PRODUCTION" configuration (Visual Studio -> Configuration manager -> Active solution configuration -> New -> Name: "Production".
+You should manually add the "TRIAL" configuration (Visual Studio -> Configuration manager -> Active solution configuration -> New -> Name: "Trial".
 
 Here's the explanation for each build configuration:
 
 1. DEBUG: Used for development. Multiple "#if DEBUG" statements are being pushed into code, as well as "DebugMode" switch on multiple classes. The DebugMode switch could be set to true to enable logging of messages for the host class.
 
-2. RELEASE: I used this configuration for making the *free version* of the framework. The free version included multiple hack checks etc.
+2. RELEASE: You would normally want .DLLs built with this configuration in production. This version excludes any debug statements and hack checks.
 
-3. PRODUCTION: You would normally want .DLLs built with this configuration in production. This version excludes any debug statements and hack checks. 
+3. TRIAL: I used this configuration for making the *Free version* of the framework. The free version included multiple hack checks etc.
 
 h2. Debugging
 

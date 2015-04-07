@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 #endregion License
 
-#if RELEASE
+#if TRIAL
 
 using eDriven.Animation;
 using eDriven.Animation.Easing;

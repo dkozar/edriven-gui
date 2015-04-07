@@ -755,7 +755,7 @@ namespace eDriven.Gui.Managers
         /// <param name="keepCenter">Should popup stay centered after the screen resize</param>
         public void AddPopup(DisplayListMember popup, DisplayObjectContainer parent, bool modal, bool centered, bool keepCenter)
         {
-#if RELEASE
+#if TRIAL
             /* HACK CHECK */
             Acme acme = (Acme) Framework.GetComponent<Acme>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy/*active*/ || !acme.enabled)
@@ -864,7 +864,7 @@ namespace eDriven.Gui.Managers
         /// <param name="popup">A popup to remove</param>
         public void RemovePopup(DisplayObject popup)
         {
-#if RELEASE
+#if TRIAL
             /* HACK CHECK */
             Acme acme = (Acme) Framework.GetComponent<Acme>(true);
             if (null == acme || !acme.gameObject.activeInHierarchy/*active*/ || !acme.enabled)
