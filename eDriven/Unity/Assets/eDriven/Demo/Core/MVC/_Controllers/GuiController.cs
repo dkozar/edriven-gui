@@ -1,7 +1,4 @@
-using eDriven.Core.Events;
-using eDriven.Core.Managers.System;
 using UnityEngine;
-using Event=eDriven.Core.Events.Event;
 
 public class GuiController : MonoBehaviour {
 

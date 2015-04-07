@@ -7,8 +7,6 @@ using eDriven.Gui.Components;
 using eDriven.Gui.Containers;
 using eDriven.Gui.Cursor;
 using eDriven.Gui.Events;
-using eDriven.Gui.Managers;
-using eDriven.Gui.Util;
 using eDriven.Networking.Rpc;
 using eDriven.Networking.Rpc.Loaders;
 using Assets.eDriven.Demo.Tweens;

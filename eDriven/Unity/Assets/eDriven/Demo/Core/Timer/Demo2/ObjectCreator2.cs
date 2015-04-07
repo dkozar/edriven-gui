@@ -15,9 +15,7 @@ public class ObjectCreator2 : MonoBehaviour
     void Start()
     {
         // ReSharper restore UnusedMember.Local
-        _timer = new Timer(1);
-        _timer.TickOnStart = true;
-        _timer.RepeatCount = 10;
+        _timer = new Timer(1) {TickOnStart = true, RepeatCount = 10};
         //_timer.AddEventListener(Timer.EVENT_TICK, OnTimerTick);
         _timer.Tick += OnTimerTick;
         _timer.StopHandler += OnTimerStop;

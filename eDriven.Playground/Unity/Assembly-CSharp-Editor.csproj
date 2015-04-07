@@ -92,6 +92,9 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="eDriven.3D">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.3D.dll</HintPath>
+ </Reference>
  <Reference Include="eDriven.Animation">
  <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Animation.dll</HintPath>
  </Reference>
@@ -118,15 +121,6 @@
  </Reference>
  <Reference Include="eDriven.Gui.Editor">
  <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/Editor/eDriven.Gui.Editor.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
- </Reference>
- <Reference Include="UnityVS.VersionSpecific">
- <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

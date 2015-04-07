@@ -159,11 +159,9 @@
     <Compile Include="Geom\Point.cs" />
     <Compile Include="Geom\Rectangle.cs" />
     <Compile Include="Managers\SystemManager.cs" />
-    <Compile Include="Callback\AssetBundleQueue.cs" />
     <Compile Include="Callback\CallbackQueue.cs" />
     <Compile Include="Test\CallbackQueue\TestQueue.cs" />
     <Compile Include="Test\CallbackQueue\TestRequest.cs" />
-    <Compile Include="Callback\WwwQueue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\ComponentUtil.cs" />
     <Compile Include="Util\TypedPriorityStack.cs" />

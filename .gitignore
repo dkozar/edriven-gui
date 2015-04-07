@@ -50,6 +50,7 @@ Temporary Items
 *.obproj
 *.obproj.map
 *.tmp
+*.resharper
 _ReSharper.eDriven/
 _ReSharper.eDriven.Playground/
 _ReSharper.Unity/

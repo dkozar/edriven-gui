@@ -1,9 +1,8 @@
 using eDriven.Core.Events;
-using eDriven.Core.Managers.System;
+using eDriven.Core.Managers;
 using eDriven.Core.Util;
 using UnityEngine;
-using Event=eDriven.Core.Events.Event;
-using Random=System.Random;
+using Event = UnityEngine.Event;
 
 public class ObjectCreator : MonoBehaviour 
 {
@@ -14,21 +13,20 @@ public class ObjectCreator : MonoBehaviour
 	void Start () {
 // ReSharper restore UnusedMember.Local
 
-        SystemManager.Instance.AddEventListener(KeyboardEvent.KEY_UP, OnKeyUp);
-        //SystemManager.Instance.KeyUp += OnKeyUp;
+        SystemManager.Instance.KeyUpSignal.Connect(KeyUpSlot);
 	}
-
+    
 // ReSharper disable MemberCanBeMadeStatic.Local
-    private void OnKeyUp(Event e)
+    private void KeyUpSlot(object[] parameters)
 // ReSharper restore MemberCanBeMadeStatic.Local
     {
         if (!enabled) return;
 
-        KeyboardEvent ke = (KeyboardEvent)e;
-        Debug.Log("OnKeyUp: " + ke.KeyCode);
-        if (ke.KeyCode == KeyCode.Return)
+        Event @event = (Event)parameters[0];
+        Debug.Log("KeyUpSlot: " + @event.keyCode);
+        if (@event.keyCode == KeyCode.Return)
             SpawnObject();
-        else if (ke.KeyCode == KeyCode.R)
+        else if (@event.keyCode == KeyCode.R)
             Reset();
     }
 

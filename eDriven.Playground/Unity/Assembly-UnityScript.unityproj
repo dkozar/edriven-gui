@@ -83,6 +83,9 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="eDriven.3D">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.3D.dll</HintPath>
+ </Reference>
  <Reference Include="eDriven.Animation">
  <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Animation.dll</HintPath>
  </Reference>

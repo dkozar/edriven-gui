@@ -2,7 +2,7 @@
 using eDriven.Tests.Core.EventDispatcher;
 using UnityEngine;
 
-public class EventDispatcherScript2 : EventDispatcherBehaviour
+public class EventDispatcherScript2 : EventDispatcherComponent
 {
     // ReSharper disable InconsistentNaming
     public const string OBJECT_CLICKED = "objectClicked";

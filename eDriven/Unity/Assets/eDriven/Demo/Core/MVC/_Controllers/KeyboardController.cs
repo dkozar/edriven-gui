@@ -1,7 +1,6 @@
-using eDriven.Core.Events;
-using eDriven.Core.Managers.System;
+using eDriven.Core.Managers;
 using UnityEngine;
-using Event=eDriven.Core.Events.Event;
+using Event = UnityEngine.Event;
 
 public class KeyboardController : MonoBehaviour {
 
@@ -12,17 +11,17 @@ public class KeyboardController : MonoBehaviour {
     void Start()
 // ReSharper restore UnusedMember.Local
     {
-        SystemManager.Instance.KeyUp += OnKeyUp;
+        SystemManager.Instance.KeyUpSignal.Connect(KeyUpSlot);
     }
 
 // ReSharper disable MemberCanBeMadeStatic.Local
-    private void OnKeyUp(Event e)
+    private void KeyUpSlot(params object[] parameters)
 // ReSharper restore MemberCanBeMadeStatic.Local
     {
-        KeyboardEvent ke = (KeyboardEvent)e;
-        Debug.Log("OnKeyUp: " + ke.KeyCode);
+        Event @event = (Event)parameters[0];
+        Debug.Log("KeyUpSlot: " + @event.keyCode);
 
-        switch (ke.KeyCode)
+        switch (@event.keyCode)
         {
             case KeyCode.Return:
             case KeyCode.P:

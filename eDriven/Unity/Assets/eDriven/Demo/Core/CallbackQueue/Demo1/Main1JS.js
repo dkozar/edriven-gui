@@ -1,4 +1,4 @@
-import eDriven.Core.Callback;
+import eDriven.Networking.Callback;
 import eDriven.Core.Test.CallbackQueue;
 import System;
 
@@ -9,12 +9,6 @@ class Main1JS extends MonoBehaviour {
 
     private var _queue:TestQueue = new TestQueue();
     private var _random:System.Random = new System.Random();
-	
-	// heartbeat
-	function Update()
-    {
-        _queue.Tick();
-    }
 	
     function OnGUI() {
         GUI.depth = 0;

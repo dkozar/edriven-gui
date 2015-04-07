@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using eDriven.Core.Callback;
+using eDriven.Networking.Callback;
 using UnityEngine;
 using Object=UnityEngine.Object;
 
 public class Main3CS : MonoBehaviour
 {
     private readonly WwwQueue _wwwQueue = new WwwQueue();
-    private readonly AssetQueue _assetQueue = new AssetQueue();
+    private readonly AssetBundleQueue _assetBundleQueue = new AssetBundleQueue();
 
     private readonly List<AssetBundle> _loadedBundles = new List<AssetBundle>();
     private readonly List<Object> _objects = new List<Object>();
@@ -26,7 +26,7 @@ public class Main3CS : MonoBehaviour
         {
             // reset queues
             _wwwQueue.Reset();
-            _assetQueue.Reset();
+            _assetBundleQueue.Reset();
 
             _objects.ForEach(Destroy);
             _loadedBundles.ForEach(delegate (AssetBundle bundle){ bundle.Unload(true); });
@@ -53,7 +53,7 @@ public class Main3CS : MonoBehaviour
                     _loadedBundles.Add(request.assetBundle);
 
                     AssetBundleRequest assetBundleRequest = request.assetBundle.LoadAsync(assetName, typeof(GameObject));
-                    _assetQueue.Send(assetBundleRequest,
+                    _assetBundleQueue.Send(assetBundleRequest,
                         delegate(AssetBundleRequest request2)
                         {
                             Debug.Log("Asset loaded: " + request2.asset.name);
@@ -72,13 +72,5 @@ public class Main3CS : MonoBehaviour
                 });
             }
         }
-    }
-
-// ReSharper disable UnusedMember.Local
-    void Update()
-// ReSharper restore UnusedMember.Local
-    {
-        _wwwQueue.Tick();
-        _assetQueue.Tick();
     }
 }

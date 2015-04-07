@@ -40,10 +40,11 @@ h2. Usage
 
 2. Open the solution file in Visual Studio (VS2012 or later).
 
-   * The proper solution file to open is "UnityVS.Unity.sln":https://github.com/dkozar/edriven-gui/blob/master/eDriven.Playground/Unity/UnityVS.Unity.sln
-   * The location of the file is due to UnityVS not being able to work differently at the time
+   * The proper solution file to open is "eDriven.Playground.sln":https://github.com/dkozar/edriven-gui/blob/master/eDriven.Playground/Unity/eDriven.Playground.sln
 
-3. Ctrl + Shift + B should build the solution.
+3. Build the solution
+   * Ctrl + Shift + B should build the solution.
+   * If not, right-click the solution in Solution Explorer and "Rebuild Solution"
    * the post-build process should copy all the relevant .DLLs into the "Libs":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Libs folder
 
 4. Open any Unity "Demo":https://github.com/dkozar/edriven-gui/tree/master/eDriven.Playground/Unity/Assets/eDriven/Demo/Gui/Code and run it.

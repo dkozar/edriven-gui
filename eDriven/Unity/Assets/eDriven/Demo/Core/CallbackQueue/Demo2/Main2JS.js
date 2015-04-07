@@ -1,4 +1,4 @@
-import eDriven.Core.Callback;
+import eDriven.Networking.Callback;
 import eDriven.Core.Test;
 import System;
 
@@ -8,7 +8,7 @@ class Main2JS extends MonoBehaviour {
 	public var AssetName:String = "MaloNaselje";
 	
 	private var _wwwQueue:WwwQueue = new WwwQueue();
-	private var _assetLoaderQueue:AssetQueue = new AssetQueue();
+	private var _assetLoaderQueue:AssetBundleQueue = new AssetBundleQueue();
 	
 	private var _bundle:AssetBundle;
     private var _object:Object;
@@ -18,13 +18,6 @@ class Main2JS extends MonoBehaviour {
 		_wwwQueue.FinishedChecker = MyWwwChecker;
 		_assetLoaderQueue.FinishedChecker = MyAssetLoaderChecker;
 	}
-	
-	// heartbeat
-	function Update()
-    {
-        _wwwQueue.Tick();
-        _assetLoaderQueue.Tick();
-    }
 	
 	private function MyWwwChecker(request:WWW):boolean
 	{

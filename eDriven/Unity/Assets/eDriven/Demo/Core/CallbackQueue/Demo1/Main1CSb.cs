@@ -42,11 +42,4 @@ public class Main1CSb : MonoBehaviour
             }
         }
     }
-
-// ReSharper disable UnusedMember.Local
-    void Update()
-// ReSharper restore UnusedMember.Local
-    {
-        _queue.Tick();
-    }
 }

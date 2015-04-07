@@ -30,8 +30,7 @@ public class ObjectCreator3 : MonoBehaviour
         //Timer.DebugOn = true;
 
         // ReSharper restore UnusedMember.Local
-        _timer = new Timer(1);
-        _timer.TickOnStart = true;
+        _timer = new Timer(1) {TickOnStart = true};
         _timer.Tick += OnTimerTick;
         _timer.StopHandler += OnTimerStop;
         

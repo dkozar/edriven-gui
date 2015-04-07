@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 #endregion License
 
-/*using System;
+using System;
 using eDriven.Core.Callback;
 
 namespace eDriven.Core.Test.CallbackQueue
@@ -41,4 +41,4 @@ namespace eDriven.Core.Test.CallbackQueue
                                   };
         }
     }
-}*/
+}

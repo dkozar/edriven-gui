@@ -195,7 +195,7 @@ namespace eDriven.Core.Events
         {
             //Debug.Log("HandleAddTarget: " + handler.Method.Name);
 
-            if (null != handler.Target && handler.Target is MonoBehaviour)
+            if (handler.Target is MonoBehaviour)
             {
                 GameObject go = ((MonoBehaviour) handler.Target).gameObject;
                 if (!_targets.Contains(go))

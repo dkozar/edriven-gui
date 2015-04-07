@@ -7,7 +7,7 @@ private var grounded : boolean = false;
 
 function Start()
 {
-this.gameObject.active = true;
+    this.gameObject.SetActive(true);
 }
 function FixedUpdate() {
 	if (grounded) {

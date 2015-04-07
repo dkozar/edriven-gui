@@ -112,8 +112,6 @@
      <Compile Include="Assets\eDriven\Demo\Gui\Designer\MediaQueries\MediaQueriesHandlers.cs" />
      <Compile Include="Assets\eDriven\Demo\Gui\Designer\_shared\Adapters\AnimatedLabelAdapter.cs" />
      <Compile Include="Assets\eDriven\Demo\Gui\Designer\_shared\Animations\Animations.cs" />
-     <Compile Include="Assets\eDriven\Demo\_Development\Simple.cs" />
-     <Compile Include="Assets\eDriven\Demo\_Development\TestComponent.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Code\Components\Options.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Code\Components\TitleLabel.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Code\Dialogs\ResolutionDialog.cs" />
@@ -165,7 +163,6 @@
      <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\ScaleBoundsTween.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\ZeroFadeIn.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\ZeroFadeOut.cs" />
-     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\_____CollapseUpLeftAlpha.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Code\Util\TextRotator.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Prefabs\Earth\Planet.cs" />
      <Compile Include="Assets\eDriven\Demo\_shared\Preloaders\DefaultPreloader.cs" />
@@ -274,6 +271,9 @@
      <None Include="Assets\eDriven\Resources\Progress\wheelwork\package.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.3D">
+ <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.3D.dll</HintPath>
  </Reference>
  <Reference Include="eDriven.Animation">
  <HintPath>C:/PROJECTS/Unity/edrivengui/eDriven.Playground/Unity/Assets/eDriven/Libs/eDriven.Animation.dll</HintPath>

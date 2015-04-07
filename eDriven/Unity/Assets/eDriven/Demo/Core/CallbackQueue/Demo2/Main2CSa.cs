@@ -1,5 +1,5 @@
 using System;
-using eDriven.Core.Callback;
+using eDriven.Networking.Callback;
 using UnityEngine;
 
 public class Main2CSa : MonoBehaviour
@@ -8,7 +8,7 @@ public class Main2CSa : MonoBehaviour
 	public string AssetName = "MaloNaselje";
 	
     private readonly WwwQueue _bundleQueue = new WwwQueue();
-    private readonly AssetQueue _assetQueue = new AssetQueue();
+    private readonly AssetBundleQueue _assetBundleQueue = new AssetBundleQueue();
 
     private AssetBundle _bundle;
     private GameObject _object;
@@ -36,7 +36,7 @@ public class Main2CSa : MonoBehaviour
         {
             // reset queues
             _bundleQueue.Reset();
-            _assetQueue.Reset();
+            _assetBundleQueue.Reset();
 
             // destroy old object
             if (null != _object)
@@ -57,7 +57,7 @@ public class Main2CSa : MonoBehaviour
         _bundle = request.assetBundle;
         
         AssetBundleRequest assetBundleRequest = _bundle.LoadAsync(AssetName, typeof(GameObject));
-        _assetQueue.Send(assetBundleRequest, AssetLoadedHandler);
+        _assetBundleQueue.Send(assetBundleRequest, AssetLoadedHandler);
     }
 
     private void AssetLoadedHandler(AssetBundleRequest request)
@@ -71,13 +71,5 @@ public class Main2CSa : MonoBehaviour
 			MouseOrbitCs mouseOrbit = cameraGo.AddComponent<MouseOrbitCs>();
             mouseOrbit.Target = _object.transform;
 		}
-    }
-
-// ReSharper disable UnusedMember.Local
-    void Update()
-// ReSharper restore UnusedMember.Local
-    {
-        _bundleQueue.Tick();
-        _assetQueue.Tick();
     }
 }

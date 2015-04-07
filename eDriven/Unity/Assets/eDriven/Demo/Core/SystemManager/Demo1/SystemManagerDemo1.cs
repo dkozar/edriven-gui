@@ -1,4 +1,4 @@
-﻿using eDriven.Core.Managers.System;
+﻿using eDriven.Core.Managers;
 using UnityEngine;
 
 public class SystemManagerDemo1 : MonoBehaviour
@@ -7,26 +7,12 @@ public class SystemManagerDemo1 : MonoBehaviour
     void Start()
 // ReSharper restore UnusedMember.Local
     {
-        Debug.Log(new eDriven.Core.Info());
-
-        SystemManager.Instance.MouseDown += print;
-        SystemManager.Instance.MouseUp += print;
-        SystemManager.Instance.MouseMove += print;
-        SystemManager.Instance.MouseDrag += print;
-        SystemManager.Instance.KeyUp += print;
-        SystemManager.Instance.KeyDown += print;
-        SystemManager.Instance.Resize += print;
-        
-        //SystemManager.Instance.InputProcessed += print;
-        //SystemManager.Instance.Update += print;
-
-        //SystemManager.Instance.FixedUpdate += print;
-        //SystemManager.DispatchFixedUpdate = true; // this flag is false by default
-
-        //SystemManager.Instance.LateUpdate += print;
-        //SystemManager.DispatchLateUpdate = true; // this flag is false by default
-
-        //SystemManager.DispatchUpdate = false;
-        //SystemManager.DispatchInputProcessed = false;
+        SystemManager.Instance.MouseDownSignal.Connect(print);
+        SystemManager.Instance.MouseUpSignal.Connect(print);
+        SystemManager.Instance.MouseMoveSignal.Connect(print);
+        SystemManager.Instance.MouseDragSignal.Connect(print);
+        SystemManager.Instance.KeyUpSignal.Connect(print);
+        SystemManager.Instance.KeyDownSignal.Connect(print);
+        SystemManager.Instance.ResizeSignal.Connect(print);
     }
 }

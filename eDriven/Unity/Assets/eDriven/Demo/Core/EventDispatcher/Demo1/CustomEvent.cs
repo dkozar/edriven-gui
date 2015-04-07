@@ -21,10 +21,5 @@ namespace eDriven.Tests.Core.EventDispatcher
             : base(type, bubbles)
         {
         }
-
-        public CustomEvent(string type, object target, bool bubbles)
-            : base(type, target, bubbles)
-        {
-        }
     }
 }

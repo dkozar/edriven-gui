@@ -42,11 +42,4 @@ public class Main1CSa : MonoBehaviour
         if (_queue.Active.Count == 0)
             Debug.Log("*** ALL FINISHED ***");
     }
-
-// ReSharper disable UnusedMember.Local
-    void Update()
-// ReSharper restore UnusedMember.Local
-    {
-        _queue.Tick();
-    }
 }
