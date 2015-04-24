@@ -182,7 +182,7 @@ Danko Kozar, M.Eng."), StyleCache.Instance.PurchaseBox, GUILayout.ExpandWidth(fa
 
             if (GUILayout.Button(GuiContentCache.Instance.PurchaseButton, StyleCache.Instance.BigLightButton, GUILayout.Height(30)))
             {
-                Application.OpenURL("http://u3d.as/content/adjungo/e-driven-gui/36Q");
+                Application.OpenURL("https://www.assetstore.unity3d.com/en/#!/content/3796");
                 //Application.OpenURL("http://u3d.as/content/3796"); // nono, it doesn't work
             }
 
