@@ -92,5 +92,5 @@ h2. Resources
 
 h2. Special thanks to
 
-* "Marc Schaerer":https://twitter.com/gayasoft
+* "Marc “Dreamora” Schaerer":https://twitter.com/gayasoft
 * "Ivan J. Mandic":https://twitter.com/IvanJMandic
