@@ -191,7 +191,7 @@ This is processor intensive so turn it OFF when not needed (or else the editor m
 #if TRIAL
             if (GUILayout.Button(GuiContentCache.Instance.Purchase, StyleCache.Instance.Button, GUILayout.Height(30)))
             {
-                //Application.OpenURL("http://u3d.as/content/adjungo/e-driven-gui/36Q");
+                //Application.OpenURL("https://www.assetstore.unity3d.com/en/#!/content/3796");
                 PurchaseDialog.Instance.ShowUtility();
             }
 #endif
