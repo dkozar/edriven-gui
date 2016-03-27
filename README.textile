@@ -6,13 +6,13 @@ h2. Author: "Danko Kozar":http://dankokozar.com
 
 <img src="http://dankokozar.com/images/edriven-gui-800.png"></img>
 
-<img src="http://dankokozar.com/images/edrivengui-editor.png"></img>
-
 h2. Concept
 
 * eDriven.Gui is a powerful GUI framework for Unity3d.
 * You could use eDriven.Gui to build a wide range of apps, from games to business applications.
 * Some parts of the framework are ported from Apache Flex.
+
+<img src="http://dankokozar.com/images/edrivengui-editor.png"></img>
 
 h2. Features
 
