@@ -6,6 +6,8 @@ h2. Author: "Danko Kozar":http://dankokozar.com
 
 <img src="http://dankokozar.com/images/edriven-gui-800.png"></img>
 
+<img src="http://dankokozar.com/images/edrivengui-editor.png"></img>
+
 h2. Concept
 
 * eDriven.Gui is a powerful GUI framework for Unity3d.
