@@ -1,0 +1,28 @@
+{
+  "name": "edriven-gui",
+  "version": "2.4.1",
+  "description": "Unity3d GUI framework",
+  "main": "/eDriven.Playground/Unity/eDriven.Playground.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkozar/edriven-gui.git"
+  },
+  "keywords": [
+    "edriven",
+    "gui",
+    "framework",
+    "unity",
+    "unity3d",
+    "danko",
+    "kozar"
+  ],
+  "author": "Danko Kozar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkozar/edriven-gui/issues"
+  },
+  "homepage": "https://github.com/dkozar/edriven-gui#readme"
+}

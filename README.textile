@@ -4,7 +4,7 @@ h1. "Unity3d":http://unity3d.com/ GUI framework.
 
 h2. Author: "Danko Kozar":http://dankokozar.com
 
-<img src="http://dankokozar.com/images/edriven-gui-800.png"></img>
+<img src="./images/edriven-gui.png"></img>
 
 h2. Concept
 
@@ -12,7 +12,7 @@ h2. Concept
 * You could use eDriven.Gui to build a wide range of apps, from games to business applications.
 * Some parts of the framework are ported from Apache Flex.
 
-<img src="http://dankokozar.com/images/edrivengui-editor.png"></img>
+<img src="./images/edriven-gui-editor.png"></img>
 
 h2. Features
 
