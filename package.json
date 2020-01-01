@@ -1,6 +1,6 @@
 {
   "name": "edriven-gui",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "description": "Unity3d GUI framework",
   "main": "/eDriven.Playground/Unity/eDriven.Playground.sln",
   "scripts": {
